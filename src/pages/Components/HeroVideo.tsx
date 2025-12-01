@@ -105,66 +105,7 @@ const HeroVideo = () => {
             </div>
 
             {/* Video Container */}
-            <div className="bg-black relative aspect-video">
-              <video
-                ref={videoRef}
-                className="w-full h-full object-cover"
-                onClick={togglePlayPause}
-              >
-                <source
-                  src="https://www.youtube.com/watch?v=6eZ6QYcMc2c"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-
-              {/* Play/Pause Overlay */}
-              {!isPlaying && (
-                <div 
-                  className="absolute inset-0 flex items-center justify-center bg-black/30 cursor-pointer"
-                  onClick={togglePlayPause}
-                >
-                  <motion.div 
-                    whileHover={{ scale: 1.1 }}
-                    className="w-20 h-20 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center shadow-2xl"
-                  >
-                    <div className="w-0 h-0 border-t-[15px] border-t-transparent border-l-[25px] border-l-white border-b-[15px] border-b-transparent ml-2"></div>
-                  </motion.div>
-                </div>
-              )}
-            </div>
-
-            {/* macOS Bottom Bar */}
-            <div className="bg-gradient-to-b from-gray-800 to-gray-900 px-4 py-2 border-t border-gray-700">
-              <div className="flex items-center gap-3">
-                <button 
-                  onClick={togglePlayPause}
-                  className="text-gray-400 hover:text-white transition-colors focus:outline-none"
-                >
-                  {isPlaying ? (
-                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zM7 8a1 1 0 012 0v4a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v4a1 1 0 102 0V8a1 1 0 00-1-1z" clipRule="evenodd" />
-                    </svg>
-                  ) : (
-                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z" />
-                    </svg>
-                  )}
-                </button>
-                <div 
-                  className="flex-1 h-1 bg-gray-700 rounded-full overflow-hidden cursor-pointer"
-                  onClick={handleProgressClick}
-                >
-                  <div 
-                    className="h-full bg-gradient-to-r from-[#8358ff] to-[#39c6fa] transition-all shadow-lg"
-                    style={{ width: `${(currentTime / duration) * 100 || 0}%` }}
-                  />
-                </div>
-                <span className="text-gray-400 text-xs font-mono min-w-[45px]">
-                  {formatTime(currentTime)} / {formatTime(duration)}
-                </span>
-              </div>
-            </div>
+           <iframe width="951" height="535" src="https://www.youtube.com/embed/6eZ6QYcMc2c" title="ORN-AI Learning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
 
           {/* Enhanced reflection effect */}

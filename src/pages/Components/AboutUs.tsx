@@ -147,8 +147,7 @@ const AboutUs = () => {
                 {/* OnRequestLab was founded in 2020 and later became a part of <span className="text-purple-400 font-semibold">NERD KNOWLEDGE IT Solutions Pvt Ltd</span>. We provide a practical and easy-to-use Red Hat Cluster Lab where you can learn and practice real clustering setups. */}
               </p>
               <p>
-                The lab is designed to help students, Linux administrators, and IT professionals, allowing them to understand how high-availability clusters work in real life. Joining the lab sessions is quite easy, as step-by-step instructions and a well-structured pattern are provided so that you can learn at your own pace.
-                {/* Instead of just reading theory, our lab lets you work directly on Red Hat Linux servers, shared storage, fencing, failover, and other cluster components — just like in real production environments. */}
+ORN-AI is a boutique training platform dedicated to transforming careers through personalized, high-quality learning. We offer cross-technology training, tailored CV writing, interview preparation, and ethical placement services. With expert-led sessions and AI-powered content, we deliver practical, career-focused education for underserved regions, expats, and niche markets.                {/* Instead of just reading theory, our lab lets you work directly on Red Hat Linux servers, shared storage, fencing, failover, and other cluster components — just like in real production environments. */}
               </p>
               <p>At ORN-AI, you'll get many lab options. This includes Red Hat cluster lab, Linux, Docker, Kubernetes. All these labs help in developing technical skills, career growth, real-world practical skills, better problem-solving & troubleshooting and many others.</p>
             </div>

@@ -7,14 +7,14 @@ const stories = [
     category: "Our Mission",
     labelColor: "text-purple-400",
     cardBg: "bg-gradient-to-br from-[#2B234A] to-[#232942]",
-    title: "Speed up Learning",
-    description: "Ready-to-use lab environments.",
+    title: "Skill Acceleration",
+    description: "Deliver job-ready training with hands-on learning.",
 
-    title1: "Enhance Competence",
-    description1: "Bridge the gap between theory and practice.",
+    title1: "Career Confidence",
+    description1: "Turn knowledge into practical competence.",
 
-     title2: " Global Availability",
-    description2: "Accessible anytime, anywhere.",
+     title2: "Access for All",
+    description2: "Provide quality education globally and affordably.",
 
     stat: "450%",
     statLabel: "ROI Increase",
@@ -24,14 +24,14 @@ const stories = [
     category: "Our Vision",
     labelColor: "text-purple-400",
     cardBg: "bg-gradient-to-br from-[#241C38] to-[#18233B]",
-    title: " Continuous Innovation",
-    description: "Stay ahead with updated technologies.",
+    title: "Ethical Growth",
+    description: "Promote transparent, secure, and fair career pathways.",
 
-    title1: " Global Reach",
-    description1: "Serve Linux administrators worldwide.",
+    title1: " Global Impact",
+    description1: "Support learners and expats across worldwide markets.",
 
-     title2: "Cultivating Expertise",
-    description2: "Build a community of Red Hat Linux experts.",
+     title2: "Future Talent",
+    description2: "Build a confident, industry-ready workforce.",
 
     stat: "2.3M",
     statLabel: "New Followers",
@@ -64,7 +64,7 @@ const Portfilo = () => (
     <div className=" mb-12">
       {/* <h5 className="text-sm font-semibold text-purple-400 tracking-wider mb-2">PORTFOLIO</h5> */}
       <h2 className="text-center text-4xl md:text-5xl font-extrabold mb-4">
-        Empowering Your Linux Journey
+        About ORN-AI E-Learning
 with 
 {" "}
         <span className="bg-gradient-to-r from-purple-400 to-blue-400 text-transparent bg-clip-text">
@@ -72,8 +72,7 @@ with
         </span>
       </h2>
       <p className="text-gray-400 max-w-7xl mx-auto text-justify">
-        OnRequestLab is a premier platform offering advanced, hands-on lab environments tailored for IT professionals and students globally. We specialize in cutting-edge technologies and provide pre-configured, industry-standard labs in Red Hat Enterprise Linux and Red Hat Linux Clusters. Our platform is designed to facilitate deep, practical learning, enabling users to master complex systems and tools in a controlled, professional environment. Our upcoming courses will include technologies such as Ansible, Kubernetes, and Terraform.
-      </p>
+ORN-AI is a boutique training platform dedicated to transforming careers through personalized, high-quality learning. We offer cross-technology training, tailored CV writing, interview preparation, and ethical placement services. With expert-led sessions and AI-powered content, we deliver practical, career-focused education for underserved regions, expats, and niche markets.      </p>
     </div>
 
     <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
