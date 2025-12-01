@@ -248,7 +248,7 @@ const routes = [
         layout:'web',
     },
      {
-        path: '/labs',
+        path: '/courses',
         element: <Pricing />,
         layout:'web',
     },

@@ -494,7 +494,7 @@ console.log('lab=',lab);
         {/* BILLING TOGGLE */}
         <div className="flex justify-center mb-12">
           <div className="inline-flex items-center bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-1">
-            {["free","hourly", "monthly", "yearly"].map((type) => (
+            {["hourly", "monthly", "yearly"].map((type) => (
               <button
                 key={type}
                 onClick={() => setBillingType(type)}
