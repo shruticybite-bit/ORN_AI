@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const steps = [
   {
-    title: "Master High-Availability Clusters",
-    desc: "Learn to create, manage, and troubleshoot high-availability clusters to minimize downtime and ensure seamless operations.",
+    title: "Build Strong Foundations",
+    desc: "Gain a clear understanding of industry fundamentals, essential tools, and the skills required to begin your career confidently.",
     number: "01",
     icon: (
       <svg viewBox="0 0 38 38" width="38" height="38">
@@ -22,8 +22,8 @@ const steps = [
     ),
   },
   {
-    title: "Automate and Optimize",
-    desc: "Gain expertise in automating cluster and resource deployment, along with accessing and managing storage effectively.",
+    title: "Practice with Real Projects",
+    desc: "Work on hands-on labs, guided assignments, and real business scenarios to turn theory into practical expertise.",
     number: "02",
     icon: (
       <svg viewBox="0 0 38 38" width="38" height="38">
@@ -39,8 +39,8 @@ const steps = [
     ),
   },
   {
-    title: "Enhance Reliability",
-    desc: "Understand how to configure LVM in clusters and eliminate single points of failure to achieve enterprise-grade reliability.",
+    title: "Prepare for Job Success",
+    desc: "Master interviews with mock sessions, targeted Q&A, expert guidance, and personalized CV optimization for guaranteed job placement.",
     number: "03",
     icon: (
       <svg viewBox="0 0 38 38" width="38" height="38">
@@ -59,7 +59,7 @@ const steps = [
 
 const categories = [
   {
-    name: "Pacemaker 3 node Linux cluster",
+    name: "Cross-Technology Training",
     color: "rgba(249, 199, 79, 0.15)",
     iconColor: "#F9C74F",
     icon: (
@@ -69,7 +69,7 @@ const categories = [
     )
   },
   {
-    name: "Docker",
+    name: "CV Writing & Optimization",
     color: "rgba(239, 71, 111, 0.15)",
     iconColor: "#EF476F",
     icon: (
@@ -80,7 +80,7 @@ const categories = [
     )
   },
   {
-    name: "Terraform",
+    name: "Interview Preparation",
     color: "rgba(6, 174, 213, 0.15)",
     iconColor: "#06AED5",
     icon: (
@@ -90,7 +90,7 @@ const categories = [
     )
   },
   {
-    name: "Kubernates",
+    name: "Soft Skills & Communication",
     color: "rgba(17, 138, 178, 0.15)",
     iconColor: "#118AB2",
     icon: (
@@ -100,7 +100,7 @@ const categories = [
     )
   },
   {
-    name: "Linux Administration",
+    name: "Job Placement & Career Support",
     color: "rgba(138, 201, 38, 0.15)",
     iconColor: "#8AC926",
     icon: (
@@ -112,7 +112,7 @@ const categories = [
     )
   },
   {
-    name: "Python",
+    name: "Career Portfolio Building & Industry Projects",
     color: "rgba(255, 159, 28, 0.15)",
     iconColor: "#FF9F1C",
     icon: (
@@ -147,12 +147,10 @@ const ProcessSection = () => (
       initial="hidden"
       whileInView="visible"
       viewport={{ once: false, amount: 0.3 }}
-      transition={{ duration: 0.6 }}
-      variants={fadeUp}
-    >
+      transition={{ duration: 0.6 }} variants={fadeUp} >
       <span className="process-sub">Course We Offer</span>
       <h2 className="process-title">
-        Pacemaker - <span className="gradient-text">Linux</span> Cluster Labs
+        ORN-AI - <span className="gradient-text">Career </span> Accelerator Program
       </h2>
     </motion.div>
 
@@ -248,7 +246,7 @@ const ProcessSection = () => (
               <span style={{
                 fontSize: "1rem",
                 fontWeight: "600",
-                color: "#e0e0e0"
+                color: "#1f1c1cff"
               }}>
                 {category.name}
               </span>
@@ -306,7 +304,7 @@ const ProcessSection = () => (
               <span style={{
                 fontSize: "1rem",
                 fontWeight: "600",
-                color: "#e0e0e0"
+                color: "black"
               }}>
                 {category.name}
               </span>

@@ -4,34 +4,34 @@ import { motion, AnimatePresence } from 'framer-motion';
 const testimonials = [
   {
     quote: "I recently completed the 21-day learning module, and I must say, it exceeded my expectations! The course materials were detailed and easy to follow, and the self-practice labs allowed me to gain hands-on experience at my own pace. The Red Hat Linux High-Availability Cluster Lab was particularly impressive—it gave me the confidence to handle real-world scenarios.",
-    author: "Andy Smith",
+    author: "Abhinav R.",
     role: "Los Angeles, CA",
     rating: 5,
     company: "Tech Solutions Inc"
   },
   {
-    quote: "The team's expertise in social media marketing is unmatched. They grew our Instagram following by 300% and engagement is through the roof. The ROI we've seen has been incredible and beyond what we anticipated.",
-    author: "Michael Rodriguez",
-    role: "Marketing Director",
+    quote: "The training was exceptionally well-organized. I loved how every concept came with a real-world example. The WebSSH-based remote lab access made it easy for me to practice from anywhere in the world—even during my travel.",
+    author: "Nandini M.",
+    role: "Toronto, Canada",
     rating: 5,
-    company: "FashionBrand"
+    company: "Global IT Networks"
   },
   {
-    quote: "Working with PrismDigital was a game-changer. Their strategic approach and attention to detail delivered results beyond our expectations. Every campaign was meticulously planned and executed.",
-    author: "Emily Thompson",
-    role: "Founder",
+    quote: "As someone shifting my career into Linux and Cloud, ORN-AI gave me exactly what I needed. The CV writing support and mock interviews helped me secure my first job abroad!.",
+    author: "Rahul S",
+    role: "Bangalore, India",
     rating: 5,
-    company: "StartupX"
+    company: "SysCloud Solutions"
   },
   {
-    quote: "Exceptional service and incredible results. The campaign they created for our product launch reached 40M+ people and drove massive sales. The team was professional and responsive throughout.",
-    author: "David Kim",
-    role: "CMO",
+    quote: "The hands- Red Hat cluster lab was the best part. I could recreate failures, test fencing, and understand HA concepts deeply. No other platform has given me such realistic exposure.",
+    author: "Kimberly J.",
+    role: "Melbourne, Australia",
     rating: 5,
-    company: "EcommPlus"
+    company: "AeroTech Digital"
   },
   {
-    quote: "PrismDigital doesn't just deliver campaigns - they deliver growth. Our conversion rates have increased by 85% since partnering with them. Best decision we've made for our marketing.",
+    quote: "Very clean explanation style and detailed guidance! The instructors were always available and answered every doubt with clarity. The real-time troubleshooting sessions were a game changer.",
     author: "Lisa Anderson",
     role: "VP Marketing",
     rating: 5,

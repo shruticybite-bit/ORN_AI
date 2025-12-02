@@ -113,8 +113,8 @@ setTimeout(() => (window.location.href = "/"), 800);
   const navigateTo = (path) => (window.location.href = path);
 
   const links = isLoggedIn
-    ? ["/", "/about-us", "/courses", "/blogs","/contact-us"]
-    : ["/", "/about-us", "/courses", "/blogs", "/contact-us"];
+    ? ["/", "/about-us", "/blogs","/contact-us"]
+    : ["/", "/about-us", "/blogs", "/contact-us"];
 
   return (
     <>

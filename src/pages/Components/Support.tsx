@@ -51,13 +51,13 @@ const Support: React.FC = () => {
 
               <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight mb-4">
                 <span className="bg-gradient-to-r from-purple-400 via-blue-400 to-violet-400 bg-clip-text text-transparent">
-                  OnRequestLab Support
+                  ORN-AI Support
                 </span>
               </h1>
 
               <p className="text-gray-400 text-lg max-w-2xl mx-auto">
                 Here you’ll find answers to common questions and direct support
-                options, all designed to help you get the most out of OnRequestLab.
+                options, all designed to help you get the most out of ORN-AI.
               </p>
             </motion.div>
 
@@ -78,7 +78,7 @@ const Support: React.FC = () => {
 
                   <div>
                     <h2 className="text-3xl font-bold text-white mb-2">
-                      Using OnRequestLab
+                      Using ORN-AI
                     </h2>
                     <p className="text-purple-400 font-semibold">
                       Learn by doing — not by watching
@@ -88,7 +88,7 @@ const Support: React.FC = () => {
 
                 <div className="space-y-4 text-gray-300 leading-relaxed">
                   <p>
-                    OnRequestLab is a practical, hands-on learning platform designed
+                    ORN-AI is a practical, hands-on learning platform designed
                     for Linux, Red Hat technologies, and IT professionals. We focus
                     on providing labs, real infrastructure, and guided tasks — with
                     zero dependency on long videos.
@@ -191,7 +191,7 @@ const Support: React.FC = () => {
                     <p className="text-gray-400">
                       Contact our support team at{" "}
                       <span className="text-green-300 font-semibold">
-                        support@onrequestlab.com
+                       chandra@orn-ai.co.uk
                       </span>
                     </p>
                   </div>

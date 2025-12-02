@@ -3,8 +3,8 @@
 ============================ */
 .contactus-section {
   padding: 60px 20px;
-  background: #140f1c;
-  color: #fff;
+  background: #fff;
+  color: black;
   display: flex;
   justify-content: center;
 }

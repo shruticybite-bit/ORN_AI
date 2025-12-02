@@ -92,18 +92,7 @@ const HeroVideo = () => {
           {/* macOS Window Frame with enhanced shadows */}
           <div className="bg-gradient-to-b from-gray-800 to-gray-900 rounded-xl overflow-hidden border border-gray-700 shadow-[0_20px_80px_rgba(131,88,255,0.3),0_0_40px_rgba(57,198,250,0.2)]">
             {/* macOS Title Bar */}
-            <div className="bg-gradient-to-b from-gray-700 to-gray-800 px-4 py-3 flex items-center border-b border-gray-600">
-              <div className="flex gap-2">
-                <div className="w-3 h-3 rounded-full bg-red-500 hover:bg-red-600 transition-colors cursor-pointer shadow-lg"></div>
-                <div className="w-3 h-3 rounded-full bg-yellow-500 hover:bg-yellow-600 transition-colors cursor-pointer shadow-lg"></div>
-                <div className="w-3 h-3 rounded-full bg-green-500 hover:bg-green-600 transition-colors cursor-pointer shadow-lg"></div>
-              </div>
-              <div className="flex-1 text-center">
-                <span className="text-gray-300 text-sm font-medium">Video Player</span>
-              </div>
-              <div className="w-16"></div>
-            </div>
-
+           
             {/* Video Container */}
            <iframe width="951" height="535" src="https://www.youtube.com/embed/6eZ6QYcMc2c" title="ORN-AI Learning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>

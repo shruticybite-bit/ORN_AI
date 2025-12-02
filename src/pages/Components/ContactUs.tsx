@@ -249,7 +249,7 @@ const ContactUs = () => {
             </div>
             <div>
               <div className="contactus-info-label">Email</div>
-              <div className="contactus-info-text">info@cybite.in</div>
+              <div className="contactus-info-text">chandra@orn-ai.co.uk</div>
             </div>
           </div>
 
@@ -257,7 +257,7 @@ const ContactUs = () => {
             <div className="info-icon-wrapper phone-icon">📞</div>
             <div>
               <div className="contactus-info-label">Phone</div>
-              <div className="contactus-info-text">+91-8210543772</div>
+              <div className="contactus-info-text">+91 9059366967</div>
             </div>
           </div>
 
@@ -266,9 +266,10 @@ const ContactUs = () => {
             <div>
               <div className="contactus-info-label">Office</div>
               <div className="contactus-info-text">
-               G-9/85, Sangam Vihar
-New Delhi-110080
-              </div>
+ORN-AI
+Flat No. 931, S-11/14, Ayyappa Society
+Khanamet, Madhapur, Shaikpet
+Hyderabad – 500081, India              </div>
             </div>
           </div>
 

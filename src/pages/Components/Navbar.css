@@ -76,12 +76,12 @@
 .mobile-cart-icon { display: flex; align-items: center; gap: 6px; cursor: pointer; }
 .logo-icon {
     /* background: linear-gradient(135deg, #f0eef7, #f6f6fa); */
-    color: #fff;
-    padding: 5px 14px;
-    border-radius: 8px;
-    font-weight: 700;
-    font-size: 22px;
-    box-shadow: 0 3px 16px rgba(139, 92, 246, 0.4);
+    /* color: #fff; */
+    padding: 2px 1px;
+    border-radius: 75%;
+    /* font-weight: 700; */
+    /* font-size: 22px; */
+    /* box-shadow: 0 3px 16px rgba(139, 92, 246, 0.4); */
 }
 .navbar-logo {
     display: flex;
@@ -273,12 +273,4 @@
   gap: 10px;
 }
 
-.logo-icon {
-  /* background: linear-gradient(135deg, #f0eef7, #f6f6fa); */
-  color: #fff;
-  padding: 5px 14px;
-  border-radius: 8px;
-  font-weight: 700;
-  font-size: 22px;
-  box-shadow: 0 3px 16px rgba(139, 92, 246, 0.4);
-}
+

@@ -1,95 +1,86 @@
 import React from "react";
-import { Mail, Phone, MapPin, Download, Printer } from "lucide-react";
-import { motion } from "framer-motion";
-import Navbar from "../../pages/Components/Navbar";
+import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
-import "../Components/PrivacyPolicy.css";
+import { motion } from "framer-motion";
 
-export default function RefundPolicyPage() {
+export default function PrivacyPolicy() {
   const cardVariants = {
     hidden: { opacity: 0, y: 30 },
-    visible: (i) => ({
-      opacity: 1,
-      y: 0,
-      transition: { delay: 0.12 * i, duration: 0.55, ease: "easeOut" }
-    }),
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
   };
 
   return (
-    <>
+    <div className="bg-white text-black min-h-screen">
       <Navbar />
-      <section className="refundp-bg-section">
 
-      <div className="refundp-bg" aria-hidden="true" />
-        <div className="refundp-root">
-          <section className="refundp-root">
-            <div className="refundp-headerbar">
-              <h1 className="refundp-title">Refund Policy</h1>
-              <div className="refundp-actions">
-                <button className="refundp-btn"><Download size={16}/> Download PDF</button>
-                <button className="refundp-btn"><Printer size={16}/> Print Policy</button>
-              </div>
-            </div>
-            <div className="refundp-cards">
-              {[
-                {
-                  header: "Eligibility for Refunds",
-                  content: (
-                    <ul>
-                      <li>Refunds issued under <span className="refundp-accent">specific conditions</span> only.</li>
-                      <li>Requests must be made within <span className="refundp-accent">3 days</span> of purchase.</li>
-                      <li>No refunds after 3 days or for minor personal preferences.</li>
-                    </ul>
-                  )
-                },
-                {
-                  header: "Refund Process",
-                  content: (
-                    <ul>
-                      <li>Email <span className="refundp-accent">Contact@onrequestlab.com</span> with order details.</li>
-                      <li>Request reviewed within 3 business days.</li>
-                      <li>Approved refunds processed within 7 days.</li>
-                    </ul>
-                  )
-                },
-                {
-                  header: "Our Commitment",
-                  content: (
-                    <div>
-                      <strong>Customer satisfaction is our priority.</strong> Contact us for any issues.
-                    </div>
-                  )
-                },
-                {
-                  header: "Contact Us",
-                  content: (
-                    <div className="refundp-contacts">
-                      <div className="refundp-contact-tile"><Mail size={20}/><span>Contact@onrequestlab.com</span></div>
-                      <div className="refundp-contact-tile"><Phone size={20}/><span>+91 9876543210</span></div>
-                      <div className="refundp-contact-tile"><MapPin size={20}/><span>123 Digital Lane, Mumbai, India</span></div>
-                    </div>
-                  )
-                }
-              ].map((section, idx) => (
-                <motion.article
-                  className="refundp-card"
-                  key={section.header}
-                  custom={idx}
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true, amount: 0.25 }}
-                  variants={cardVariants}
-                  tabIndex={0}
-                >
-                  <div className="refundp-card-header">{section.header}</div>
-                  <div className="refundp-card-content">{section.content}</div>
-                </motion.article>
-              ))}
-            </div>
-          </section>
+      {/* Banner */}
+      <div className="relative w-full h-64 bg-blue-900">
+        <img
+          src="https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/668baff40b223db5311c7fda_network-connections.png"
+          alt="Privacy Policy Banner"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-white">Refund Policy</h1>
         </div>
-      </section>
+      </div>
+
+      {/* Content */}
+      <motion.div
+        className="max-w-5xl mx-auto py-16 px-6 space-y-12"
+        initial="hidden"
+        animate="visible"
+        variants={cardVariants}
+      >
+        {/* INTRODUCTION */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">1. Refund Eligibility</h2>
+          <p className="text-gray-700">
+          ORN-AI offers a 100% refund if the refund request is raised within 14 days of the first purchase date.
+No refunds are provided after the 14-day refund window, regardless of usage, dissatisfaction, or payment method.
+
+          </p>
+        </section>
+
+        {/* WHAT DATA WE COLLECT */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">2. Refund Method</h2>
+          {/* <p className="text-gray-700">We may collect:</p> */}
+          <ul className="list-disc ml-6 text-gray-700 space-y-2 mt-3">
+            <li>All refunds are issued only to a bank account via NEFT/IMPS/RTGS</li>
+            <li>You may be asked to provide verification documents (e.g., cancelled cheque, ID proof).</li>
+            <li>Refunds are processed within 30 days after receiving all required information.</li>
+            <li>If payment was made through a loan provider, loan cancellation timelines depend on the third-party lender, not ORN-AI.</li>
+          </ul>
+        </section>
+
+        {/* PURPOSE AND SCOPE */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">3. How to Request a Refund</h2>
+          <p className="text-gray-700">
+           <b>Step 1:</b> Email [connect@orn-ai.com](mailto:connect@orn-ai.com) from your registered email ID with your registration details.
+          </p>
+          <p>
+            <b>Step 2:</b>  Our team will verify whether you are within the refund window (1 business day).
+          </p>
+          <p>
+            <b>Step 3:</b> If eligible, we will share a refund form and contact you within 2 business days to understand your concern.
+          </p>
+          <p>
+            <b>Step 4:</b> If you still wish to proceed, the finance team will initiate the refund. Refunds take 7–9 business days to reflect in your account (bank/lender delays may occur).
+          </p>
+        </section>
+
+        {/* TYPES OF PERSONAL DATA */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">4. Data & Privacy Note</h2>
+          <p className="text-gray-700">Browsing the website does not require personal information. Providing personal details is optional but may be required for Program enrollment or refund processing.</p>
+        </section>
+
+      
+      </motion.div>
+
       <Footer />
-    </>
+    </div>
   );
 }

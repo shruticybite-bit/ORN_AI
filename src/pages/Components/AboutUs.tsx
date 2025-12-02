@@ -32,27 +32,27 @@ const AboutUs = () => {
   const features_new = [
     {
       icon: <Server className="w-6 h-6" />,
-      title: "1. Hands-On Red Hat Cluster Training",
-      description: "We provide practical training sessions where you will:",
-      sub:['Build a cluster from scratch','Configure pacemaker and corosync.','Test failover and resource movement.','Work with shared storage (iSCSI / GFS2).','Understand fencing / STONITH in real use cases.'],
+      title: "1. Misleading Training Promises",
+      description: "Many learners are misled by unrealistic guarantees and high fees without real career outcomes.:",
+      sub:['Overpromised job placements without real proof','Expensive courses that don’t deliver practical value','Marketing claims that don’t match actual training quality'],
     },
     {
       icon: <Target className="w-6 h-6" />,
-      title: "2.  Remote Lab Access",
-      description: "You will get access to a fully prepared cluster lab:",
-      sub:['Multi-node Red Hat Linux servers','Shared storage setup','Access through WebSSH'],
+      title: "2.  Lack of Real Skill Preparation",
+      description: "Graduates struggle because training often lacks practical, industry-aligned learning.",
+      sub:['Minimal hands-on practice or real-world labs','Outdated course material not aligned with job roles','Focus on theory instead of employable skills'],
     },
     {
       icon: <Users className="w-6 h-6" />,
-      title: "3. Real-Time Examples",
-      description: "We provide real working examples such as:",
-      sub:['High-availability website setup.','Service failover between nodes.','Shared file system usage.'],
+      title: "3.  Unsafe Job Channels",
+      description: "Fraudulent agencies, risky backdoor hiring, and roles without proper contracts are common.",
+      sub:['Fake consultancies charging illegal “placement fees','Non-compliant hiring pathways that risk career credibility.','Candidates left without proper contracts or employer clarity.'],
     },
     {
       icon: <Award className="w-6 h-6" />,
-      title: "4. Guidance and Support",
-      description: "We support you throughout the learning process:",
-      sub:['Step-by-step instructions','Troubleshooting help','Clear explanation of why things work the way they do.']
+      title: "4. No Post-Placement Support",
+      description: "Most institutions leave students after placement—with no long-term guidance.",
+      sub:['No follow-up for career growth or job stability','TLack of support in adapting to workplace challenges','No help with future upskilling or role transitions']
     }
   ];
 
@@ -64,11 +64,12 @@ const AboutUs = () => {
     "And many more coming soon..."
   ];
   const whyschoos = [
-    "Real hands-on cluster learning experience",
-    "Clear and simple explanation style.",
-    "Practice as many times as you want",
-    "Helpful for RHCE / RHCSA exam preparation.",
-    "Suitable for beginners and working professionals."
+    "Ethical & Transparent Placement Process",
+    "Practical, Industry-Aligned Training.",
+    "Region-Specific CV & Interview Guidance",
+    "Support for Expats & International Job Seekers",
+    "Continuous Career Mentoring" ,
+    "100% Job-Guaranteed Programs (Merit-Based)"
   ];
 
   const fadeUp = {
@@ -136,20 +137,17 @@ const AboutUs = () => {
                 <Rocket className="w-8 h-8 text-white" />
               </div>
               <div>
-                <h2 className="text-3xl font-bold text-white mb-2">Our Story</h2>
-                <p className="text-purple-400 font-semibold">Founded in 2020</p>
+                <h2 className="text-3xl font-bold text-white mb-2">About ORN-AI E-Learning</h2>
               </div>
             </div>
             
             <div className="space-y-4 text-gray-300 text-lg leading-relaxed">
               <p>
-                ORN-AI was founded in 2020, and later on, it became a part of <span className="text-purple-400 font-semibold">NERD KNOWLEDGE IT Solutions Pvt Ltd</span>.  Ltd It provides a practical and easy-to-use Red Hat Cluster Lab where you can learn and practice real clustering setups. Instead of relying on theories, our lab provides you chance to work directly on Red Hat Linux servers, shared storage, fencing, failover, and other cluster components to get real-life exposure.  <br />
+                ORN-AI is a boutique training platform dedicated to transforming careers through personalized, high-quality learning. We specialize in cross-technology training, tailored CV writing, interview preparation, and ethical placements. With expert-led sessions and AI-powered content, we bring practical, career-focused education to underserved regions, expats, and niche markets—building real confidence and real competence.
                 {/* OnRequestLab was founded in 2020 and later became a part of <span className="text-purple-400 font-semibold">NERD KNOWLEDGE IT Solutions Pvt Ltd</span>. We provide a practical and easy-to-use Red Hat Cluster Lab where you can learn and practice real clustering setups. */}
               </p>
-              <p>
-ORN-AI is a boutique training platform dedicated to transforming careers through personalized, high-quality learning. We offer cross-technology training, tailored CV writing, interview preparation, and ethical placement services. With expert-led sessions and AI-powered content, we deliver practical, career-focused education for underserved regions, expats, and niche markets.                {/* Instead of just reading theory, our lab lets you work directly on Red Hat Linux servers, shared storage, fencing, failover, and other cluster components — just like in real production environments. */}
-              </p>
-              <p>At ORN-AI, you'll get many lab options. This includes Red Hat cluster lab, Linux, Docker, Kubernetes. All these labs help in developing technical skills, career growth, real-world practical skills, better problem-solving & troubleshooting and many others.</p>
+              <p>To empower learners worldwide with ethical, career-focused education and guaranteed job placements—creating equal opportunities and shaping the future workforce.              </p>
+              <p>To unlock global potential by delivering accessible, industry-aligned, and future-ready training. Whether starting a career or upgrading skills, ORN-AI supports learners at every step.</p>
             </div>
           </div>
         </motion.div>
@@ -267,17 +265,16 @@ ORN-AI is a boutique training platform dedicated to transforming careers through
         >
           <div className="bg-gradient-to-r from-purple-500/10 via-blue-500/10 to-violet-500/10 backdrop-blur-sm border border-white/10 rounded-3xl p-8 md:p-12">
             <h3 className="text-3xl font-bold text-white mb-4">
-              Ready to Start Your Learning Journey?
+              Global Expansion
             </h3>
             <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
-              Join thousands of professionals who have enhanced their skills with ORN-AI
-            </p>
+ORN-AI is expanding across European regions to support expats with localized CVs, market-specific job prep, and career advancement pathways.            </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-8 py-4 bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold rounded-xl shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-purple-500/40 transition-all duration-300"
             >
-              Get Started Now
+              Step into your future with ORN-AI — where your growth is our priority.
             </motion.button>
           </div>
         </motion.div>

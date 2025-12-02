@@ -103,7 +103,7 @@ const PageOfferService = () => (
     >
       <span className="process-sub">Course We Offer</span>
       <h2 className="process-title">
-        Pacemaker - <span className="gradient-text">Linux</span> Cluster Labs
+        ORN-AI – <span className="gradient-text">Career</span> Accelerator Program
       </h2>
       {/* <p className="process-desc">
         A proven methodology that transforms ideas into measurable results.

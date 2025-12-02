@@ -11,7 +11,7 @@ import Message from "../MessagesList";
 const Footer = () => {
   return (
     <footer className="bg-[#17122A] text-white py-12 px-6 md:px-16 lg:px-24">
-    <Message/>
+    {/* <Message/> */}
       {/* Top Section */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 border-b border-gray-700 pb-10 text-center md:text-left">
         {/* Logo + Description */}
@@ -79,16 +79,16 @@ const Footer = () => {
               </a>
             </li>
            
-            <li>
+            {/* <li>
              <a href="#process" className="hover:text-white">
                 Process
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="/our-services" className="hover:text-white">
                 Our Services
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="/about-us" className="hover:text-white">
                 About Us
@@ -106,16 +106,16 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold mb-4 text-white">Resources</h3>
           <ul className="space-y-2 text-gray-400 text-sm">
-          <li>
+          {/* <li>
              <a href="pricing" className="hover:text-white">
                 Pricing
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="process" className="hover:text-white">
                 Process
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="blogs" className="hover:text-white">
                 Blog
@@ -138,16 +138,16 @@ const Footer = () => {
                 Terms and Condition
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="feedback" className="hover:text-white">
                 Feedback Form
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="#courses" className="hover:text-white">
                 Request a Course
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="support" className="hover:text-white">
                 Support

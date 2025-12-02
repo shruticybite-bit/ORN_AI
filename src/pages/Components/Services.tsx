@@ -9,11 +9,14 @@ import {
 } from "lucide-react";
 
 import { AiOutlineKubernetes } from "react-icons/ai";
-import { FaRedhat, FaDocker,FaLinux } from "react-icons/fa";
+import {FaUserShield, FaRedhat, FaDocker,FaLinux } from "react-icons/fa";
+import { SiTableau,SiDatabricks , SiTensorflow } from "react-icons/si";
+import { FaLaptopCode, FaLayerGroup } from "react-icons/fa";
+import { FaDev } from "react-icons/fa";
 
 const services = [
   {
-    icon: FaRedhat,
+    icon: FaUserShield,
     title: "Cyber Security",
     description:
       "Gain foundational knowledge and practical skills to protect digital assets. Learn key concepts, threat mitigation strategies, and best practices. Join us to master safeguarding against cyber threats.",
@@ -23,7 +26,7 @@ const services = [
     dotBg: "bg-purple-400",
   },
   {
-    icon: FaLinux as any,
+    icon: SiTableau  as any,
     title: "Data science and A.I",
     description:
       "Fully coAcquire essential skills in data analysis and AI development, focusing on key concepts and machine learning techniques. Join us to harness the transformative potential of data and artificial intelligence.nfigured environment for professionals seeking Linux system administration expertise.",
@@ -33,7 +36,7 @@ const services = [
     dotBg: "bg-blue-400",
   },
   {
-    icon: AiOutlineKubernetes,
+    icon: FaLaptopCode,
     title: "Advance Programs",
     description:
       "Hands-Learn essential skills in continuous integration, infrastructure automation, and collaboration tools. Master streamlined software development practices for modern environments. experience with automation, Infrastructure as Code, and container orchestration.",
@@ -43,7 +46,7 @@ const services = [
     dotBg: "bg-violet-400",
   },
   {
-    icon: FaDocker,
+    icon: SiDatabricks,
     title: "Data Science",
     description:
       "Hands-on container creation and management practice.",
@@ -53,7 +56,7 @@ const services = [
     dotBg: "bg-cyan-400",
   },
   {
-    icon: Server,
+    icon: FaDev,
     title: "DevOps",
     description:
       "Build a strong foundation in programming and modern software development practices, from core logic to deployment-ready applications.Gain hands-on experience with real projects, version control, and collaborative workflows designed for workplace readiness.",
@@ -63,7 +66,7 @@ const services = [
     dotBg: "bg-blue-400",
   },
   {
-    icon: BarChart3,
+    icon: FaLaptopCode,
     title: "Advanced Programming Tracks",
     description:
       "Deep-dive into specialized areas of software engineering with guided, project-based modules. Focus on writing clean, scalable code while mastering tools used in professional development teams.",
@@ -73,7 +76,7 @@ const services = [
     dotBg: "bg-violet-400",
   },
   {
-    icon: Users,
+    icon: SiTensorflow,
     title: "Full-Stack Development",
     description:
       "Learn to build complete web applications from front end to back end with modern frameworks. Practice deploying responsive, secure apps that are optimized for real users and real servers.",
@@ -86,14 +89,14 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="bg-[#0E0A1F] text-white py-16 px-4 md:px-8 lg:px-12">
+    <section className="bg-white text-black py-16 px-4 md:px-8 lg:px-12">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="mb-12">
           <div className="flex items-center gap-2 mb-4">
             <div className="h-px w-8 bg-gradient-to-r from-purple-400 to-transparent"></div>
-            <h4 className="text-xs font-semibold text-purple-400 tracking-wider uppercase">
-                            ORN-AI: The Ultimate Learning Destination
+            <h4 className="text-xs font-semibold text-purple-400 tracking-wider uppercase bg-gradient-to-r from-purple-400 via-blue-400 to-violet-400 text-transparent bg-clip-text">
+                ORN-AI: The Ultimate Learning Destination
             </h4>
           </div>
 
@@ -118,10 +121,10 @@ const Services = () => {
             <div className="relative z-10 grid md:grid-cols-2 gap-6 items-center">
               <div>
                 <div className="mb-4 flex justify-center">
-                <FaRedhat className="w-16 h-16 text-purple-400 transform -scale-x-100" />
+                <FaUserShield className="w-16 h-16 text-purple-400 transform -scale-x-100" />
                 </div>
 
-                <h3 className="text-xl md:text-2xl font-bold mb-3">
+                <h3 className="text-xl md:text-2xl text-white mb-3">
                   {services[0].title}
                 </h3>
 
@@ -168,7 +171,7 @@ const Services = () => {
                     <Icon className="w-16 h-16 text-purple-400" />
                   </div>
 
-                  <h3 className="text-lg font-bold mb-2">{service.title}</h3>
+                  <h3 className="text-lg text-white mb-2">{service.title}</h3>
 
                   <p className="text-gray-400 text-sm mb-4 leading-relaxed">
                     {service.description}
@@ -211,7 +214,7 @@ const Services = () => {
                     <Icon className="w-16 h-16 text-purple-400" />
                   </div>
 
-                  <h3 className="text-lg font-bold mb-2">{service.title}</h3>
+                  <h3 className="text-lg text-white mb-2">{service.title}</h3>
 
                   <p className="text-gray-400 text-sm mb-4 leading-relaxed">
                     {service.description}

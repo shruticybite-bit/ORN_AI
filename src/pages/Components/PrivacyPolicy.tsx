@@ -1,119 +1,178 @@
 import React from "react";
-import { Mail, Phone, MapPin, Download, Printer } from "lucide-react";
-import { motion } from "framer-motion";
-import Navbar from "../../pages/Components/Navbar";
+import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
-import "../Components/PrivacyPolicy.css";
+import { motion } from "framer-motion";
 
 export default function PrivacyPolicy() {
   const cardVariants = {
     hidden: { opacity: 0, y: 30 },
-    visible: (i) => ({
-      opacity: 1,
-      y: 0,
-      transition: { delay: 0.12 * i, duration: 0.55, ease: "easeOut" },
-    }),
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
   };
 
   return (
-    <>
+    <div className="bg-white text-black min-h-screen">
       <Navbar />
 
-      {/* Animated background container */}
-      <section className="refundp-bg-section">
-        <div className="refundp-bg" aria-hidden="true" />
-
-        <div className="refundp-root">
-          <div className="refundp-headerbar">
-            <h1 className="refundp-title">Privacy Policy</h1>
-            <div className="refundp-actions">
-              <button className="refundp-btn">
-                <Download size={16} /> Download PDF
-              </button>
-              <button className="refundp-btn">
-                <Printer size={16} /> Print Policy
-              </button>
-            </div>
-          </div>
-
-          <div className="refundp-cards">
-            {[
-              {
-                header: "Eligibility for Refunds",
-                content: (
-                  <ul>
-                    <li>
-                      Refunds issued under{" "}
-                      <span className="refundp-accent">specific conditions</span> only.
-                    </li>
-                    <li>
-                      Requests must be made within{" "}
-                      <span className="refundp-accent">3 days</span> of purchase.
-                    </li>
-                    <li>No refunds after 3 days or for minor personal preferences.</li>
-                  </ul>
-                ),
-              },
-              {
-                header: "Refund Process",
-                content: (
-                  <ul>
-                    <li>
-                      Email{" "}
-                      <span className="refundp-accent">Contact@onrequestlab.com</span> with order details.
-                    </li>
-                    <li>Request reviewed within 3 business days.</li>
-                    <li>Approved refunds processed within 7 days.</li>
-                  </ul>
-                ),
-              },
-              {
-                header: "Our Commitment",
-                content: (
-                  <div>
-                    <strong>Customer satisfaction is our priority.</strong> Contact us for any issues.
-                  </div>
-                ),
-              },
-              {
-                header: "Contact Us",
-                content: (
-                  <div className="refundp-contacts">
-                    <div className="refundp-contact-tile">
-                      <Mail size={20} />
-                      <span>Contact@onrequestlab.com</span>
-                    </div>
-                    <div className="refundp-contact-tile">
-                      <Phone size={20} />
-                      <span>+91 9876543210</span>
-                    </div>
-                    <div className="refundp-contact-tile">
-                      <MapPin size={20} />
-                      <span>123 Digital Lane, Mumbai, India</span>
-                    </div>
-                  </div>
-                ),
-              },
-            ].map((section, idx) => (
-              <motion.article
-                className="refundp-card"
-                key={section.header}
-                custom={idx}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, amount: 0.25 }}
-                variants={cardVariants}
-                tabIndex={0}
-              >
-                <div className="refundp-card-header">{section.header}</div>
-                <div className="refundp-card-content">{section.content}</div>
-              </motion.article>
-            ))}
-          </div>
+      {/* Banner */}
+      <div className="relative w-full h-64 bg-blue-900">
+        <img
+          src="https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/668baff40b223db5311c7fda_network-connections.png"
+          alt="Privacy Policy Banner"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-white">Privacy Policy</h1>
         </div>
-      </section>
+      </div>
+
+      {/* Content */}
+      <motion.div
+        className="max-w-5xl mx-auto py-16 px-6 space-y-12"
+        initial="hidden"
+        animate="visible"
+        variants={cardVariants}
+      >
+        {/* INTRODUCTION */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">1. Introduction</h2>
+          <p className="text-gray-700">
+            ORN-AI ("we/us") is committed to protecting your personal data. This Policy
+            explains what we collect, how we use it, and your rights.
+          </p>
+        </section>
+
+        {/* WHAT DATA WE COLLECT */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">2. What Data We Collect</h2>
+          <p className="text-gray-700">We may collect:</p>
+          <ul className="list-disc ml-6 text-gray-700 space-y-2 mt-3">
+            <li><b>Identity & Contact Data:</b> Name, email, phone, address</li>
+            <li><b>Technical Data:</b> IP address, device details, browser data, cookies</li>
+            <li><b>Education & Usage Data:</b> Course progress, assignments, assessments</li>
+            <li><b>Financial Data:</b> Payment details processed by third-party gateways</li>
+            <li><b>Marketing Data:</b> Communication preferences, interests</li>
+          </ul>
+          <p className="text-gray-700 mt-2">
+            We do <b>not</b> collect sensitive personal data unless required by law and with consent.
+          </p>
+        </section>
+
+        {/* PURPOSE AND SCOPE */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">3. Purpose and Scope</h2>
+          <p className="text-gray-700">
+            This policy outlines how ORN-AI collects, uses, and shares your information through our
+            digital platforms, including our website and mobile applications. It also covers data
+            security, transfers, and your rights related to personal data.
+          </p>
+        </section>
+
+        {/* TYPES OF PERSONAL DATA */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">4. Types of Personal Data Collected</h2>
+          <p className="text-gray-700">We may collect the following categories of data:</p>
+          <ul className="list-disc ml-6 text-gray-700 space-y-2 mt-3">
+            <li><b>A. Personal Identification Data:</b> Name, job title, signature, photos</li>
+            <li><b>B. Identification Data:</b> Aadhar, PAN, tax IDs</li>
+            <li><b>C. Financial Data:</b> Bank info, salary details (excluding payment gateway data)</li>
+            <li><b>D. Personal Characteristics:</b> Age, gender, DOB, nationality</li>
+            <li><b>E. Contact Data:</b> Postal address, email, phone</li>
+            <li><b>F. Education Data:</b> Qualifications, work experience</li>
+            <li><b>G. Electronic Data:</b> IP, device, browser, location, login details</li>
+            <li><b>H. Inquiry Data:</b> Forms, calls, support interactions</li>
+            <li><b>I. User-Generated Data:</b> Assignments, assessments, feedback</li>
+            <li><b>J. Marketing Data:</b> Preferences & interests</li>
+            <li><b>K. Behavioral Data:</b> Activity-based inferred data</li>
+          </ul>
+          <p className="text-gray-700 mt-2"><b>Note:</b> Payment information is handled only by secure third-party gateways.</p>
+        </section>
+
+        {/* SPECIAL CATEGORIES */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">5. Special Categories of Personal Data</h2>
+          <p className="text-gray-700">
+            We do not currently process sensitive data such as religion, sexual orientation,
+            political views, biometrics, or health details.
+          </p>
+        </section>
+
+        {/* SOURCES */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">6. Sources of Data Collection</h2>
+          <p className="text-gray-700">We collect data from:</p>
+          <ul className="list-disc ml-6 text-gray-700 space-y-2 mt-3">
+            <li>Registrations (webinars, courses, workshops)</li>
+            <li>Customer support interactions</li>
+            <li>Website and app usage</li>
+            <li>Third-party partners and analytics providers</li>
+          </ul>
+        </section>
+
+        {/* COOKIES */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">7. Cookies</h2>
+          <p className="text-gray-700">
+            We use cookies to improve user experience, analyze performance, and personalize
+            content. Third-party cookies (Google, Facebook, etc.) may also track your activity.
+          </p>
+        </section>
+
+        {/* ANALYTICS */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">8. Data Analytics</h2>
+          <p className="text-gray-700">
+            We use tools like Google Analytics and Facebook Custom Audiences to understand usage
+            patterns and improve marketing effectiveness.
+          </p>
+        </section>
+
+        {/* AGGREGATED DATA */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">9. Aggregated Data</h2>
+          <p className="text-gray-700">
+            Aggregated data is anonymized and cannot identify individuals. We use it for planning,
+            analytics, and improving services.
+          </p>
+        </section>
+
+        {/* DATA PROTECTION */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">10. Data Protection Principles</h2>
+          <p className="text-gray-700">
+            ORN-AI adheres to fairness, transparency, purpose limitation, data minimization,
+            accuracy, storage limitation, and confidentiality principles.
+          </p>
+        </section>
+
+        {/* LEGAL BASIS */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">11. Legal Basis for Processing Your Data</h2>
+          <p className="text-gray-700">
+            We process your data based on contractual necessity, legal obligations, legitimate
+            interests, vital interests, public interest, or consent.
+          </p>
+        </section>
+
+        {/* CONSENT */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">12. Consent</h2>
+          <p className="text-gray-700">
+            By using our platform, you provide consent for data collection. You may withdraw
+            consent, but it may affect service availability.
+          </p>
+        </section>
+
+        {/* PURPOSE */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">13. Purpose of Collecting Personal Data</h2>
+          <p className="text-gray-700">
+            We collect personal data to deliver services, improve user experience, process
+            payments, ensure security, and comply with legal requirements.
+          </p>
+        </section>
+      </motion.div>
 
       <Footer />
-    </>
+    </div>
   );
 }
