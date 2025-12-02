@@ -1,0 +1,1 @@
+import{j as t,a as o}from"./index-ddd0bdee.js";import{N as a,F as r}from"./Footer-809c793e.js";import{C as s}from"./ContactUs-bffc154a.js";import"./createLucideIcon-1a266af8.js";import"./index-ab287509.js";import"./proxy-a120660c.js";const f=()=>t("div",{style:{minHeight:"100vh",background:"#140f1c"},children:[o(a,{}),o(s,{}),o(r,{})]});export{f as default};

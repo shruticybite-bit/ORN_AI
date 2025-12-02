@@ -113,8 +113,8 @@ setTimeout(() => (window.location.href = "/"), 800);
   const navigateTo = (path) => (window.location.href = path);
 
   const links = isLoggedIn
-    ? ["/", "/about-us", "/blogs","/contact-us"]
-    : ["/", "/about-us", "/blogs", "/contact-us"];
+    ? ["/", "/about-us","/courses", "/blogs","/contact-us"]
+    : ["/", "/about-us", "/courses","/blogs", "/contact-us"];
 
   return (
     <>
@@ -124,7 +124,7 @@ setTimeout(() => (window.location.href = "/"), 800);
         {/* Logo */}
         <div className="navbar-logo">
           <span className="logo-icon">
-            <img src={logoimg} alt="logo" width="200" height="100" />
+            <img src={logoimg} alt="logo" className="logo-img" />
           </span>
         </div>
 
@@ -153,34 +153,7 @@ setTimeout(() => (window.location.href = "/"), 800);
           </ul>
 
           {/* Mobile Cart */}
-          <div className="mobile-cart-box">
-            <div className="mobile-cart-icon" onClick={() => setCartOpen(!cartOpen)}>
-              <ShoppingCart size={22} />
-              {cartItems.length > 0 && <span className="cart-count-mobile">{cartItems.length}</span>}
-              <span style={{ marginLeft: "6px" }}>Cart</span>
-            </div>
-            {cartOpen && (
-              <div className="cart-dropdown-mobile">
-                {cartItems.length === 0 ? <p>No items added</p> : cartItems.map((item, idx) => (
-                  <div key={idx} className="cart-item-row">
-                    <span>{item.name}</span>
-                    <strong> ₹ {item.monthlyPrice ?? item.yearlyPrice ?? item.price ?? 0}</strong>
-                  </div>
-                ))}
-                <div className="cart-total-row">
-                  <span className="cart-total-label">Total</span>
-                  <div className="vertical-line"></div>
-                  <strong className="cart-total-amount">
-                    ₹ {cartItems.reduce((total, item) => {
-                      return total + (item.monthlyPrice ?? item.yearlyPrice ?? item.price ?? 0);
-                    }, 0).toFixed(2)}
-                  </strong>
-                </div>
-
-                <button className="blue-btn w-full" onClick={() => navigateTo("/cart")}>Go to Cart</button>
-              </div>
-            )}
-          </div>
+          
 
           {/* Mobile Profile */}
           {isLoggedIn ? (
@@ -197,7 +170,7 @@ setTimeout(() => (window.location.href = "/"), 800);
             </div>
           ) : (
             <button className="navbar-btn mobile-login-btn">
-              {/* <a href="/login">Login</a> / <a href="/auth/boxed-signup">Signup</a> */}
+              <a href="https://app.orn-ai.com/web/login">Login</a> / <a href="https://app.orn-ai.com/web/login">Signup</a>
             </button>
           )}
         </div>

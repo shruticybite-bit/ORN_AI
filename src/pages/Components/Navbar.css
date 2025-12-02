@@ -26,7 +26,7 @@
 .navbar-links li a:hover { color: #16042e; opacity: 1; }
 
 .navbar-btn {
-  background: linear-gradient(90deg, #8F5FFF 30%, #A561FF 100%);
+  background: linear-gradient(90deg, #170d3e 30%, #080e1f 100%);
   color: #fff;
   padding: 10px 26px;
   border: none;
@@ -52,7 +52,7 @@
 
 /* Hamburger toggle */
 .navbar-toggle { display: none; flex-direction: column; gap: 6px; cursor: pointer; }
-.navbar-toggle div { width: 28px; height: 3px; background: #fff; }
+.navbar-toggle div { width: 28px; height: 3px; background: #141414; }
 
 /* Mobile menu */
 .mobile-menu { position: fixed; top: 0; right: -100%; width: 290px; height: 100vh; background: #17122A; padding: 28px 22px; transition: right 0.35s ease; z-index: 1001; display: flex; flex-direction: column; }
@@ -260,7 +260,7 @@
 .navbar-toggle div {
   width: 28px;
   height: 3px;
-  background: #fff;
+  background: #1d1c1c;
 }
 
 @media (max-width: 900px) {
@@ -273,3 +273,13 @@
   gap: 10px;
 }
 
+.logo-img {
+  width: 130px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .logo-img {
+    width: 95px;
+  }
+}

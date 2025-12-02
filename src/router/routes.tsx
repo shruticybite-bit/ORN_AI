@@ -161,6 +161,9 @@ const Support = lazy(() => import('../pages/Components/Support'));
 const WalletHistory = lazy(() => import('../pages/Components/WalletHistory'));
 
 const UserInstances = lazy(() => import('../pages/Components/UserInstances'));
+const LabDetail = lazy(() => import('../pages/Components/LabDetail'));
+
+// import LabDetail from "./pages/LabDetail";
 
 
 
@@ -250,6 +253,11 @@ const routes = [
      {
         path: '/courses',
         element: <Pricing />,
+        layout:'web',
+    },
+    {
+        path: '/lab/:id',
+        element: <LabDetail />,
         layout:'web',
     },
     {
