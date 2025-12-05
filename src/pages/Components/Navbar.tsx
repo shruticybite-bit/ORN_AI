@@ -1,258 +1,206 @@
 import React, { useState, useEffect, useRef } from "react";
 import "../../pages/Components/Navbar.css";
-import logoimg from "../../../public/assets/logo.jpeg";
+import "../../pages/Components/MegaMenu.css";
+import logoimg from "../../../public/assets/logo.svg";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useNavigate } from "react-router-dom";
-
+import { User, LogOut, Wallet, Laptop, Lock, DollarSign } from "lucide-react";
 import axios from "axios";
-import { Wallet, User, LogOut, Laptop, ShoppingCart, Lock, DollarSign } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-    const navigate = useNavigate();  // ✅ ADD THIS
-
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [walletBalance, setWalletBalance] = useState(null);
-  const [loadingWallet, setLoadingWallet] = useState(false);
+  const [coursesMenuOpen, setCoursesMenuOpen] = useState(false);
   const [profileMenu, setProfileMenu] = useState(false);
-  const [cartItems, setCartItems] = useState(JSON.parse(localStorage.getItem("orl_cart") || "[]"));
-  const [cartOpen, setCartOpen] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [walletBalance, setWalletBalance] = useState(0);
 
+  const navigate = useNavigate();
   const menuRef = useRef(null);
-  const cartRef = useRef(null);
-  const API_BASE = "#";
 
-  
+  const links = [
+    { name: "Home", path: "/" },
+    { name: "Courses", mega: true },
+    { name: "About Us", path: "/about-us" },
+    { name: "Blogs", path: "/blogs" },
+    { name: "Contact Us", path: "/contact-us" },
+  ];
 
-const getCookie = (name) => {
-if (typeof document === "undefined") return "";
-const v = `; ${document.cookie}`;
-const parts = v.split(`; ${name}=`);
-if (parts.length === 2) return parts.pop().split(";").shift();
-return "";
-};
-
-  const user = {
-    name: getCookie("username"),
-    email: getCookie("email"),
-  };
-
-const tokennew =
-(getCookie("access") ||
-localStorage.getItem("access") ||
-localStorage.getItem("jwt-auth"))?.trim();
-const userId = getCookie("user_id");
-console.log('userId=',userId);
-
-if (Number(userId) === 1) {
-  navigate("/index");
-}
+  // Auto-detect login
   useEffect(() => {
-    const token = tokennew;//localStorage.getItem("jwt-auth");
+    const token = localStorage.getItem("access");
     setIsLoggedIn(!!token);
-    if (token) fetchWalletBalance(token);
   }, []);
 
-  const fetchWalletBalance = async (token) => {
-    setLoadingWallet(true);
-    try {
-      const res = await axios.get(`${API_BASE}/users/wallet/balance/`, {
-        headers: { Authorization: `Bearer ${token}` },
-      });
-      setWalletBalance(res.data?.balance ?? res.data?.wallet_amount ?? 0);
-    } catch (err) {
-      console.error("Wallet fetch error:", err);
-      setWalletBalance(0);
-    } finally {
-      setLoadingWallet(false);
-    }
+  const handleLogout = () => {
+    localStorage.clear();
+    toast.success("Logged out!");
+    setTimeout(() => navigate("/"), 500);
   };
 
+  // Close dropdown if clicked outside
   useEffect(() => {
-    const handleClickOutside = (e) => {
-      if (menuRef.current && !menuRef.current.contains(e.target)) setProfileMenu(false);
-      if (cartRef.current && !cartRef.current.contains(e.target)) setCartOpen(false);
+    const handler = (e) => {
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        setProfileMenu(false);
+        setCoursesMenuOpen(false);
+      }
     };
-    const handleStorageChange = () => setCartItems(JSON.parse(localStorage.getItem("orl_cart") || "[]"));
-
-    document.addEventListener("mousedown", handleClickOutside);
-    window.addEventListener("storage", handleStorageChange);
-
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-      window.removeEventListener("storage", handleStorageChange);
-    };
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
   }, []);
 
-  // const handleLogout = () => {
-  //   localStorage.removeItem("jwt-auth");
-  //   toast.info("You have been logged out!", { position: "top-center" });
-  //   setTimeout(() => (window.location.href = "/"), 800);
-  // };
-   const handleLogout = () => {
-    // localStorage.removeItem("jwt-auth");
-    // localStorage.removeItem("user_id");
-    // toast.info("You have been logged out!", { position: "top-center" });
-    // setTimeout(() => (window.location.href = "/"), 800);
-    // Remove localStorage items
-localStorage.removeItem("jwt-auth");
-localStorage.removeItem("access");
-localStorage.removeItem("user_id");
-
-
-// Remove cookies
-document.cookie = "access=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-document.cookie = "user_id=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-
-
-toast.info("You have been logged out!", { position: "top-center" });
-setTimeout(() => (window.location.href = "/"), 800);
+  const redirect = (path) => {
+    setCoursesMenuOpen(false);
+    setMenuOpen(false);
+    navigate(path);
   };
-
-  const navigateTo = (path) => (window.location.href = path);
-
-  const links = isLoggedIn
-    ? ["/", "/about-us","/courses", "/blogs","/contact-us"]
-    : ["/", "/about-us", "/courses","/blogs", "/contact-us"];
 
   return (
     <>
-      <ToastContainer position="top-center" autoClose={1500} theme="colored" />
+      <ToastContainer />
 
       <nav className="navbar">
-        {/* Logo */}
+
+        {/* ---------- LOGO ---------- */}
         <div className="navbar-logo">
-          <span className="logo-icon">
-            <img src={logoimg} alt="logo" className="logo-img" />
-          </span>
+          <img src={logoimg} alt="logo" className="logo-img" />
         </div>
 
-        {/* Hamburger */}
+        {/* ---------- MOBILE MENU BUTTON ---------- */}
         <div className="navbar-toggle" onClick={() => setMenuOpen(!menuOpen)}>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div></div><div></div><div></div>
         </div>
 
-        {/* Mobile menu backdrop */}
-        <div className={`menu-backdrop ${menuOpen ? "show" : ""}`} onClick={() => setMenuOpen(false)} />
-
-        {/* Mobile Menu */}
+        {/* ---------- MOBILE MENU ---------- */}
         <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
           <button className="close-btn" onClick={() => setMenuOpen(false)}>×</button>
 
           <ul className="mobile-links">
-            {links.map((path, i) => (
+
+            {/* Loop menu items */}
+            {links.map((item, i) => (
               <li key={i}>
-                <a href={path}>
-                  {path === "/" ? "Home" : path.split("/")[1].replace("-", " ").toUpperCase()}
-                </a>
+                {item.mega ? (
+                  <>
+                    <span onClick={() => setCoursesMenuOpen(!coursesMenuOpen)}>
+                      Courses ▾
+                    </span>
+
+                    {coursesMenuOpen && (
+                      <ul className="mobile-submenu">
+                        <li onClick={() => redirect("/cyber-security")}>Cyber Security</li>
+                        <li onClick={() => redirect("/data-science-ai")}>Data Science & AI</li>
+                        <li onClick={() => redirect("/advanced-programs")}>Advanced Programs</li>
+                        <li onClick={() => redirect("/business-analytics")}>Business Analytics</li>
+                        <li onClick={() => redirect("/technology-programs")}>Technology Programs</li>
+                        <li onClick={() => redirect("/telecommunication")}>Telecommunication</li>
+                        <li onClick={() => redirect("/science-programs")}>Science Programs</li>
+                      </ul>
+                    )}
+                  </>
+                ) : (
+                  <a href={item.path}>{item.name}</a>
+                )}
               </li>
             ))}
           </ul>
 
-          {/* Mobile Cart */}
-          
-
-          {/* Mobile Profile */}
+          {/* MOBILE PROFILE */}
           {isLoggedIn ? (
             <div className="mobile-profile">
-              <div className="blue-btn">
-              <p>{(user?.name || "").slice(0, 5) + (user?.name?.length > 2 ? "..." : "")}</p>
-            </div>
-              <p className="wallet-line">
-                <Wallet size={16} /> {loadingWallet ? "Loading..." : `₹${walletBalance}`}
-              </p>
-              <button className="blue-btn" onClick={() => navigateTo("/wallet-history")}>Wallet History</button>
-              <button className="blue-btn" onClick={() => navigateTo("/instances")}>Your Instances</button>
+              <div className="blue-btn">Profile</div>
+              <p><Wallet size={16} /> ₹{walletBalance}</p>
+              <button className="blue-btn" onClick={() => redirect("/wallet-history")}>Wallet History</button>
+              <button className="blue-btn" onClick={() => redirect("/instances")}>Your Instances</button>
               <button className="red-btn" onClick={handleLogout}>Logout</button>
             </div>
           ) : (
             <button className="navbar-btn mobile-login-btn">
-              <a href="https://app.orn-ai.com/web/login">Login</a> / <a href="https://app.orn-ai.com/web/login">Signup</a>
+              <a href="/login">Login</a> / <a href="/signup">Signup</a>
             </button>
           )}
         </div>
 
-        {/* Desktop Menu */}
+        {/* ---------- DESKTOP MENU ---------- */}
         <div className="navbar-actions">
           <ul className="navbar-links">
-            {links.map((path, i) => (
-              <li key={i}>
-                <a href={path}>
-                  {path === "/" ? "Home" : path.split("/")[1].replace("-", " ").toUpperCase()}
-                </a>
-              </li>
-            ))}
+
+            {links.map((item, i) =>
+              item.mega ? (
+                <li key={i} className="mega-parent" onClick={() => setCoursesMenuOpen(!coursesMenuOpen)}>
+                  <span className="menu-title">Courses ▾</span>
+
+                  {coursesMenuOpen && (
+                    <div className="mega-menu open">
+                      <div className="mega-row">
+
+                        <div className="mega-col" onClick={() => redirect("/cyber-security")}>
+                          <h4>Cyber Security</h4>
+                          <p>Learn to secure systems.</p>
+                        </div>
+
+                        <div className="mega-col" onClick={() => redirect("/data-science-ai")}>
+                          <h4>Data Science & AI</h4>
+                          <p>Master AI & ML.</p>
+                        </div>
+
+                        <div className="mega-col" onClick={() => redirect("/advanced-programs")}>
+                          <h4>Advanced Programs</h4>
+                          <p>DevOps & Cloud.</p>
+                        </div>
+
+                        <div className="mega-col" onClick={() => redirect("/business-analytics")}>
+                          <h4>Business Analytics</h4>
+                          <p>Data-driven insights.</p>
+                        </div>
+
+                        <div className="mega-col" onClick={() => redirect("/technology-programs")}>
+                          <h4>Technology Programs</h4>
+                          <p>Modern IT skills.</p>
+                        </div>
+
+                        <div className="mega-col" onClick={() => redirect("/telecommunication")}>
+                          <h4>Telecommunication</h4>
+                          <p>Network engineering.</p>
+                        </div>
+
+                        <div className="mega-col" onClick={() => redirect("/science-programs")}>
+                          <h4>Science Programs</h4>
+                          <p>Research & labs.</p>
+                        </div>
+
+                      </div>
+                    </div>
+                  )}
+                </li>
+              ) : (
+                <li key={i}><a href={item.path}>{item.name}</a></li>
+              )
+            )}
           </ul>
 
-          {/* Desktop Cart */}
-          <div className="cart-wrapper" ref={cartRef}>
-            <div className="cart-icon" onClick={() => setCartOpen(!cartOpen)}>
-              {/* <ShoppingCart size={22} /> */}
-              {/* {cartItems.length > 0 && <span className="cart-count">{cartItems.length}</span>} */}
-            </div>
-            {cartOpen && (
-              <div className="cart-dropdown clean-card">
-                {cartItems.length === 0 ? <p>No items added</p> : cartItems.map((item, idx) => (
-                  <div key={idx} className="cart-item-row">
-                    <span>{item.name}</span>
-                    <strong> ₹ {item.monthlyPrice ?? item.yearlyPrice ?? item.price ?? 0}</strong>
-                  </div>
-                ))}
-                <hr />
-                <div className="cart-total-row">
-                  <span className="cart-total-label">Total</span>
-                 &nbsp;&nbsp; <strong className="cart-total-amount">
-                      ₹ {cartItems.reduce((total, item) => {
-                      return total + (item.monthlyPrice ?? item.yearlyPrice ?? item.price ?? 0);
-                    }, 0).toFixed(2)}
-                  </strong>
-                </div>
-
-                <button className="blue-btn w-full" onClick={() => navigateTo("/cart")}>Go to Cart</button>
-              </div>
-            )}
-          </div>
-
-          {/* Profile */}
+          {/* ---------- PROFILE ---------- */}
           {isLoggedIn ? (
             <div className="profile-wrapper" ref={menuRef}>
               <div className="profile-avatar" onClick={() => setProfileMenu(!profileMenu)}>
                 <User size={22} />
               </div>
+
               {profileMenu && (
                 <div className="profile-dropdown clean-card">
-                  <div className="dropdown-wallet">
-                    {/* <p>{user.name||''}</p> */}
-                     <p onClick={() => navigateTo("/users/user-profile")} >{(user?.name || "").slice(0, 5) + (user?.name?.length > 4 ? "..." : "")}</p>
-                  </div>
-                  <div className="dropdown-wallet">
-                    <Wallet size={16} /> <span>{loadingWallet ? "Loading..." : `₹${walletBalance}`}</span>
-                  </div>
-                  <div className="dropdown-item" onClick={() => navigateTo("/wallet-history")}>
-                    <Wallet size={16} /> <span>Wallet History</span>
-                  </div>
-                  <div className="dropdown-item" onClick={() => navigateTo("/your-instances")}>
-                    <Laptop size={16} /> <span>Your Instances</span>
-                  </div>
-                  <div className="dropdown-item" onClick={() => navigateTo("/change-password")}>
-                    <Lock size={16} /> <span>Change Password</span>
-                  </div>
-                  <div className="dropdown-item" onClick={() => navigateTo("/apps/PaymentListNormal")}>
-                    <DollarSign size={16} /> <span>My Payments</span>
-                  </div>
-                  <div className="dropdown-item logout" onClick={handleLogout}>
-                    <LogOut size={16} /> <span>Logout</span>
-                  </div>
+                  <div onClick={() => redirect("/users/user-profile")}>My Profile</div>
+                  <div><Wallet size={16} /> ₹{walletBalance}</div>
+                  <div className="dropdown-item" onClick={() => redirect("/wallet-history")}>Wallet History</div>
+                  <div className="dropdown-item" onClick={() => redirect("/your-instances")}>Your Instances</div>
+                  <div className="dropdown-item" onClick={() => redirect("/change-password")}>Change Password</div>
+                  <div className="dropdown-item" onClick={() => redirect("/apps/PaymentListNormal")}>My Payments</div>
+                  <div className="dropdown-item logout" onClick={handleLogout}><LogOut size={16} /> Logout</div>
                 </div>
               )}
             </div>
           ) : (
-            <button className="navbar-btn">
-              <a href="https://app.orn-ai.com/web/login">Login</a> / <a href="https://app.orn-ai.com/web/login">Signup</a>
-            </button>
+            <button className="navbar-btn"><a href="/login">Login</a> / <a href="/signup">Signup</a></button>
           )}
         </div>
       </nav>

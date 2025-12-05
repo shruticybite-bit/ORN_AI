@@ -6,7 +6,7 @@ import {
   Linkedin,
   Youtube,
 } from "lucide-react";
-import logoimg from "../../../public/assets/logo.jpeg";
+import logoimg from "../../../public/assets/logo.svg";
 import Message from "../MessagesList";
 const Footer = () => {
   return (
@@ -30,8 +30,7 @@ const Footer = () => {
 
 
           <p className="text-sm text-gray-400 mb-6 max-w-xs mx-auto md:mx-0">
-            Affordable and hands-on Red Hat Linux training created by industry
-            experts.
+            An ISO-certified training partner committed to your skills, growth, and career success.
           </p>
 
           {/* Social Icons */}

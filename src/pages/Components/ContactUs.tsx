@@ -125,10 +125,10 @@ const ContactUs = () => {
       >
         <span className="contactus-sub">GET IN TOUCH</span>
         <h2 className="contactus-title">
-          Let's Create Something <span className="gradient-text">Amazing</span>
+          Let's Build Your <span className="gradient-text">Career Together</span>
         </h2>
         <p className="contactus-desc">
-          Ready to transform your digital presence? Get in touch with our team today.
+          We're here to guide you on your learning journey. Reach out to us for course details, career support, or any assistance you need.
         </p>
       </motion.div>
 
@@ -266,7 +266,6 @@ const ContactUs = () => {
             <div>
               <div className="contactus-info-label">Office</div>
               <div className="contactus-info-text">
-ORN-AI
 Flat No. 931, S-11/14, Ayyappa Society
 Khanamet, Madhapur, Shaikpet
 Hyderabad – 500081, India              </div>
@@ -276,11 +275,11 @@ Hyderabad – 500081, India              </div>
           <div className="ready-card">
             <h3 className="ready-card-title">Signup</h3>
             <p className="ready-card-text">
-              Join 250+ companies already growing with PrismDigital.
+             Start your learning journey with ORN-AI and access personalized career support.
             </p>
             <a href="auth/boxed-signup">
               <button className="ready-card-btn">
-                Schedule a Free Consultation
+                Get Started Now 
               </button>
             </a>
           </div>

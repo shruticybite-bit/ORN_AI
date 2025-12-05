@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroTeam from "/assets/hero-team.jpg";
+import heroTeam from "/assets/2.svg";
 
 const HeroSection = () => {
   const stats = [
@@ -9,11 +9,11 @@ const HeroSection = () => {
   ];
 
   return (
-    <section 
+    <section  
       id="home"
-      className="relative min-h-screen flex items-center pt-1 overflow-hidden bg-white"
+      className="relative min-h-screen flex items-center overflow-hidden bg-white"
     >
-      <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-15 py-20 relative z-10">
+      <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-15 pt-0 pb-10 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* ================= Left Content ================= */}
           <motion.div
@@ -59,9 +59,9 @@ const HeroSection = () => {
             >
             <a href="#contact">
               <motion.button
-                whileHover={{ scale: 1.05, backgroundColor: "#fff" }}
+                whileHover={{ scale: 1.05, backgroundColor: "rgb(23 13 62)" }}
                 whileTap={{ scale: 0.95 }}
-                className="flex items-center px-8 py-3 bg-white text-black font-bold rounded-xl shadow-lg transition-all group text-lg"
+                className="flex items-center px-8 py-3 bg-[#2e254d]  text-white font-bold rounded-xl shadow-lg transition-all group text-lg"
               >
                 Book Your Courses Now
                 <span className="ml-2 group-hover:translate-x-1 transition-transform text-xl">
@@ -138,7 +138,7 @@ const HeroSection = () => {
                 5x ROI
               </div>*/}
               <div className="text-sm text-white"><a href="#pricing"> <span className="px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-white text-sm font-semibold">
-                Red Hat Cluster Lab
+                Professional Upskilling Program
               </span></a></div>
             </motion.div>
 

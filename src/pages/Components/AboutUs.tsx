@@ -105,16 +105,16 @@ const AboutUs = () => {
         >
           <div className="inline-block mb-4">
             <span className="text-purple-400 text-sm font-semibold tracking-wider uppercase bg-purple-500/10 px-4 py-2 rounded-full border border-purple-500/20">
-              About Us
+             ABOUT US
             </span>
           </div>
           <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight mb-6">
             <span className="bg-gradient-to-r from-purple-400 via-blue-400 to-violet-400 bg-clip-text text-transparent">
-           Welcome to ORN-AI E-learning
+           Welcome to ORN-AI E-Learning
             </span>
           </h1>
           <p className="text-2xl md:text-3xl text-gray-300 font-semibold mb-4">
-            ORN-AI - Red Hat Cluster Lab
+            Your Destination for Professional Upskilling and Career Growth
           </p>
           
           <p className="text-gray-400 text-lg max-w-3xl mx-auto">

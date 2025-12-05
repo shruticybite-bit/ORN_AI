@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
-import Navbar from '../../pages/Components/Navbar';
-import Footer from '../Components/Footer';
+import Navbar from './Navbar';
+import Footer from './Footer';
 import HeroBanner from "./Banner";
 
 
@@ -158,7 +158,7 @@ export const cyberLabs = [
   }
 ];
 
-const LabPricing = () => {
+const AdvancedProgramsD = () => {
   const navigate = useNavigate();
   const [labs] = useState(cyberLabs);
 
@@ -180,7 +180,14 @@ const LabPricing = () => {
 </h1>
         </div>
       </div> */}
-     
+      <HeroBanner
+title="Courses"
+subtitle="Your subtitle or description goes here"
+ctaText="Sign up"
+ctaHref="/signup"
+image="https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/668baff40b223db5311c7fda_network-connections.png"
+height="h-96"
+/>
 
       {/* Cards Section */}
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10 max-w-7xl mx-auto mt-12">
@@ -226,4 +233,4 @@ const LabPricing = () => {
   );
 };
 
-export default LabPricing;
+export default AdvancedProgramsD;

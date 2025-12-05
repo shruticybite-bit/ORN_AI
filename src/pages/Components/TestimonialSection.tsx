@@ -109,17 +109,17 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-gray-900 to-black">
+    <section className="py-20 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <span className="text-purple-400 text-sm font-semibold tracking-wider uppercase">
-            REAL CUSTOMERS
+           Real Stories
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-4">
-            Customers <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Feedback</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-black mt-4 mb-4">
+            What Our  <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Learners Say</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            From career changes to dream jobs, here's how we helped.
+            Honest experiences from students who transformed their careers with ORN-AI.
           </p>
         </div>
 

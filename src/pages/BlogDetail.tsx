@@ -34,7 +34,7 @@ export default function BlogDetail() {
       <p>Our expansion into European markets ensures global readiness. Whether you're preparing for a cybersecurity role in Germany or a cloud job in the UAE, our programs adapt to your goals.</p>
 
       <p><strong>ORN-AI isn’t just a platform—it’s a pathway to your future.</strong></p>
-    `,      thumbnail: "https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog1.jpg",
+    `,      thumbnail: "../../public/assets/blogs/1.svg",//"https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog1.jpg",
     },
     {
       id: 2,
@@ -64,7 +64,7 @@ excerpt: `
 
       <h2>A Safer Way Forward</h2>
       <p>In a world full of misleading promises, ORN-AI stands strong as a student-first platform—ensuring your growth, dignity, and future remain protected.</p>
-    `,      thumbnail: "https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog2.jpg",
+    `,      thumbnail: "../../public/assets/blogs/2.svg",//"https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog2.jpg",
     },
     {
       id: 3,
@@ -97,7 +97,7 @@ excerpt: `
 
       <h2>Career Growth Through Versatility</h2>
       <p>Cross-technology professionals earn more, grow faster, and adapt better. ORN-AI ensures you gain this advantage through curated, modern, employer-ready content.</p>
-    `,      thumbnail: "https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog3.jpg",
+    `,      thumbnail: "../../public/assets/blogs/3.svg",//"https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog3.jpg",
     },
     {
       id: 4,
@@ -124,7 +124,7 @@ excerpt: `
       <h2>Success Built on Support</h2>
       <p>This long-term support system helps learners build stable, high-growth careers—locally and internationally.</p>
       <p><strong>ORN-AI is not just a course provider. It’s a career partner.</strong></p>
-    `,      thumbnail: "https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog4.jpg",
+    `,      thumbnail: "../../public/assets/blogs/4.svg",//"https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog4.jpg",
     },
   ];
 

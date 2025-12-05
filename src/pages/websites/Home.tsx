@@ -12,6 +12,7 @@ import Footer from '../Components/Footer';
 import FAQ from '../Components/FAQ';
 import HeroVideo from '../Components/HeroVideo';
 import LabPricing from '../Components/LabPricing';
+import BlogSection from '../../pages/Blogsection';
 // import Faq from '../Pages/Faq';
 
 const HomePage = () => (
@@ -24,6 +25,7 @@ const HomePage = () => (
     {/* <ClusterLabCard /> */}
     {/* <ProcessSection /> */}
     <OfferService />
+    <BlogSection />
     <TestimonialSection />
     <ContactUs />
     <FAQ />

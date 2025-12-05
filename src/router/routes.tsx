@@ -1,3 +1,4 @@
+import Data from '@/pages/Components/Data';
 import { lazy } from 'react';
 const Index = lazy(() => import('../pages/Index'));
  
@@ -146,6 +147,13 @@ const Otp = lazy(() => import('../pages/Authentication/Otp'));
 
 const Home = lazy(() => import('../pages/websites/Home'));
 const Pricing = lazy(() => import('../pages/Components/Pricing'));
+const TechnologyPrograms = lazy(() => import('../pages/Components/Technology'));
+const DataScientce = lazy(() => import('../pages/Components/Data'));
+const Telecommunication = lazy(() => import('../pages/Components/TelecommunicationC'));
+const Advancedprograms = lazy(() => import('../pages/Components/Advancedprograms'));
+const ScienceProgramsD = lazy(() => import('../pages/Components/SciencePrograms'));
+const BusinessDataAnalyticsD = lazy(() => import('../pages/Components/BusinessDataAnalytics'));
+
 const PrivacyPolicy = lazy(() => import('../pages/Components/PrivacyPolicy'));
 const ContactPage = lazy(() => import('../pages/Components/ContactPage'));
 const TermsCondition = lazy(() => import('../pages/Components/TermsCondition'));
@@ -251,8 +259,38 @@ const routes = [
         layout:'web',
     },
      {
-        path: '/courses',
+        path: '/cyber-security',
         element: <Pricing />,
+        layout:'web',
+    },
+     {
+        path: '/data-science-ai',
+        element: <DataScientce />,
+        layout:'web',
+    },
+    {
+        path: '/telecommunication',
+        element: <Telecommunication />,
+        layout:'web',
+    },
+     {
+        path: '/advanced-programs',
+        element: <Advancedprograms />,
+        layout:'web',
+    },
+      {
+        path: '/business-analytics',
+        element: <BusinessDataAnalyticsD />,
+        layout:'web',
+    },
+    {
+        path: '/science-programs',
+        element: <ScienceProgramsD />,
+        layout:'web',
+    },
+     {
+        path: '/technology-programs',
+        element: <TechnologyPrograms />,
         layout:'web',
     },
     {

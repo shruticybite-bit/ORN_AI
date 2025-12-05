@@ -28,7 +28,7 @@ export default function BlogList() {
   const getFullImageUrl = (path) => {
     if (!path) return "/assets/default-blog.jpg";
     if (path.startsWith("http")) return path;
-    return `#${path}`;
+    return `${path}`;
   };
 
   const params = useMemo(() => new URLSearchParams(location.search), [location.search]);
@@ -60,7 +60,7 @@ const blogsData = [
 
       <p><strong>ORN-AI isn’t just a platform—it’s a pathway to your future.</strong></p>
     `,
-      thumbnail: "https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog1.jpg",
+      thumbnail: "../../public/assets/blogs/1.svg",//"https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog1.jpg",
       published_at: "2025-12-01T10:00:00Z",
       blogId: 1,
     },
@@ -93,7 +93,7 @@ const blogsData = [
       <h2>A Safer Way Forward</h2>
       <p>In a world full of misleading promises, ORN-AI stands strong as a student-first platform—ensuring your growth, dignity, and future remain protected.</p>
     `,
-      thumbnail: "https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog2.jpg",
+      thumbnail: "../../public/assets/blogs/2.svg",//"https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog2.jpg",
       published_at: "2025-12-01T11:00:00Z",
       blogId: 2,
     },
@@ -129,7 +129,7 @@ const blogsData = [
       <h2>Career Growth Through Versatility</h2>
       <p>Cross-technology professionals earn more, grow faster, and adapt better. ORN-AI ensures you gain this advantage through curated, modern, employer-ready content.</p>
     `,
-      thumbnail: "https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog3.jpg",
+      thumbnail: "../../public/assets/blogs/3.svg",//"https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog3.jpg",
       published_at: "2025-12-01T12:00:00Z",
       blogId: 3,
     },
@@ -159,7 +159,7 @@ const blogsData = [
       <p>This long-term support system helps learners build stable, high-growth careers—locally and internationally.</p>
       <p><strong>ORN-AI is not just a course provider. It’s a career partner.</strong></p>
     `,
-      thumbnail: "https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog4.jpg",
+      thumbnail: "../../public/assets/blogs/4.svg",//"https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog4.jpg",
       published_at: "2025-12-01T13:00:00Z",
       blogId: 4,
     },
@@ -264,7 +264,7 @@ const blogsData = [
                 </span>
               </h1>
               <p className="text-gray-400 mt-2">
-                Latest tutorials, labs and tips from our experts.
+                Insights, updates, and expert guidance to help you grow in your career.
               </p>
             </div>
 
@@ -306,12 +306,27 @@ const blogsData = [
                   {b.title}
                 </h3>
 
-                <p className="text-sm text-gray-400 mb-4 line-clamp-3">
+                {/* <p className="text-sm text-gray-400 mb-4 line-clamp-3">
                   {b.excerpt ??
                     b.short_description ??
                     (b.content
                       ? b.content.replace(/(<([^>]+)>)/gi, "").slice(0, 120) + "..."
                       : "")}
+                </p> */}
+                <p className="text-sm text-gray-400 mb-4 line-clamp-3">
+                  {(() => {
+                    const raw =
+                      b.excerpt ||
+                      b.short_description ||
+                      b.content ||
+                      "";
+
+                    // remove all HTML tags
+                    const cleaned = raw.replace(/<[^>]*>/g, "");
+
+                    // limit to 120 characters
+                    return cleaned.slice(0, 120) + (cleaned.length > 120 ? "..." : "");
+                  })()}
                 </p>
 
                 <div className="flex items-center justify-between">

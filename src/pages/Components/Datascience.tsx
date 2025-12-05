@@ -3,20 +3,20 @@ import React, { useState } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
-import Navbar from '../../pages/Components/Navbar';
-import Footer from '../Components/Footer';
+import Navbar from './Navbar';
+import Footer from './Footer';
 import HeroBanner from "./Banner";
 
 
 export const cyberLabs = [
   {
     id: 1,
-    subtitle: "CERTIFIED NETWORK DEFENDER",
-    name: "Certified Network Defender",
+    subtitle: "enterprise",
+    name: "Data Scientist course",
     image:
-      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/66966ede0988eafe7b33bf31_New%20Project%20(3).png",
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/66581cb090ee1cfb09695c93_Data%20Science%20course-p-500.png",
     shortDesc:
-      "The Certified Network Defender program is meticulously crafted to provide you with a comprehensive understanding of network security. Through this program, you will gain in-depth knowledge of network defense fundamentals, security threats and vulnerabilities, and advanced protective measures. Prepare to become a proficient network defender equipped with the skills to secure modern networks effectively.",
+      "The Data Scientist program is designed to provide deep insights and practical skills in data analytics, machine learning, and advanced data management. This comprehensive course will empower you to analyze, interpret, and leverage data effectively across various business contexts.",
 
     longDesc:
       "The Certified Network Defender program is meticulously crafted to provide you with a comprehensive understanding of network security. Through this program, you will gain in-depth knowledge of network defense fundamentals, security threats and vulnerabilities, and advanced protective measures. Prepare to become a proficient network defender equipped with the skills to secure modern networks effectively.Target Audience This program is ideal for Network Administrators, IT Security Professionals, Security Analysts, Network Engineers, and individuals seeking to specialize in network security.",
@@ -43,12 +43,12 @@ export const cyberLabs = [
 
   {
     id: 2,
-    subtitle: "SOC ANALYST",
-    name: "Secure and manage cybersecurity operations with strategic SOC analyst techniques.",
+    subtitle: "enterprise",
+    name: "Data Insights Architect course",
     image:
-      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/665848ffb866f7a06e845357_SOC%20ANA-p-500.png",
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/66581cc83d8701f3c5b26aba_Data%20Insights%20Architect%20course%20wireframe-p-500.png",
     shortDesc:
-      "The SOC Analyst program is expertly designed to equip you with essential skills needed for Security Operations Centers. You will explore SOC operations, utilize advanced security tools, and understand the role of a SOC Analyst in combating cybersecurity threats.",
+      "The Data Insights Architect program is designed to provide you with a comprehensive understanding of data analysis using Python and Tableau. This course covers everything from basic programming in Python to advanced data manipulation and visualization in Tableau, equipping you with the necessary tools to analyze and interpret complex datasets effectively.",
 
     longDesc:
       "Learn Security Operations, SIEM tools, threat intelligence, alert management and attacker tactics used in real-world SOC environments.",
@@ -72,12 +72,12 @@ export const cyberLabs = [
 
   {
     id: 3,
-    subtitle: "CYBER DEFENDER",
-    name: "Information Security and Ethical Hacking Course",
+    subtitle: "enterprise",
+    name: "Data Analytics with power BI and Tableau",
     image:
-      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/66584925cdee6b58f49bed23_information%20security-p-500.png",
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/665848d21867a287a679da4f_Data%20Analytics%20with%20powerbi%20and%20tableau-p-500.png",
     shortDesc:
-      "The Cyber Defender program is meticulously crafted to arm you with robust skills for protecting and securing digital environments. You will learn advanced ethical hacking techniques, network security, malware analysis, and more. Equip yourself to stay ahead of cyber threats and safeguard systems effectively.",
+      "The Data Analyst program is designed to equip you with critical data analytics skills using popular tools like Python, SQL Server, and Tableau. This comprehensive course covers everything from Python programming basics to advanced data visualization techniques, providing you with the knowledge needed to make data-driven decisions effectively.",
 
     longDesc:
       "Train in offensive & defensive security, ethical hacking labs, exploitation techniques, and malware analysis basics.",
@@ -99,66 +99,66 @@ export const cyberLabs = [
     ]
   },
 
-  {
-    id: 4,
-    subtitle: "CYBER FORENSICS",
-    name: "Cyber Forensics",
-    image:
-      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/66584939f4815c7515fe822d_Cyber%20forensic-p-500.png",
-    shortDesc:
-      "The Cyber Forensics program is intricately designed to provide you with extensive skills in digital investigation and security. Learn to conduct thorough digital forensic investigations, manage digital evidence, and apply advanced security techniques to protect and analyze digital information effectively.",
+  // {
+  //   id: 4,
+  //   subtitle: "CYBER FORENSICS",
+  //   name: "Cyber Forensics",
+  //   image:
+  //     "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/66584939f4815c7515fe822d_Cyber%20forensic-p-500.png",
+  //   shortDesc:
+  //     "The Cyber Forensics program is intricately designed to provide you with extensive skills in digital investigation and security. Learn to conduct thorough digital forensic investigations, manage digital evidence, and apply advanced security techniques to protect and analyze digital information effectively.",
 
-    longDesc:
-      "Learn digital crime investigation, forensic imaging, evidence reconstruction, and incident investigation techniques.",
+  //   longDesc:
+  //     "Learn digital crime investigation, forensic imaging, evidence reconstruction, and incident investigation techniques.",
 
-    features: [
-      "Disk & Memory Forensics",
-      "Log Investigation Labs",
-      "Malware Behavioral Analysis",
-      "Evidence Imaging & Chain of Custody",
-      "Forensic Report Writing"
-    ],
+  //   features: [
+  //     "Disk & Memory Forensics",
+  //     "Log Investigation Labs",
+  //     "Malware Behavioral Analysis",
+  //     "Evidence Imaging & Chain of Custody",
+  //     "Forensic Report Writing"
+  //   ],
 
-    syllabus: [
-      "Module 1: Introduction to Cyber Forensics",
-      "Module 2: Evidence Handling & Imaging",
-      "Module 3: File System Analysis",
-      "Module 4: Network Forensics",
-      "Module 5: Malware & Threat Analysis"
-    ]
-  },
+  //   syllabus: [
+  //     "Module 1: Introduction to Cyber Forensics",
+  //     "Module 2: Evidence Handling & Imaging",
+  //     "Module 3: File System Analysis",
+  //     "Module 4: Network Forensics",
+  //     "Module 5: Malware & Threat Analysis"
+  //   ]
+  // },
 
-  {
-    id: 5,
-    subtitle: "BUG BOUNTY",
-    name: "Bug Bounty",
-    image:
-      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/6658494cab129396f38d3925_BIG%20BUNTY-p-500.png",
-    shortDesc:
-      "The Bug Bounty program is designed to provide you with comprehensive skills in identifying, analyzing, and exploiting software vulnerabilities. Learn to use advanced tools and techniques to uncover and address security flaws, contributing to software integrity and resilience against attacks.",
+  // {
+  //   id: 5,
+  //   subtitle: "BUG BOUNTY",
+  //   name: "Bug Bounty",
+  //   image:
+  //     "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/6658494cab129396f38d3925_BIG%20BUNTY-p-500.png",
+  //   shortDesc:
+  //     "The Bug Bounty program is designed to provide you with comprehensive skills in identifying, analyzing, and exploiting software vulnerabilities. Learn to use advanced tools and techniques to uncover and address security flaws, contributing to software integrity and resilience against attacks.",
 
-    longDesc:
-      "Learn end-to-end bug bounty hunting, reconnaissance, web vulnerabilities, exploitation & reporting.",
+  //   longDesc:
+  //     "Learn end-to-end bug bounty hunting, reconnaissance, web vulnerabilities, exploitation & reporting.",
 
-    features: [
-      "Web Vulnerability Labs",
-      "BurpSuite Hands-on",
-      "Real Bug Bounty Techniques",
-      "Payload Crafting",
-      "Report Writing & Submission"
-    ],
+  //   features: [
+  //     "Web Vulnerability Labs",
+  //     "BurpSuite Hands-on",
+  //     "Real Bug Bounty Techniques",
+  //     "Payload Crafting",
+  //     "Report Writing & Submission"
+  //   ],
 
-    syllabus: [
-      "Module 1: Recon & Enumeration",
-      "Module 2: OWASP Top 10 Deep Dive",
-      "Module 3: Exploitation Techniques",
-      "Module 4: Bug Reporting & POCs",
-      "Module 5: Live Bug Hunting Strategy"
-    ]
-  }
+  //   syllabus: [
+  //     "Module 1: Recon & Enumeration",
+  //     "Module 2: OWASP Top 10 Deep Dive",
+  //     "Module 3: Exploitation Techniques",
+  //     "Module 4: Bug Reporting & POCs",
+  //     "Module 5: Live Bug Hunting Strategy"
+  //   ]
+  // }
 ];
 
-const LabPricing = () => {
+const Datascience = () => {
   const navigate = useNavigate();
   const [labs] = useState(cyberLabs);
 
@@ -180,7 +180,7 @@ const LabPricing = () => {
 </h1>
         </div>
       </div> */}
-     
+      
 
       {/* Cards Section */}
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10 max-w-7xl mx-auto mt-12">
@@ -226,4 +226,4 @@ const LabPricing = () => {
   );
 };
 
-export default LabPricing;
+export default Datascience;

@@ -150,7 +150,11 @@ const ProcessSection = () => (
       transition={{ duration: 0.6 }} variants={fadeUp} >
       <span className="process-sub">Course We Offer</span>
       <h2 className="process-title">
-        ORN-AI - <span className="gradient-text">Career </span> Accelerator Program
+        ORN-AI – Career Accelerator Program 
+        <br/>
+         <span className="gradient-text"> Your Learning Journey </span>
+
+        {/* ORN-AI - <span className="gradient-text">Career </span> Accelerator Program */}
       </h2>
     </motion.div>
 

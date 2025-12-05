@@ -95,19 +95,20 @@ const Services = () => {
         <div className="mb-12">
           <div className="flex items-center gap-2 mb-4">
             <div className="h-px w-8 bg-gradient-to-r from-purple-400 to-transparent"></div>
-            <h4 className="text-xs font-semibold text-purple-400 tracking-wider uppercase bg-gradient-to-r from-purple-400 via-blue-400 to-violet-400 text-transparent bg-clip-text">
-                ORN-AI: The Ultimate Learning Destination
-            </h4>
+            
+            <h2 className="text-xs font-semibold text-purple-400 tracking-wider uppercase bg-gradient-to-r from-[#0a1a4a] via-[#0d2d73] to-[#1e3a8a] text-transparent bg-clip-text">
+                ORN-AI  Your Path to Professional Growth
+            </h2>
           </div>
 
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
-               Discover exceptional skills with our personalized guidance,{" "}
+          <h3 className="text-3xl md:text-4xl font-semibold mb-4 leading-tight">
+              Learn with purpose, grow with guidance, and take confident {" "}
             <span className="bg-gradient-to-r from-purple-400 via-blue-400 to-violet-400 text-transparent bg-clip-text">
-                     smooth placement support, and enriching internship opportunities.            </span>
-          </h2>
+                     steps toward your dream career.            </span>
+          </h3>
 
-          <p className="text-gray-400 text-base max-w-2xl">
-                      Enjoy access to a variety of courses, each tailored just for you, to propel your career forward.
+          <p className="text-black-400 text-base">
+                Enjoy a curated selection of courses designed to help you build strong skills, gain practical experience, and move closer to your career goals.
           </p>
         </div>
 
