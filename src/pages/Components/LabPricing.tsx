@@ -13,6 +13,7 @@ export const cyberLabs = [
     id: 1,
     subtitle: "CERTIFIED NETWORK DEFENDER",
     name: "Certified Network Defender",
+    heroimg:"https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/664b358aeef5eb3d2331af5d_programming-background-with-person-working-with-codes-computer%20(1).png",
     image:
       "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/66966ede0988eafe7b33bf31_New%20Project%20(3).png",
     shortDesc:

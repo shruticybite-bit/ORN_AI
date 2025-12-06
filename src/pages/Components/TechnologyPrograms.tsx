@@ -10,7 +10,7 @@ import HeroBanner from "./Banner";
 
 export const cyberLabs = [
   {
-    id: 1,
+    id: 21,
     subtitle: "Scrum Master",
     name: "Scrum Master",
     image:
@@ -42,7 +42,7 @@ export const cyberLabs = [
   },
 
   {
-    id: 2,
+    id: 22,
     subtitle: "Salesforce Specialist",
     name: "Salesforce Specialist",
     image:
@@ -71,7 +71,7 @@ export const cyberLabs = [
   },
 
   {
-    id: 3,
+    id: 23,
     subtitle: "Python Full Stack",
     name: "Python",
     image:
@@ -100,7 +100,7 @@ export const cyberLabs = [
   },
 
   {
-    id: 4,
+    id: 24,
     subtitle: "Manual Tester",
     name: "Manual Tester",
     image:
@@ -129,7 +129,7 @@ export const cyberLabs = [
   },
 
   {
-    id: 5,
+    id: 25,
     subtitle: "Java Fullstack Development",
     name: "Java Fullstack",
     image:
@@ -157,7 +157,7 @@ export const cyberLabs = [
     ]
   },
   {
-    id: 6,
+    id: 26,
     subtitle: "Informatica Cloud Services",
     name: "Informatica Cloud Services",
     image:
@@ -185,7 +185,7 @@ export const cyberLabs = [
     ]
   },
    {
-    id: 7,
+    id: 27,
     subtitle: "SQL Server Course",
     name: "SQL Server Mastery",
     image:
@@ -213,7 +213,7 @@ export const cyberLabs = [
     ]
   },
   {
-    id: 8,
+    id: 28,
     subtitle: "Rabbit MQ Course",
     name: "RabbitMQ Mastery",
     image:
@@ -241,7 +241,7 @@ export const cyberLabs = [
     ]
   },
   {
-    id: 9,
+    id: 29,
     subtitle: "PHP Programming Course",
     name: "PHP Programming",
     image:
@@ -269,7 +269,7 @@ export const cyberLabs = [
     ]
   },
    {
-    id: 10,
+    id: 30,
     subtitle: "Laravel course",
     name: "Laravel Architect",
     image:
@@ -297,7 +297,7 @@ export const cyberLabs = [
     ]
   },
    {
-    id: 11,
+    id: 31,
     subtitle: "Golang Masterclass",
     name: "Golang Masterclass",
     image:
@@ -325,7 +325,7 @@ export const cyberLabs = [
     ]
   },
   {
-    id: 12,
+    id: 32,
     subtitle: "Flutter Developer Course",
     name: "Flutter Developer",
     image:
@@ -353,7 +353,7 @@ export const cyberLabs = [
     ]
   },
    {
-    id: 13,
+    id: 33,
     subtitle: "Django Course",
     name: "Django Developer",
     image:
@@ -381,7 +381,7 @@ export const cyberLabs = [
     ]
   },
   {
-    id: 14,
+    id: 34,
     subtitle: "Base SAS and Advance SAS course",
     name: "SAS Mastery",
     image:

@@ -10,7 +10,7 @@ import HeroBanner from "./Banner";
 
 export const cyberLabs = [
   {
-    id: 1,
+    id: 11,
     subtitle: "enterprise",
     name: "Data Scientist course",
     image:
@@ -42,7 +42,7 @@ export const cyberLabs = [
   },
 
   {
-    id: 2,
+    id: 12,
     subtitle: "enterprise",
     name: "Data Insights Architect course",
     image:
@@ -71,7 +71,7 @@ export const cyberLabs = [
   },
 
   {
-    id: 3,
+    id: 13,
     subtitle: "enterprise",
     name: "Data Analytics with power BI and Tableau",
     image:

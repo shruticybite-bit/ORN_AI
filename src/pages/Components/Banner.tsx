@@ -7,7 +7,7 @@ export default function HeroBanner({
   subtitle,
   ctaText = "Get Started",
   ctaHref = "#",
-  image = "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/668baff40b223db5311c7fda_network-connections.png",
+  image,
   height = "h-96",
 }) {
   return (
@@ -28,7 +28,7 @@ export default function HeroBanner({
           className="space-y-4 md:space-y-6 text-white max-w-2xl"
         >
          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight text-center w-full mx-auto">
-  {title}
+  {title} 
 </h1>
 
 
