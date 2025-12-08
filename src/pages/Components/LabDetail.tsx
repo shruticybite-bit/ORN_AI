@@ -10,8 +10,8 @@ export const cyberLabs = [
     slug: "certified-network-defender",
     title: "Certified Network Defender",
     subtitle: "Master the art of protecting networks with comprehensive defense strategies.",
-    bannerImage:
-      "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/668baff40b223db5311c7fda_network-connections.png",
+     bannerImage:
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/66966ede0988eafe7b33bf31_New%20Project%20(3).png",
 
     overview: `The Certified Network Defender program is meticulously crafted to provide you with a comprehensive understanding of network security. Through this program, you will gain in-depth knowledge of network defense fundamentals, security threats and vulnerabilities, and advanced protective measures. Prepare to become a proficient network defender equipped with the skills to secure modern networks effectively.`,
 
@@ -37,9 +37,12 @@ export const cyberLabs = [
       "Develop skills in VPN, IDS configuration, wireless network defense, and traffic monitoring.",
       "Prepare for effective incident response and management."
     ],
+    skilsText:"Through this Skill Quest, you will develop expertise in:",
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsSubText:"",
 
     skills: [
-      "Through this Skill Quest, you will develop expertise in:",
       "Network Defense",
       "Threat Analysis",
       "Penetration Testing",
@@ -48,9 +51,7 @@ export const cyberLabs = [
       "VPN Security",
       "Wireless Security"
     ],
-
-    careerRoles: [
-      "Equips you for roles such as:",
+    careerRoles: [      
       "Network Security Specialist",
       "Security Administrator",
       "Network Defense Technician",
@@ -84,7 +85,7 @@ export const cyberLabs = [
 
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
-
+    syllabusText:"",
     syllabus: [
       "Computer Network & Defense Fundamentals — 6 hrs",
       "Network Security: Threats & Vulnerabilities — 6 hrs",
@@ -141,9 +142,13 @@ export const cyberLabs = [
       "Develop expertise in advanced network security, threat detection, and mitigation techniques.",
       "Acquire skills in Linux toolsets for ethical hacking and security monitoring."
     ],
+    careerText:"Prepare for roles such as:",
+    skilsText:"This course will enhance your proficiency in:",
+
+    careerSubText:"",
+    skilsSubText:"",
 
     skills: [
-      "This course will enhance your proficiency in:",
       "SOC Operations",
       "Cybersecurity Monitoring",
       "Ethical Hacking",
@@ -154,7 +159,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Prepare for roles such as:",
       "SOC Analyst",
       "Network Security Analyst",
       "Cybersecurity Monitor",
@@ -186,7 +190,8 @@ export const cyberLabs = [
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
 
-    syllabus: [
+    syllabusText:"",
+      syllabus: [
       "Understanding SOC Operations in Cybersecurity — 2 hrs",
       "Building and Mastering Security Environments: From Virtual Setup to Linux Tools — 4 hrs",
       "Strategic Approaches to Malware Traffic Analysis  — 3 hrs",
@@ -235,9 +240,11 @@ export const cyberLabs = [
       "Learn advanced network security, anonymity techniques, and the legal aspects of cybersecurity.",
       "Handle web server hacking, wireless attacks, and build a robust skilled portfolio with real-world projects."
     ],
-
+  careerText:"Prepare for roles such as:",
+ skilsText:"This Skill Quest enhances your capability in:",
+ careerSubText:"",
+    skilsSubText:"",
     skills: [
-      "This Skill Quest enhances your capability in:",
       "Cybersecurity",
       "Ethical Hacking",
       "Network Security",
@@ -248,7 +255,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Prepares you for roles such as:",
       "Ethical Hacker",
       "Penetration Tester",
       "Security Analyst",
@@ -282,7 +288,8 @@ export const cyberLabs = [
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
 
-    syllabus: [
+    syllabusText:"",
+      syllabus: [
       "Cybersecurity Basics   — 2 hrs",
       "Introduction to Ethical Hacking   — 2 hrs",
       "Hands-on Ethical Hacking   — 3 hrs",
@@ -328,8 +335,12 @@ export const cyberLabs = [
       "Gain practical skills through setting up virtual labs for ethical hacking and penetration testing."
     ],
 
+  careerText:"Equips you for roles such as:",
+  skilsText:"This Skill Quest sharpens your expertise in:",
+  careerSubText:"",
+    skilsSubText:"",
+
     skills: [
-      "This Skill Quest sharpens your expertise in:",
       "Digital Forensics",
       "Evidence Management",
       "Operating System Analysis",
@@ -340,7 +351,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Equips you for roles such as:",
       "Forensic Analyst",
       "Cybersecurity Forensic Consultant",
       "Digital Evidence Specialist",
@@ -372,7 +382,8 @@ export const cyberLabs = [
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
 
-    syllabus: [
+   syllabusText:"",
+      syllabus: [
       "Digital Forensics in Cybersecurity   — 4 Chapters",
       "Digital Forensics: Investigation Techniques   — 5 Chapters",
       "Foundations of Evidence Handling in Digital Forensics   — 2 Chapters",
@@ -425,8 +436,13 @@ export const cyberLabs = [
       "Acquire skills in report writing for bug bounty submissions and ethical disclosure."
     ],
 
+  careerText:"Prepares you for roles such as:",
+  skilsText:"This Skill Quest will enhance your capability in:",
+
+  careerSubText:"",
+  skilsSubText:"",
+
     skills: [
-      "This Skill Quest will enhance your capability in:",
       "Vulnerability Assessment",
       "Security Audits",
       "Exploit Development",
@@ -435,7 +451,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Prepares you for roles such as:",
       "Bug Bounty Hunter",
       "Security Researcher",
       "Penetration Tester",
@@ -468,6 +483,7 @@ export const cyberLabs = [
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
 
+      syllabusText:"",
     syllabus: [
       "Cybersecurity Fundamentals — 2 hours",
       "Ethical Hacking Techniques — 3 hours",
@@ -522,8 +538,12 @@ export const cyberLabs = [
       "Prepare for effective incident response and management."
     ],
 
-    skills: [
-      "This Skill Quest sharpens your expertise in:",
+  careerText:"Equips you for roles such as:",
+  skilsText:"This Skill Quest sharpens your expertise in:",
+  careerSubText:"",
+  skilsSubText:"",
+  
+  skills: [
       "Data Analytics",
       "Python Programming",
       "Machine Learning",
@@ -533,7 +553,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Equips you for roles such as:",
       "Data Analyst",
       "Data Scientist",
       "Business Intelligence Analyst",
@@ -567,9 +586,8 @@ export const cyberLabs = [
 
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
-
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
     syllabus: [
-      "Note: Full course details available exclusively to enrolled users.",
       "Access restricted to enrolled users only.",
       "Data Analytics Basics   - Including Python, NumPy, and Pandas fundamentals.",
       "Statistical Analysis   - Covering everything from probability to complex statistical methods.",
@@ -614,9 +632,12 @@ export const cyberLabs = [
       "Data Scientist",
       "Business Intelligence Developer"
     ],
-
-    skills: [
-      "This Skill Quest sharpens your expertise in:",
+  careerText:"Equips you for roles such as:",
+  skilsText:"This Skill Quest sharpens your expertise in:",
+  careerSubText:"",
+  skilsSubText:"",
+  
+  skills: [
       "Python Programming",
       "Statistical Analysis",
       "Data Manipulation and Visualization",
@@ -625,7 +646,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Equips you for roles such as:",
       "Data Analyst",
       "Business Analyst",
       "Data Scientist",
@@ -657,9 +677,8 @@ export const cyberLabs = [
 
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
-
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
     syllabus: [
-      "Note: Full course details available exclusively to enrolled users.",
       "Data Analytics with Python:",
       "Basics of Python Programming   - Introduction, Operators, Conditional Statements, Loops, Functions, Data Structures",
       "Data Science Libraries   - Numpy, Pandas, Visualization with Matplotlib",
@@ -710,9 +729,11 @@ export const cyberLabs = [
       "Tableau Specialist",
       "Business Intelligence Analyst"
     ],
-
+careerText:"Equips you for roles such as:",
+  skilsText:"This Skill Quest sharpens your expertise in:",
+  careerSubText:"",
+    skilsSubText:"",
     skills: [
-      "This Skill Quest sharpens your expertise in:",
       "Python Programming",
       "SQL Data Management",
       "Data Visualization with Tableau and Power BI",
@@ -722,7 +743,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Equips you for roles such as:",
       "Data Analyst",
       "Business Analyst",
       "SQL Developer",
@@ -757,8 +777,8 @@ export const cyberLabs = [
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
 
-    syllabus: [
-      "Note: Full course details available exclusively to enrolled users.",
+  syllabusText:"Note: Full course details available exclusively to enrolled users.",
+      syllabus: [
       "Basics of Python Programming   — 10 hrs",
       "Data Science Libraries   — 8 hrs",
       "Statistics   — 6 hrs",
@@ -807,9 +827,12 @@ export const cyberLabs = [
       "Learn effective conflict resolution within sprints and maximize team productivity."
     ],
 
+  careerText:"Equips you for roles such as:",
+  careerSubText:"Equips you for professional roles such as:",
+  skilsText:"This Skill Quest sharpens your expertise in:",
+  skilsSubText:"This Skill Quest boosts your proficiency in:",
+
     skills: [
-      "This Skill Quest sharpens your expertise in:",
-      "This Skill Quest boosts your proficiency in:",
       "Scrum Methodologies",
       "Agile Practices",
       "Project Facilitation",
@@ -820,8 +843,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Equips you for roles such as:",
-      "Equips you for professional roles such as:",
       "Scrum Master",
       "Agile Coach",
       "Project Manager",
@@ -855,9 +876,8 @@ export const cyberLabs = [
 
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
-
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
     syllabus: [
-      "Note: Full course details available exclusively to enrolled users.",
       "SCRUM MASTER - History of Scrum   — 2 hrs",
       "Why Scrum? - Way of Scrum Working   — 2 hrs",
       "JIRA Tool Overview – Charts   — 3 hrs",
@@ -906,10 +926,13 @@ export const cyberLabs = [
       "Develop proficiency in Salesforce’s reporting and analytics capabilities.",
       "Execute data migration and integrate Salesforce with other systems."
     ],
+  
+  careerText:"Equips you for roles such as:",
+  careerSubText:"Equip yourself for roles such as:",
+  skilsText:"This Skill Quest sharpens your expertise in:",
+  skilsSubText:"This Skill Quest empowers you with essential Salesforce skills:",
 
     skills: [
-      "This Skill Quest sharpens your expertise in:",
-      "This Skill Quest empowers you with essential Salesforce skills:",
       "Salesforce Navigation and Setup",
       "Data Management and Security",
       "Automated Workflow Creation",
@@ -918,8 +941,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Equips you for roles such as:",
-      "Equip yourself for roles such as:",
       "Salesforce Administrator",
       "CRM Analyst",
       "Salesforce Developer",
@@ -954,8 +975,8 @@ export const cyberLabs = [
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
 
-    syllabus: [
-          "Note: Full course details available exclusively to enrolled users.",
+    syllabusText:"Note: Full course details available exclusively to enrolled users.",
+      syllabus: [
           "Introduction to Salesforce   — 5 hrs",
           "Salesforce Objects and Data Management   — 5 hrs",
           "Security and Access   — 5 hrs",
@@ -1007,9 +1028,13 @@ export const cyberLabs = [
       "Complete hands-on projects, including a Python-based e-commerce system and an interactive message saver using Tkinter."
     ],
 
+  careerText:"Equips you for roles such as:",
+  careerSubText:"Equip yourself for roles such as:",
+  skilsText:"This Skill Quest sharpens your expertise in:",
+  skilsSubText:"This Skill Quest enhances your capability in:",
+
+
     skills: [
-      "This Skill Quest sharpens your expertise in:",
-      "This Skill Quest enhances your capability in:",
       "Python Programming",
       "Web Development with Python",
       "Database Management",
@@ -1020,8 +1045,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Equips you for roles such as:",
-      "Equip yourself for roles such as:",
       "Python Developer",
       "Backend Developer",
       "Software Engineer",
@@ -1056,8 +1079,8 @@ export const cyberLabs = [
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
 
-    syllabus: [
-          "Note: Full course details available exclusively to enrolled users.",
+  syllabusText:"Note: Full course details available exclusively to enrolled users.",
+      syllabus: [
           "Introduction to Python Programming   — 2 hrs",
           "Setting Up Your Development Environment   — 1 hr",
           "Variables and Data Types   — 2 hrs",
@@ -1118,9 +1141,13 @@ export const cyberLabs = [
       "Understand the roles and responsibilities in Quality Assurance (QA) and Quality Control (QC)."
     ],
 
+  careerText:"Equips you for roles such as:",
+  careerSubText:"Equip yourself for roles such as:",
+  skilsText:"This Skill Quest sharpens your expertise in:",
+  skilsSubText:"This Skill Quest equips you with essential skills in:",
+
+
     skills: [
-      "This Skill Quest sharpens your expertise in:",
-      "This Skill Quest equips you with essential skills in:",
       "Manual Testing",
       "Software Quality Assurance",
       "Test Planning and Execution",
@@ -1131,8 +1158,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Equip yourself for roles such as:",
-      "Equip yourself for roles such as:",
       "Manual Tester",
       "QA Analyst",
       "Test Engineer",
@@ -1166,8 +1191,8 @@ export const cyberLabs = [
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
 
-    syllabus: [
-          "Note: Full course details available exclusively to enrolled users.",
+   syllabusText:"Note: Full course details available exclusively to enrolled users.",
+      syllabus: [
           "Manual Testing   — 2 hrs",
           "Software Development Life Cycle   — 3 hrs",
           "Software Testing Methodologies   — 3 hrs",
@@ -1217,10 +1242,12 @@ export const cyberLabs = [
       "Harness Spring Framework for backend operations and RESTful services.",
       "Dive into modern front-end technologies and security practices in web development."
     ],
+  careerText:"Equips you for roles such as:",
+  careerSubText:"Prepares you for diverse roles in software development:",
+  skilsText:"This Skill Quest sharpens your expertise in:",
+  skilsSubText:"This Skill Quest sharpens your expertise in:",
 
     skills: [
-      "This Skill Quest sharpens your expertise in:",
-      "This Skill Quest sharpens your expertise in:",
       "Java Programming",
       "Web Development",
       "Spring Framework",
@@ -1232,8 +1259,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Equips you for roles such as:",
-      "Prepares you for diverse roles in software development:",
       "Java Developer",
       "Full Stack Developer",
       "Backend Developer",
@@ -1267,9 +1292,8 @@ export const cyberLabs = [
 
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
-
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
     syllabus: [
-          "Note: Full course details available exclusively to enrolled users.",
           "Java Programming Foundations: From Setup to Development   — 4 Chapters - Duration: 2 hrs",
           "Object-Oriented Programming and Practical Design   — Duration: 3 hrs",
           "Java Fundamentals and Basic Database Operations   — 4 Chapters - Duration: 3 hrs",
@@ -1317,10 +1341,12 @@ export const cyberLabs = [
       "Master data synchronization, replication, and masking tasks.",
       "Explore advanced features like Mass Ingestion, Taskflow, and Cloud Application Integration."
     ],
+  careerText:"Equips you for roles such as:",
+  careerSubText:"This training prepares you for roles such as:",
+  skilsText:"This Skill Quest sharpens your expertise in:",
+  skilsSubText:"This Skill Quest sharpens your expertise in:",
 
     skills: [
-      "This Skill Quest sharpens your expertise in:",
-      "This Skill Quest sharpens your expertise in:",
       "Cloud Data Integration",
       "Web Development",
       "Data Management",
@@ -1330,8 +1356,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Equips you for roles such as:",
-      "This training prepares you for roles such as:",
       "Cloud Data Integrator",
       "Informatica Developer",
       "Cloud Architect",
@@ -1364,9 +1388,8 @@ export const cyberLabs = [
 
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
-
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
     syllabus: [
-          "Note: Full course details available exclusively to enrolled users.",
           "Informatica Cloud Basics   — Architecture, Secure Agent, Connectors — 3 hrs",
           "Cloud Data Integration Services   — Setting up Integration Tasks — 4 hrs",
           "Synchronization and Replication Tasks   — Configuring and Running Tasks — 3 hrs",
@@ -1414,8 +1437,12 @@ export const cyberLabs = [
       "Optimize database performance through indexing, views, and stored procedures."
     ],
 
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
     skills: [
-      "This Skill Quest sharpens your expertise in:",
       "SQL Server Setup",
       "Database Management",
       "SQL Query Optimization",
@@ -1425,7 +1452,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Equips you for roles such as:",
       "Database Administrator",
       "SQL Developer",
       "Data Analyst",
@@ -1459,9 +1485,8 @@ export const cyberLabs = [
 
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
-
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
     syllabus: [
-          "Note: Full course details available exclusively to enrolled users.",
           "SQL Server Setup & Basics   — 3 hrs",
           "Database Development and Management   — 3 hrs",
           "Mastering Table Structures and SQL Alterations   — 4 hrs",
@@ -1521,8 +1546,12 @@ export const cyberLabs = [
       "Prepare for job interviews with comprehensive RabbitMQ knowledge."
     ],
 
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
     skills: [
-      "This Skill Quest sharpens your expertise in:",
       "AMQP Protocols",
       "RabbitMQ Implementation",
       "Real-Time Application Development",
@@ -1533,7 +1562,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Equips you for roles such as:",
       "System Architect",
       "Messaging System Developer",
       "DevOps Engineer",
@@ -1567,9 +1595,8 @@ export const cyberLabs = [
 
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
-
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
     syllabus: [
-          "Note: Full course details available exclusively to enrolled users.",
           "AMQP Fundamentals & Anatomy   — Comprehensive exploration through six parts.",
           "RabbitMQ with Spring Boot   — Detailed integration and consumer implementation.",
           "Real-Time Application Development with RabbitMQ   — Practical application development.",
@@ -1621,8 +1648,12 @@ export const cyberLabs = [
       "Integrate PHP with MySQL for database operations and management."
     ],
 
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
     skills: [
-      "This Skill Quest sharpens your expertise in:",
       "PHP Programming",
       "Web Application Development",
       "Database Integration",
@@ -1631,7 +1662,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Equips you for roles such as:",
       "Web Developer",
       "Backend Developer",
       "PHP Programmer",
@@ -1664,9 +1694,8 @@ export const cyberLabs = [
 
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
-
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
     syllabus: [
-          "Note: Full course details available exclusively to enrolled users.",
           "Introduction to PHP   — 4 Modules",
           "Setting Up PHP Development Environments   — 8 Modules",
           "PHP Fundamentals: Syntax, Variables, and Control Structures   — 8 Modules",
@@ -1723,8 +1752,12 @@ export const cyberLabs = [
       "Implement testing, deployment, and security best practices."
     ],
 
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
     skills: [
-      "This Skill Quest sharpens your expertise in:",
       "Laravel Development",
       "Web Application Architecture",
       "Backend Programming",
@@ -1734,7 +1767,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Equips you for roles such as:",
       "Laravel Developer",
       "Backend Developer",
       "Full-Stack Developer",
@@ -1768,9 +1800,8 @@ export const cyberLabs = [
 
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
-
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
     syllabus: [
-          "Note: Full course details available exclusively to enrolled users.",
           "Introduction to Laravel   — Essentials and Setup — 2 hrs",
           "Setting Up and Installation   — Configuration and Environment — 3 hrs",
           "Routing in Laravel   — From Basics to Advanced — 2 hrs",
@@ -1824,8 +1855,12 @@ export const cyberLabs = [
       "Engage with real-world projects to apply your learning practically."
     ],
 
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
     skills: [
-      "This Skill Quest sharpens your expertise in:",
       "Go Programming Fundamentals",
       "Concurrent and Parallel Programming",
       "System and Network Programming",
@@ -1835,7 +1870,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Equips you for roles such as:",
       "Go Developer",
       "Systems Programmer",
       "Back-End Developer",
@@ -1869,9 +1903,8 @@ export const cyberLabs = [
 
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
-
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
     syllabus: [
-          "Note: Full course details available exclusively to enrolled users.",
           " Introduction to Go   – 4 hrs",
           "Basics, history, advantages, and setting up",
           "Fundamentals of Go Programming   – 6 hrs",
@@ -1938,8 +1971,12 @@ export const cyberLabs = [
       "Develop and deploy full-fledged applications for Android and iOS."
     ],
 
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
     skills: [
-      "This Skill Quest sharpens your expertise in:",
       "Flutter Development",
       "Dart Programming",
       "UI/UX Design",
@@ -1949,7 +1986,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Equips you for roles such as:",
       "Flutter Developer",
       "Mobile Application Developer",
       "Frontend Developer",
@@ -1982,9 +2018,8 @@ export const cyberLabs = [
 
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
-
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
     syllabus: [
-          "Note: Full course details available exclusively to enrolled users.",
           "Introduction to Flutter",
           "- Flutter Fundamentals and Dart Overview",
           "Flutter Development Setup and Initialization",
@@ -2052,8 +2087,13 @@ export const cyberLabs = [
       "Master deployment strategies involving Gunicorn, Nginx, and security practices.",
     ],
 
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
+
     skills: [
-      "This Skill Quest sharpens your expertise in:",
       "Web Development with Django",
       "Python Programming",
       "Database Management",
@@ -2063,7 +2103,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Equips you for roles such as:",
       "Django Developer",
       "Full-stack Developer",
       "Back-end Developer",
@@ -2097,9 +2136,8 @@ export const cyberLabs = [
 
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
-
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
     syllabus: [
-          "Note: Full course details available exclusively to enrolled users.",
           "Foundations of Django   — Architecture, Principles",
           "Setting Up Django   — Environment and Basic Project Configuration",
           "Mastering Django Models   — Database Design and ORM",
@@ -2154,8 +2192,12 @@ export const cyberLabs = [
       "Prepare for industry needs with advanced reporting, graphing, and statistical analysis using SAS.",
     ],
 
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
     skills: [
-      "This Skill Quest sharpens your expertise in:",
       "SAS Programming",
       "Data Management",
       "Statistical Analysis",
@@ -2164,7 +2206,6 @@ export const cyberLabs = [
     ],
 
     careerRoles: [
-      "Equips you for roles such as:",
       "SAS Programmer",
       "Data Analyst",
       "Statistical Analyst",
@@ -2197,9 +2238,8 @@ export const cyberLabs = [
 
     certificateImage:
       "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
-
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
     syllabus: [
-          "Note: Full course details available exclusively to enrolled users.",
           "Introduction to SAS",
           "  - Getting Started with SAS: Basics to OnDemand for Academics",
           "SAS Programming Essentials",
@@ -2220,13 +2260,1737 @@ export const cyberLabs = [
       { title: "ORN-AI Enterprise", highlight: false }
     ]
   },
+  {
+    id: 41,
+    slug: "Medical Coding Master",
+    title: "Medical Coding Master",
+    subtitle: "Master the art of protecting networks with comprehensive defense strategies.",
+    bannerImage:
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/668e4fa8c6719b7cb85eb262_doctor-workplace-with-stethoscope-p-500.png",
+
+    overview: `The Medical Coding Master program is meticulously crafted to provide you with robust skills for accurately coding medical diagnoses and treatments. You will learn to navigate various systems of the human body, understand the related medical terminology, and apply this knowledge in coding with precision. Prepare to become a pivotal part of healthcare operations, ensuring accurate medical billing and documentation.`,
+
+    targetAudience: [
+      "Courses Included in This Skill Quest",
+      "Note: Detailed syllabus available post-enrollment.",
+    ],
+    targetAudienceTex:"Ideal for budding Digital Forensic Analysts, Cybersecurity Professionals, Law Enforcement Officers, IT Security Consultants, and anyone looking to specialize in the field of digital forensics.",
+    stats: [
+      { icon: "💡", label: "Expert Sessions", value: "40" },
+      { icon: "📝", label: "Quizzes & Assessments", value: "50" },
+      { icon: "🌐", label: "Language", value: "English" },
+      { icon: "⏱️", label: "Premium content", value: "20" },
+      { icon: "💬", label: "Subtitles", value: "English" },
+      { icon: "🏆", label: "Certificate of Completion", value: "" }
+    ],
+
+    learningOutcomes: [
+      "Understand and apply medical terminology across different body systems.",
+      "Accurately code diagnoses and procedures for various systems using ICD and CPT codes.",
+      "Grasp detailed anatomy and physiology for accurate medical documentation.",
+      "Navigate medical billing processes and compliance with healthcare regulations.",
+      "Develop a skilled portfolio demonstrating competency in real-world medical coding projects.",
+    ],
+
+    careerText:"Equips you for roles such as:",
+    careerSubText:"Prepares you for roles such as:",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"This Skill Quest enhances your capability in",
+
+
+    skills: [
+      "Medical Terminology",
+      "Diagnostic Coding",
+      "Procedure Coding",
+      "Healthcare Billing",
+      "Compliance and Regulations",
+      "Anatomical Knowledge"
+    ],
+
+    careerRoles: [
+      "Medical Coder",
+      "Billing Specialist",
+      "Health Information Technician",
+      "Medical Records Coordinator",
+      "Compliance Officer"
+    ],
+
+    requirements: [
+      "Basic understanding of biology and human anatomy.",
+      "Keen attention to detail and a methodical approach to data management.",
+      "A strong foundation in problem-solving and analytical skills."
+    ],
+
+    infoCards: [
+      {
+        icon: "🛡️",
+        title: "Skill Quest Certification Benefits",
+        text: "Successfully completing the course awards you a Certificate of Achievement . Showcase your certification to potential employers and your professional network, enhancing your credentials and competitive edge in the healthcare industry."
+      },
+      {
+        icon: "👨‍🏫",
+        title: "Instructors",
+        text: "Courses led by seasoned healthcare professionals and coding experts with years of practical experience in medical documentation and compliance."
+      },
+      {
+        icon: "📈",
+        title: "Accelerate Your Career",
+        text: "Our skill-based Skill Quests are structured to fast-track your career growth in medical coding, focusing on in-demand skills in the healthcare sector."
+      }
+    ],
+
+    certificateImage:
+      "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
+    syllabus: [
+          "Female Reproductive System   — 2 hrs",
+          "Urinary System   — 2 hrs",
+          "Integumentary System   — 2 hrs",
+          "Musculoskeletal System   — 3 hrs",
+          "Cardiovascular System   — 3 hrs",
+          "Respiratory System   — 2 hrs",
+          "Blood System Anatomy   — 2 hrs",
+          "Sense Organs: The Eye and The Ear Anatomy   — 2 hrs",
+          "Male Reproductive System Anatomy   — 2 hrs",
+          "Endocrine System   — 2 hrs",
+          "Nervous System   — 2 hrs",
+          "Digestive System   — 2 hrs"
+        ],
+        
+        
+    vedio:"",
+    pricing: [
+      { title: "Access Only This Skill Quest ₹40,999", highlight: false },
+      { title: "Skill Quest + ORN-AI Career LaunchPad", highlight: true },
+      { title: "ORN-AI Enterprise Customized solutions for team training.", highlight: false }
+    ]
+  },
+  {
+    id: 42,
+    slug: "Technical Content Writer Basic Level",
+    title: "Technical Content Writer Basic Level",
+    subtitle: "Master the art of protecting networks with comprehensive defense strategies.",
+    bannerImage:
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/665814f337eac2582951c4a2_Technical%20content%20writer%20basic%20level-p-500.png",
+
+    overview: `The Technical Content Writer Basic Level program is expertly designed to develop your skills in creating precise and clear technical documentation. Engage in comprehensive training on technical writing fundamentals, effective communication, and the use of essential tools and technologies.`,
+
+    targetAudience: [
+      "Courses Included in This Skill Quest",
+      "Note: Detailed syllabus available post-enrollment.",
+    ],
+    targetAudienceTex:"Ideal for budding Digital Forensic Analysts, Cybersecurity Professionals, Law Enforcement Officers, IT Security Consultants, and anyone looking to specialize in the field of digital forensics.",
+    stats: [
+      { icon: "💡", label: "Expert Sessions", value: "40" },
+      { icon: "📝", label: "Quizzes & Assessments", value: "50" },
+      { icon: "🌐", label: "Language", value: "English" },
+      { icon: "⏱️", label: "Premium content", value: "20 hours" },
+      { icon: "💬", label: "Subtitles", value: "English" },
+      { icon: "🏆", label: "Certificate of Completion", value: "" }
+    ],
+
+    learningOutcomes: [
+      "Understand the essentials of technical writing and documentation.",
+      "Master grammar and editing for clear communication.",
+      "Learn to use major tools and technologies for technical writing.",
+      "Develop skills in creating visual aids and effective documentation design.",
+      "Build a professional portfolio that showcases your writing prowess.",
+    ],
+
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+    
+    skills: [
+      "Technical Writing",
+      "Documentation Process",
+      "Grammar and Editing",
+      "Clear Communication",
+      "Use of Technical Writing Tools",
+      "Documentation Design"
+    ],
+
+    careerRoles: [
+      "Technical Writer",
+      "Documentation Specialist",
+      "Content Strategist",
+      "Communications Coordinator"
+    ],
+
+    requirements: [
+      "Basic proficiency in English language and grammar.",
+      "Interest in technical subjects and writing.",
+      "Desire to develop professional writing skills."
+    ],
+
+    infoCards: [
+      {
+        icon: "🛡️",
+        title: "Skill Quest Certification Benefits",
+        text: "Earn a Certificate of Achievement that demonstrates your new skills in technical writing, making you a valuable asset to potential employers."
+      },
+      {
+        icon: "👨‍🏫",
+        title: "Instructors",
+        text: "Courses led by experts with extensive experience in technical communication and instructional design."
+      },
+      {
+        icon: "📈",
+        title: "Accelerate Your Career",
+        text: "Our skill-based Skill Quests are specifically structured to fast-track your career in technical writing, focusing on practical skills and industry demands."
+      }
+    ],
+
+    certificateImage:
+      "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
+    syllabus: [
+          "Data Analytics Basics   - Including Python, NumPy, and Pandas fundamentals.",
+          "Statistical Analysis   - Covering everything from probability to complex statistical methods.",
+          "SQL Server Management   - Learn to handle databases with proficiency.",
+          "Data Visualization   - Mastering Tableau and Power BI to present data effectively.",
+          "Machine Learning   - From theory to practical application using Python."
+        ],
+        
+        
+    vedio:"https://www.youtube.com/embed/XRudAUBaZyo?si=41cho0hBqkT1SF1V",
+    pricing: [
+      { title: "Access Only This Skill Quest ₹7,999", highlight: false },
+      { title: "Skill Quest + ORN-AI Career LaunchPad", highlight: true },
+      { title: "ORN-AI Enterprise Customized solutions for team training.", highlight: false }
+    ]
+  },
+   {
+    id: 43,
+    slug: "Technical Content Writer Advance Level",
+    title: "Technical Content Writer Advance Level",
+    subtitle: "Master the art of protecting networks with comprehensive defense strategies.",
+    bannerImage:
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/6658150a484367e5a7197efa_Technical%20content%20writer%20-%20Advance%20level-p-500.png",
+
+    overview: `The Technical Content Writer Advance Level program is designed to deepen your expertise in technical writing and documentation. This course covers everything from the fundamentals to advanced tools and strategies, preparing you to create detailed, clear, and user-focused documentation. Sharpen your skills to become a top-tier technical writer in the industry.`,
+
+    targetAudience: [
+      "Courses Included in This Skill Quest",
+      "Note: Detailed syllabus available post-enrollment.",
+    ],
+    targetAudienceTex:"Ideal for budding Digital Forensic Analysts, Cybersecurity Professionals, Law Enforcement Officers, IT Security Consultants, and anyone looking to specialize in the field of digital forensics.",
+    stats: [
+      { icon: "💡", label: "Expert Sessions", value: "40" },
+      { icon: "📝", label: "Quizzes & Assessments", value: "50" },
+      { icon: "🌐", label: "Language", value: "English" },
+      { icon: "⏱️", label: "Premium content", value: "20 hours" },
+      { icon: "💬", label: "Subtitles", value: "English" },
+      { icon: "🏆", label: "Certificate of Completion", value: "" }
+    ],
+
+    learningOutcomes: [
+      "Understand the core principles of technical writing and documentation.",
+      "Explore essential technical writing processes and tools.",
+      "Develop skills in technical style and task analysis.",
+      "Gain mastery over the foundations of technical documentation.",
+      "Learn to utilize advanced tools and software essential for technical writing.",
+      "Create impactful technical documents with advanced design and format techniques.",
+      "Acquire strategic insights to enhance your technical writing career."
+    ],
+
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
+    skills: [
+      "Technical Writing",
+      "Documentation Design",
+      "Advanced Content Formatting",
+      "Use of Technical Writing Tools and Software",
+      "Task Analysis and Technical Style"
+    ],
+
+    careerRoles: [
+      "Senior Technical Writer",
+      "Lead Documentation Specialist",
+      "Technical Content Strategist",
+      "Documentation Manager"
+    ],
+
+    requirements: [
+      "Basic to intermediate knowledge of technical writing.",
+      "Experience with standard documentation tools.",
+      "A strong foundation in writing and editing."
+    ],
+
+    infoCards: [
+      {
+        icon: "🛡️",
+        title: "Skill Quest Certification Benefits",
+        text: "Achieving this course provides a Certificate of Achievement . Utilize this certificate to demonstrate your advanced technical writing skills to employers and advance your career."
+      },
+      {
+        icon: "👨‍🏫",
+        title: "Instructors",
+        text: "Led by industry veterans with extensive experience in technical communication and documentation."
+      },
+      {
+        icon: "📈",
+        title: "Accelerate Your Career",
+        text: "Advance quickly in your career by acquiring specialized skills in technical writing that are highly sought after in the tech industry."
+      }
+    ],
+
+    certificateImage:
+      "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
+    syllabus: [
+          "Fundamentals of Technical Writing and Documentation   — 2 hrs",
+          "Technical Writing Essentials: Processes and Tools   — 2 hrs",
+          "Technical Style and Task Analysis   — 2 hrs",
+          "Foundations of Technical Documentation   — 2 hrs",
+          "Technical Writing: Tools and Software Essentials   — 2 hrs",
+          "Advanced Technical Documentation: Design and Format   — 2 hrs",
+          "Mastering Advanced Technical Writing: Tools and Career Strategies   — 2 hrs"
+        ],
+        
+        
+    vedio:"https://www.youtube.com/embed/6eZ6QYcMc2c?si=pcorI-GL65lPNUVP",
+    pricing: [
+      { title: "Access Only This Skill Quest", highlight: false },
+      { title: "Skill Quest + ORN-AI Career LaunchPad", highlight: true },
+      { title: "ORN-AI Enterprise Customized solutions for team training.", highlight: false }
+    ]
+  },
+  {
+    id: 44,
+    slug: "Tableau Master",
+    title: "Tableau Master",
+    subtitle: "Master the art of protecting networks with comprehensive defense strategies.",
+    bannerImage:
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/6658152460758a2209601c69_Tableau%20Course-p-500.png",
+
+    overview: `The Tableau Master program is expertly designed to empower you with essential skills for effective data visualization and analysis using Tableau. You will delve into the fundamentals of Tableau, advanced data management, calculation techniques, filtering methods, and master the art of crafting insightful dashboards.`,
+
+    targetAudience: [
+      "Courses Included in This Skill Quest",
+      "Note: Detailed syllabus available post-enrollment.",
+    ],
+    targetAudienceTex:"Ideal for budding Digital Forensic Analysts, Cybersecurity Professionals, Law Enforcement Officers, IT Security Consultants, and anyone looking to specialize in the field of digital forensics.",
+    stats: [
+      { icon: "💡", label: "Expert Sessions", value: "40" },
+      { icon: "📝", label: "Quizzes & Assessments", value: "50" },
+      { icon: "🌐", label: "Language", value: "English" },
+      { icon: "⏱️", label: "Premium content", value: "20 hours" },
+      { icon: "💬", label: "Subtitles", value: "English" },
+      { icon: "🏆", label: "Certificate of Completion", value: "" }
+    ],
+
+    learningOutcomes: [
+      "Understand the basics of Tableau and set up your environment.",
+      "Manage data effectively within Tableau and perform complex workbook operations.",
+      "Master advanced calculations, functions, and Tableau’s powerful analytics capabilities.",
+      "Utilize filtering techniques to refine data visualization.",
+      "Create compelling and interactive charts, graphs, and dashboards.",
+      "Explore advanced visualization techniques including motion charts and waterfall charts.",
+    ],
+
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
+    skills: [
+      "Tableau Basics and Setup",
+      "Data Management",
+      "Advanced Calculations",
+      "Data Visualization",
+      "Dashboard Design",
+      "Sharing Insights with Tableau Public"
+    ],
+
+    careerRoles: [
+      "Data Analyst",
+      "Business Intelligence Analyst",
+      "Data Visualization Specialist",
+      "Tableau Consultant"
+    ],
+
+    requirements: [
+      "Basic knowledge of data analysis concepts.",
+      "Familiarity with any spreadsheet software like Microsoft Excel.",
+      "A keen interest in data visualization and business intelligence."
+    ],
+
+    infoCards: [
+      {
+        icon: "🛡️",
+        title: "Skill Quest Certification Benefits",
+        text: "Gain a Certificate of Achievement that showcases your expertise in Tableau to potential employers and your professional network, enhancing your job prospects and credibility."
+      },
+      {
+        icon: "👨‍🏫",
+        title: "Instructors",
+        text: "Learn from industry experts with extensive experience in data analytics and business intelligence, bringing real-world applications into the classroom."
+      },
+      {
+        icon: "📈",
+        title: "Accelerate Your Career",
+        text: "Our structured learning path in Tableau is designed to boost your analytical skills quickly and effectively, preparing you for immediate application in any business context."
+      }
+    ],
+
+    certificateImage:
+      "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
+    syllabus: [
+          "Introduction to Tableau: Basics, Setup, and Essential Features   — 2 hrs",
+          "Tableau Data Management and Workbook Operations   — 3 hrs",
+          "Advanced Tableau Calculations and Functions   — 3 hrs",
+          "Tableau Filtering Techniques   — 3 hrs",
+          "Tableau Chart Techniques: Mastering Data Visualization   — 3 hrs",
+          "Mastering Tableau: Dashboard Design and Formatting   — 2 hrs",
+          "Mastering Tableau Public: From Basics to Sharing Insights   — 2 hrs"
+        ],
+        
+        
+    vedio:"https://www.youtube.com/embed/LWJoF1p20cA?si=vWz2Av1kj7lxnlUB",
+    pricing: [
+      { title: "Access Only This Skill Quest", highlight: false },
+      { title: "Skill Quest + ORN-AI Career LaunchPad", highlight: true },
+      { title: "ORN-AI Enterprise Customized solutions for team training.", highlight: false }
+    ]
+  },
+  {
+    id: 45,
+    slug: "Reception Course",
+    title: "Reception Course",
+    subtitle: "Master the art of protecting networks with comprehensive defense strategies.",
+    bannerImage:
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/6658168bf11a8e5e14b861a1_Reception%20Course-p-500.png",
+
+    overview: `The Reception Course is carefully designed to prepare you for a dynamic role at the forefront of an organization. This program covers everything from effective communication to advanced office management, ensuring you are equipped to handle the diverse demands of a receptionist's role.`,
+
+    targetAudience: [
+      "Courses Included in This Skill Quest",
+      "Note: Detailed syllabus available post-enrollment.",
+    ],
+    targetAudienceTex:"Ideal for budding Digital Forensic Analysts, Cybersecurity Professionals, Law Enforcement Officers, IT Security Consultants, and anyone looking to specialize in the field of digital forensics.",
+    stats: [
+      { icon: "💡", label: "Expert Sessions", value: "30" },
+      { icon: "📝", label: "Quizzes & Assessments", value: "60" },
+      { icon: "🌐", label: "Language", value: "English" },
+      { icon: "⏱️", label: "Premium content", value: "25 hours" },
+      { icon: "💬", label: "Subtitles", value: "English" },
+      { icon: "🏆", label: "Certificate of Completion", value: "" }
+    ],
+
+    learningOutcomes: [
+      "Understand the critical role of receptionists in shaping organizational culture.",
+      "Master verbal, non-verbal, and digital communication techniques.",
+      "Learn principles of excellent customer service tailored for diverse clientele.",
+      "Acquire essential administrative skills including scheduling, record keeping, and managing office equipment.",
+      "Enhance your professional image and develop career advancement skills.",
+    ],
+
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
+
+    skills: [
+      "Effective Communication",
+      "Customer Service Excellence",
+      "Office Administration",
+      "Software Proficiency",
+      "Task Management",
+      "Professional Development"
+    ],
+
+    careerRoles: [
+      "Receptionist",
+      "Administrative Assistant",
+      "Front Desk Manager",
+      "Office Coordinator"
+    ],
+
+    requirements: [
+      "High school diploma or equivalent.",
+      "Basic proficiency in English.",
+      "Familiarity with basic office software."
+    ],
+
+    infoCards: [
+      {
+        icon: "🛡️",
+        title: "Skill Quest Certification Benefits",
+        text: "Gain a Certificate of Achievement to showcase your comprehensive training in reception and administrative skills, enhancing your employability and professional credibility."
+      },
+      {
+        icon: "👨‍🏫",
+        title: "Instructors",
+        text: "Led by experts with extensive experience in administrative roles and corporate training."
+      },
+      {
+        icon: "📈",
+        title: "Accelerate Your Career",
+        text: "Our targeted Skill Quest ensures you rapidly acquire the skills necessary for success in reception and administration roles."
+      }
+    ],
+
+    certificateImage:
+      "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
+    syllabus: [
+          "Overview of the Receptionist Role",
+          "Verbal and Non-Verbal Communication Techniques",
+          "Principles of Excellent Customer Service",
+          "Essential Office Administration and Management Skills",
+          "Familiarization with Common Software Tools",
+          "Prioritizing Tasks for Receptionists",
+          "Professional Development and Career Advancement Essentials",
+          "Basic Health and Safety Guidelines in the Workplace",
+          "Advanced Communication and Inclusivity Skills for Diverse Workplaces",
+          "The Importance of Discretion and Confidentiality",
+          "Simulated Reception Scenarios",
+          "Course Review and Evaluation"
+        ],
+        
+        
+    vedio:"https://www.youtube.com/embed/WG75YHw3BqY?si=us7W8V2iQn0KgJJY",
+    pricing: [
+      { title: "Access Only This Skill Quest ₹4,999", highlight: false },
+      { title: "Skill Quest + ORN-AI Career LaunchPad", highlight: true },
+      { title: "ORN-AI Enterprise Customized solutions for team training.", highlight: false }
+    ]
+  },
+  {
+    id: 46,
+    slug: "Power BI Mastery",
+    title: "Power BI Mastery",
+    subtitle: "Master the art of protecting networks with comprehensive defense strategies.",
+    bannerImage:
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/6658169e9186d46c6f0c13f4_power%20bi-p-500.png",
+
+    overview: `The Power BI Mastery program is expertly designed to transform you into a data wizard, adept at leveraging Power BI to enhance business intelligence. Explore comprehensive modules covering everything from data warehousing basics to advanced DAX and data visualization techniques.`,
+
+    targetAudience: [
+      "Courses Included in This Skill Quest",
+      "Note: Detailed syllabus available post-enrollment.",
+    ],
+    targetAudienceTex:"Ideal for budding Digital Forensic Analysts, Cybersecurity Professionals, Law Enforcement Officers, IT Security Consultants, and anyone looking to specialize in the field of digital forensics.",
+    stats: [
+      { icon: "💡", label: "Expert Sessions", value: "50" },
+      { icon: "📝", label: "Quizzes & Assessments", value: "60" },
+      { icon: "🌐", label: "Language", value: "English" },
+      { icon: "⏱️", label: "Premium content", value: "25 hours" },
+      { icon: "💬", label: "Subtitles", value: "English" },
+      { icon: "🏆", label: "Certificate of Completion", value: "" }
+    ],
+
+    learningOutcomes: [
+      "Grasp foundational concepts of business intelligence and data warehousing.",
+      "Set up and optimize Power BI environments for robust data analysis.",
+      "Utilize Power BI tools to create impactful data visualizations and reports.",
+      "Perform advanced data analysis using DAX expressions.",
+      "Complete hands-on projects to build a professional BI portfolio.",
+    ],
+    
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
+    skills: [
+      "Business Intelligence",
+      "Data Warehousing",
+      "Data Visualization",
+      "Power BI Tools",
+      "DAX and Data Modeling"
+    ],
+
+    careerRoles: [
+      "Business Intelligence Analyst",
+      "Data Analyst",
+      "Power BI Consultant",
+      "Data Visualization Expert",
+      "Reporting Specialist"
+    ],
+
+    requirements: [
+      "A basic understanding of databases and data analysis.",
+      "Eagerness to learn about advanced data manipulation and visualization.",
+    ],
+
+    infoCards: [
+      {
+        icon: "🛡️",
+        title: "Skill Quest Certification Benefits",
+        text: "Achieve a Certificate of Achievement upon course completion to elevate your professional profile and validate your skills in Power BI."
+      },
+      {
+        icon: "👨‍🏫",
+        title: "Instructors",
+        text: "Led by industry veterans with extensive experience in data analytics and business intelligence."
+      },
+      {
+        icon: "📈",
+        title: "Accelerate Your Career",
+        text: "Focus on high-demand skills in business intelligence that are crucial in the data-driven job market."
+      }
+    ],
+
+    certificateImage:
+      "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
+    syllabus: [
+          "Foundations of BI and Data Warehousing   — 2 hrs",
+          "Mastering Power BI: Fundamentals and Elements   — 2 hrs",
+          "Introduction to Power BI: Installation and Overview   — 3 hrs",
+          "... [List continues up to Module 34]",
+        ],
+        
+        
+    vedio:"https://www.youtube.com/embed/K1Z9cJmrdyk?si=gz-g3eC7D8y32cE2",
+    pricing: [
+      { title: "Access Only This Skill Quest", highlight: false },
+      { title: "Skill Quest + ORN-AI Career LaunchPad", highlight: true },
+      { title: "ORN-AI Enterprise Customized solutions for team training.", highlight: false }
+    ]
+  },
+  {
+    id: 47,
+    slug: "Office Administrator",
+    title: "Office Administration Course",
+    subtitle: "Master the art of protecting networks with comprehensive defense strategies.",
+    bannerImage:
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/66581b023ab4092c105393c2_Administration-p-500.png",
+
+    overview: `The Office Administrator program is carefully designed to enhance your administrative capabilities in modern office settings. You will learn about the evolution of office administration, the role of administrators, advanced office software skills, and much more. Prepare yourself to manage office environments efficiently and support business operations effectively.`,
+
+    targetAudience: [
+      "Courses Included in This Skill Quest",
+      "Note: Detailed syllabus available post-enrollment.",
+    ],
+    targetAudienceTex:"Ideal for budding Digital Forensic Analysts, Cybersecurity Professionals, Law Enforcement Officers, IT Security Consultants, and anyone looking to specialize in the field of digital forensics.",
+    stats: [
+      { icon: "💡", label: "Expert Sessions", value: "40" },
+      { icon: "📝", label: "Quizzes & Assessments", value: "50" },
+      { icon: "🌐", label: "Language", value: "English" },
+      { icon: "⏱️", label: "Premium content", value: "20 hours" },
+      { icon: "💬", label: "Subtitles", value: "English" },
+      { icon: "🏆", label: "Certificate of Completion", value: "" }
+    ],
+
+    learningOutcomes: [
+      "Understand the history and development of office administration.",
+      "Master workplace design, health, and communication skills.",
+      "Gain proficiency in advanced computer skills and office software applications.",
+      "Learn techniques for managing workplace efficiency, including stress management and organization.",
+      "Acquire fundamental knowledge in bookkeeping, project management, and event planning.",
+    ],
+
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
+    skills: [
+      "Office Management",
+      "Business Communication",
+      "Document Management",
+      "Workplace Health and Safety",
+      "Time Management",
+      "Bookkeeping and Budgeting",
+      "Project and Event Planning",
+    ],
+
+    careerRoles: [
+      "Office Manager",
+      "Administrative Assistant",
+      "Executive Secretary",
+      "Receptionist",
+      "Records Manager"
+    ],
+
+    requirements: [
+      "Basic knowledge of office environments.",
+      "Familiarity with common office software.",
+      "Interest in developing administrative skills."
+    ],
+
+    infoCards: [
+      {
+        icon: "🛡️",
+        title: "Skill Quest Certification Benefits",
+        text: "Gain a Certificate of Achievement that enhances your professional credibility and marketability in the administrative field."
+      },
+      {
+        icon: "👨‍🏫",
+        title: "Instructors",
+        text: "Learn from industry experts with extensive experience in office administration and management."
+      },
+      {
+        icon: "📈",
+        title: "Accelerate Your Career",
+        text: "This Skill Quest is structured to fast-track your administrative skills, focusing on comprehensive learning that addresses the demands of modern office environments."
+      }
+    ],
+
+    certificateImage:
+      "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
+    syllabus: [
+          "Overview and Evolution of Office Administration   — 3 hrs",
+          "Workplace Excellence: Design, Health, and Communication Skills   — 6 hrs",
+          "Advanced Computer Skills and Office Software Applications   — 3 hrs",
+          "Mastering Workplace Efficiency: Techniques, Organization, and Stress Management   — 4 hrs",
+          "Basics of Bookkeeping, Accounting, and Managing Office Budgets   — 3 hrs",
+          "Effective Project Management and Event Planning in Business Administration   — 4 hrs",
+          "Career Growth and Pathways in Office Administration   — 3 hrs",
+          "Capstone Project and Assessment   — 4 hrs"
+        ],
+        
+        
+    vedio:"https://www.youtube.com/embed/Sm6BTl7azWo?si=hEiDiXTTvae9rUZt",
+    pricing: [
+      { title: "Access Only This Skill Quest ₹4,999", highlight: false },
+      { title: "Skill Quest + ORN-AI Career LaunchPad", highlight: true },
+      { title: "ORN-AI Enterprise Customized solutions for team training.", highlight: false }
+    ]
+  },
+  {
+    id: 48,
+    slug: "Modern Recruitment Master",
+    title: "Modern Recruitment Practices",
+    subtitle: "Master the art of protecting networks with comprehensive defense strategies.",
+    bannerImage:
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/66581b16c2cb7ce6a7a609ff_Modern%20Recruitment-p-500.png",
+
+    overview: `The Modern Recruitment Master program is intricately designed to equip you with the most effective and innovative recruitment techniques. Learn to navigate the complexities of organizational structures, master HR management, and implement cutting-edge recruitment technologies. Prepare yourself to drive strategic hiring and foster organizational development.`,
+
+    targetAudience: [
+      "Courses Included in This Skill Quest",
+      "Note: Detailed syllabus available post-enrollment.",
+    ],
+    targetAudienceTex:"Ideal for budding Digital Forensic Analysts, Cybersecurity Professionals, Law Enforcement Officers, IT Security Consultants, and anyone looking to specialize in the field of digital forensics.",
+    stats: [
+      { icon: "💡", label: "Expert Sessions", value: "50" },
+      { icon: "📝", label: "Quizzes & Assessments", value: "60" },
+      { icon: "🌐", label: "Language", value: "English" },
+      { icon: "⏱️", label: "Premium content", value: "25 hours" },
+      { icon: "💬", label: "Subtitles", value: "English" },
+      { icon: "🏆", label: "Certificate of Completion", value: "" }
+    ],
+
+    learningOutcomes: [
+      "Understand organizational structures and strategic objectives.",
+      "Master core functions of HR including recruitment, training, and development.",
+      "Implement advanced recruitment strategies using the latest tools and trends.",
+      "Develop skills in vendor management, employee mobility, and payroll systems.",
+      "Craft effective employment contracts with a deep understanding of legal implications.",
+      "Utilize software consulting and project bidding strategies effectively."
+    ],
+
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
+    skills: [
+      "Strategic HR Management",
+      "Advanced Recruitment Techniques",
+      "HR Operations Management",
+      "Legal Compliance in HR",
+      "Software Consulting",
+      "Ethical Workplace Communication",
+      "AI in Recruitment",
+    ],
+
+    careerRoles: [
+      "HR Manager",
+      "Recruitment Specialist",
+      "Talent Acquisition Consultant",
+      "HR Business Partner",
+      "Organizational Development Specialist"
+    ],
+
+    requirements: [
+      "A fundamental understanding of HR principles.",
+      "Experience in recruitment or HR management is advantageous.",
+      "Eagerness to adopt new technologies and methodologies in recruitment."
+    ],
+
+    infoCards: [
+      {
+        icon: "🛡️",
+        title: "Skill Quest Certification Benefits",
+        text: "Complete this course to receive a Certificate of Achievement that showcases your modern recruitment strategies and skills to prospective employers and your professional network."
+      },
+      {
+        icon: "👨‍🏫",
+        title: "Instructors",
+        text: "Led by experts in HR and recruitment with extensive experience in modernizing recruitment processes across various industries."
+      },
+      {
+        icon: "📈",
+        title: "Accelerate Your Career",
+        text: "This structured, skill-focused Skill Quest propels your career by equipping you with the necessary skills to adapt to and lead in the evolving HR landscape."
+      }
+    ],
+
+    certificateImage:
+      "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
+    syllabus: [
+          "Organizational Foundations   — 4 hrs",
+          "Comprehensive HR Management   — 5 hrs",
+          "Recruitment Evolution   — 4 hrs",
+          "Comprehensive Recruitment Strategy   — 5 hrs",
+          "Employment Contracts   — 3 hrs",
+          "Software Consulting and Project Bidding   — 3 hrs",
+          "Effective Communication and Ethics   — 2 hrs",
+          "Understanding Organizational Hierarchies   — 2 hrs",
+          "Strategies for Global Recruitment   — 3 hrs",
+          "AI Transformation in Recruitment   — 3 hrs",
+          "Innovating Recruitment Through Technology   — 2 hrs"
+        ],
+        
+        
+    vedio:"https://www.youtube.com/embed/6eZ6QYcMc2c?si=th9ax98DL83Toz1p",
+    pricing: [
+      { title: "Access Only This Skill Quest", highlight: false },
+      { title: "Skill Quest + ORN-AI Career LaunchPad", highlight: true },
+      { title: "ORN-AI Enterprise Customized solutions for team training.", highlight: false }
+    ]
+  },
+  {
+    id: 49,
+    slug: "Business Analyst",
+    title: "Business Analyst course",
+    subtitle: "Master the art of protecting networks with comprehensive defense strategies.",
+    bannerImage:
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/66581b400ff348be32546662_BUSSINESS-p-500.png",
+
+    overview: `The Business Analyst program is intricately designed to provide you with comprehensive skills in business analysis. Learn to understand business needs, stakeholder analysis, strategic frameworks, and effective use of tools like Jira for process improvements. Prepare to impact business strategies and operations profoundly.`,
+
+    targetAudience: [
+      "Courses Included in This Skill Quest",
+      "Note: Detailed syllabus available post-enrollment.",
+    ],
+    targetAudienceTex:"Ideal for budding Digital Forensic Analysts, Cybersecurity Professionals, Law Enforcement Officers, IT Security Consultants, and anyone looking to specialize in the field of digital forensics.",
+    stats: [
+      { icon: "💡", label: "Expert Sessions", value: "50" },
+      { icon: "📝", label: "Quizzes & Assessments", value: "60" },
+      { icon: "🌐", label: "Language", value: "English" },
+      { icon: "⏱️", label: "Premium content", value: "25 hours" },
+      { icon: "💬", label: "Subtitles", value: "English" },
+      { icon: "🏆", label: "Certificate of Completion", value: "" }
+    ],
+
+    learningOutcomes: [
+      "Grasp the foundational concepts and evolution of business analysis.",
+      "Apply strategic frameworks such as SWOT, PESTLE, and MOST.",
+      "Utilize Jira for business analysis, including requirements management and business process modeling.",
+      "Master techniques for data-driven analysis, risk management, and decision-making frameworks.",
+      "Develop effective communication and reporting skills tailored for business analysis.",
+    ],
+
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
+    skills: [
+      "Business Analysis Fundamentals",
+      "Strategic Planning and Analysis",
+      "Jira for Business Analysis",
+      "Data Analysis and Risk Management",
+      "Agile and Scrum Methodologies",
+      "Effective Communication and Reporting"
+    ],
+
+    careerRoles: [
+      "Business Analyst",
+      "Project Manager",
+      "Agile Coach",
+      "Business Strategy Consultant",
+      "Process Improvement Specialist"
+    ],
+
+    requirements: [
+      "Basic understanding of project management principles.",
+      "Familiarity with any project management software.",
+      "Strong analytical skills and attention to detail."
+    ],
+
+    infoCards: [
+      {
+        icon: "🛡️",
+        title: "Skill Quest Certification Benefits",
+        text: "Earn a Certificate of Achievement upon completion. Showcase your certification to potential employers and your professional network to enhance your visibility and marketability."
+      },
+      {
+        icon: "👨‍🏫",
+        title: "Instructors",
+        text: "Led by industry leaders with extensive experience in business analysis and strategic planning."
+      },
+      {
+        icon: "📈",
+        title: "Accelerate Your Career",
+        text: "This Skill Quest is designed to speed up your career advancement in business analysis, focusing on real-world applications and in-demand skills."
+      }
+    ],
+
+    certificateImage:
+      "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
+    syllabus: [
+          "Organizational Foundations   — 4 hrs",
+          "Comprehensive HR Management   — 5 hrs",
+          "Recruitment Evolution   — 4 hrs",
+          "Comprehensive Recruitment Strategy   — 5 hrs",
+          "Employment Contracts   — 3 hrs",
+          "Software Consulting and Project Bidding   — 3 hrs",
+          "Effective Communication and Ethics   — 2 hrs",
+
+          "Understanding Organizational Hierarchies   — 2 hrs",
+          "Strategies for Global Recruitment   — 3 hrs",
+          "AI Transformation in Recruitment   — 3 hrs",
+          "Innovating Recruitment Through Technology   — 2 hrs"
+        ],
+        
+        
+    vedio:"https://www.youtube.com/embed/5_7yOhQMKkk?si=mNNOs4lIJ-NyRBh8",
+    pricing: [
+      { title: "Access Only This Skill Quest ₹24,999", highlight: false },
+      { title: "Skill Quest + ORN-AI Career LaunchPad", highlight: true },
+      { title: "ORN-AI Enterprise Customized solutions for team training.", highlight: false }
+    ]
+  },
+  {
+    id: 50,
+    slug: "Entrepreneurial Mastery",
+    title: "Enterpreneurship",
+    subtitle: "Master the art of protecting networks with comprehensive defense strategies.",
+    bannerImage:
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/66581b552e8f748ebb7d3a47_Enterprenuership-p-500.png",
+
+    overview: `The Entrepreneurial Mastery program is expertly designed to guide you from the fundamentals of entrepreneurship through to launching your own business. Learn to create robust business models, manage risks, secure financing, and master strategic planning. Equip yourself with the necessary tools to start, manage, and scale your business effectively.`,
+
+    targetAudience: [
+      "Courses Included in This Skill Quest",
+      "Note: Detailed syllabus available post-enrollment.",
+    ],
+    targetAudienceTex:"Ideal for budding Digital Forensic Analysts, Cybersecurity Professionals, Law Enforcement Officers, IT Security Consultants, and anyone looking to specialize in the field of digital forensics.",
+    stats: [
+      { icon: "💡", label: "Expert Sessions", value: "40" },
+      { icon: "📝", label: "Quizzes & Assessments", value: "50" },
+      { icon: "🌐", label: "Language", value: "English" },
+      { icon: "⏱️", label: "Premium content", value: "20 hours" },
+      { icon: "💬", label: "Subtitles", value: "English" },
+      { icon: "🏆", label: "Certificate of Completion", value: "" }
+    ],
+
+    learningOutcomes: [
+      "Understand the foundational concepts of entrepreneurship and develop an entrepreneurial mindset.",
+      "Learn to identify business opportunities and conduct thorough market and risk analyses.",
+      "Master strategic business planning and financial management.",
+      "Gain insights into securing funding, managing finances, and pitching to investors.",
+      "Navigate the startup landscape from registering a business to scaling it efficiently.",
+    ],
+
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
+
+    skills: [
+      "Business Strategy Development",
+      "Risk Management",
+      "Financial Literacy and Management",
+      "Market Research",
+      "Sales Strategy Implementation",
+      "Team Building and Management",
+      "Startup Scaling Techniques"
+    ],
+
+    careerRoles: [
+      "Startup Founder",
+      "Business Strategist",
+      "Financial Planner",
+      "Marketing Director",
+      "Sales Manager",
+      "Team Leader"
+    ],
+
+    requirements: [
+      "A basic understanding of business principles.",
+      "Strong analytical skills and a creative mindset.",
+      "Motivation and a drive to succeed in the business world."
+    ],
+
+    infoCards: [
+      {
+        icon: "🛡️",
+        title: "Skill Quest Certification Benefits",
+        text: "Earn a Certificate of Achievement that demonstrates your capability to launch and manage a successful business. Share this achievement with potential partners and investors to enhance your business credibility."
+      },
+      {
+        icon: "👨‍🏫",
+        title: "Instructors",
+        text: "Led by experienced entrepreneurs and business leaders who provide real-world insights and strategies."
+      },
+      {
+        icon: "📈",
+        title: "Accelerate Your Career",
+        text: "Structured learning to fast-track your entrepreneurial journey, focusing on critical business skills that drive success."
+      }
+    ],
+
+    certificateImage:
+      "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
+    syllabus: [
+          "Foundations of Entrepreneurship: From Idea to Business Model   — 2 hrs",
+          "Strategic Business Analysis: Identifying Opportunities and Managing Risks   — 3 hrs",
+          "Strategic Business Planning and Analysis   — 3 hrs",
+          "Startup Financing Mastery   — 3 hrs",
+          "Financial Management Essentials for Entrepreneurs   — 3 hrs",
+          "Establishing Your Business: Location, Registration, and Virtual Setup   — 2 hrs",
+          "Mastering Market Research and Strategy   — 2 hrs",
+
+          "Sales Strategy Development and Implementation   — 2 hrs",
+          "Building and Structuring Effective Teams for Automation   — 2 hrs",
+          "Strategic Execution and Scaling for Business Growth   — 3 hrs",
+          "Capstone Project: Launching Your Startup   — 3 hrs"
+        ],
+        
+        
+    vedio:"https://www.youtube.com/embed/5HVhjsYE5Q4?si=LFgO7QuT5wm9ex-T",
+    pricing: [
+      { title: "Access Only This Skill Quest ₹39,999", highlight: false },
+      { title: "Skill Quest + ORN-AI Career LaunchPad", highlight: true },
+      { title: "ORN-AI Enterprise Customized solutions for team training.", highlight: false }
+    ]
+  },
+  {
+    id: 51,
+    slug: "Excel Virtuoso",
+    title: "Excel VBA course",
+    subtitle: "Master the art of protecting networks with comprehensive defense strategies.",
+    bannerImage:
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/66581b62cea1a38ab485e777_XL-p-500.png",
+
+    overview: `The Excel Virtuoso program is designed to provide an in-depth understanding of Excel and VBA, emphasizing practical applications in modern data landscapes. Learn everything from foundational skills to advanced data analysis and automation with VBA, equipping you to handle complex data tasks efficiently.`,
+
+    targetAudience: [
+      "Courses Included in This Skill Quest",
+      "Note: Detailed syllabus available post-enrollment.",
+    ],
+    targetAudienceTex:"Ideal for budding Digital Forensic Analysts, Cybersecurity Professionals, Law Enforcement Officers, IT Security Consultants, and anyone looking to specialize in the field of digital forensics.",
+    stats: [
+      { icon: "💡", label: "Expert Sessions", value: "50" },
+      { icon: "📝", label: "Quizzes & Assessments", value: "60" },
+      { icon: "🌐", label: "Language", value: "English" },
+      { icon: "⏱️", label: "Premium content", value: "25 hours" },
+      { icon: "💬", label: "Subtitles", value: "English" },
+      { icon: "🏆", label: "Certificate of Completion", value: "" }
+    ],
+
+    learningOutcomes: [
+      "Master the fundamentals and advanced features of Excel.",
+      "Understand and implement VBA for automating repetitive tasks.",
+      "Develop custom functions and macros to streamline workflows.",
+      "Perform complex data analysis using PivotTables and advanced charting.",
+      "Build interactive tools and dashboards for data visualization.",
+    ],
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
+
+    skills: [
+      "Excel Mastery",
+      "VBA Programming",
+      "Data Analysis",
+      "Macro Automation",
+      "Interactive Reporting",
+    ],
+
+    careerRoles: [
+      "Data Analyst",
+      "Business Analyst",
+      "Financial Analyst",
+      "Business Intelligence Specialist",
+      "VBA Developer",
+    ],
+
+    requirements: [
+      "Basic knowledge of Excel.",
+      "Interest in data analysis and automation.",
+      "Eagerness to develop advanced Excel and VBA skills."
+    ],
+
+    infoCards: [
+      {
+        icon: "🛡️",
+        title: "Skill Quest Certification Benefits",
+        text: "Earn a Certificate of Achievement that validates your expertise in Excel and VBA, enhancing your professional credibility and marketability."
+      },
+      {
+        icon: "👨‍🏫",
+        title: "Instructors",
+        text: "Led by experts with extensive experience in Excel and VBA, and a deep understanding of business and data analytics."
+      },
+      {
+        icon: "📈",
+        title: "Accelerate Your Career",
+        text: "Our structured Skill Quests are designed to fast-track your proficiency in Excel and VBA, catering to demands in data-heavy roles across industries."
+      }
+    ],
+
+    certificateImage:
+      "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
+    syllabus: [
+          "Excel and VBA Foundations   — 3 hrs",
+          "Excel Essentials: Setup and Basics   — 3 hrs",
+          "Excel Fundamentals: Data Entry to Visualization   — 4 hrs",
+          "Advanced Excel Techniques for Data Management   — 4 hrs",
+          "Introduction to Excel VBA   — 3 hrs",
+          "Excel VBA Programming Fundamentals   — 4 hrs",
+          "Advanced Excel VBA Automation   — 3 hrs",
+
+          "Advanced Integration and Optimization in VBA   — 4 hrs",
+          "Advanced VBA Applications for Business   — 4 hrs",
+          "Troubleshooting and Future Trends in Excel and VBA   — 3 hrs"
+        ],
+        
+        
+    vedio:"https://www.youtube.com/embed/3h-Pu1_fLek?si=piRilUVklboi3CfT",
+    pricing: [
+      { title: "Access Only This Skill Quest", highlight: false },
+      { title: "Skill Quest + ORN-AI Career LaunchPad", highlight: true },
+      { title: "ORN-AI Enterprise Customized solutions for team training.", highlight: false }
+    ]
+  },
+  {
+    id: 52,
+    slug: "Manual Tester",
+    title: "Manual Testing course",
+    subtitle: "Master the art of protecting networks with comprehensive defense strategies.",
+    bannerImage:
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/66581b738c0b7b809088e672_Manual%20testing-p-500.png",
+
+    overview: `The Manual Tester program is expertly designed to provide you with a comprehensive understanding of manual software testing. You will explore the Software Development Life Cycle (SDLC), various testing methodologies, static techniques, and more. Prepare to excel in ensuring software quality and managing testing processes effectively.`,
+
+    targetAudience: [
+      "Courses Included in This Skill Quest",
+      "Note: Detailed syllabus available post-enrollment.",
+    ],
+    targetAudienceTex:"Ideal for budding Digital Forensic Analysts, Cybersecurity Professionals, Law Enforcement Officers, IT Security Consultants, and anyone looking to specialize in the field of digital forensics.",
+    stats: [
+      { icon: "💡", label: "Expert Sessions", value: "40" },
+      { icon: "📝", label: "Quizzes & Assessments", value: "50" },
+      { icon: "🌐", label: "Language", value: "English" },
+      { icon: "⏱️", label: "Premium content", value: "20 hours" },
+      { icon: "💬", label: "Subtitles", value: "English" },
+      { icon: "🏆", label: "Certificate of Completion", value: "" }
+    ],
+
+    learningOutcomes: [
+      "Understand the entire Manual Testing process and its importance in the Software Development Life Cycle.",
+      "Gain familiarity with various Software Testing Methodologies.",
+      "Learn about Static Techniques and their application in pre-execution testing phases.",
+      "Explore different Levels of Testing to ensure comprehensive coverage.",
+      "Master the Software Testing Life Cycle (STLC) and distinguish between QA & QC.",
+    ],
+
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
+    skills: [
+      "Manual Testing",
+      "Software Testing Methodologies",
+      "Static Techniques",
+      "Levels of Testing",
+      "Software Testing Life Cycle (STLC)",
+      "Quality Assurance & Quality Control",
+    ],
+
+    careerRoles: [
+      "Manual Tester",
+      "Quality Assurance Specialist",
+      "Software Quality Analyst",
+      "Test Manager",
+    ],
+
+    requirements: [
+      "Basic knowledge of software development.",
+      "Interest in software quality and testing.",
+      "Problem-solving skills."
+    ],
+
+    infoCards: [
+      {
+        icon: "🛡️",
+        title: "Skill Quest Certification Benefits",
+        text: "Achieve a Certificate of Achievement upon completing the course. Use this certification to highlight your skills and advance your career in software testing."
+      },
+      {
+        icon: "👨‍🏫",
+        title: "Instructors",
+        text: "Led by industry veterans with extensive experience in software testing and quality assurance."
+      },
+      {
+        icon: "📈",
+        title: "Accelerate Your Career",
+        text: "Our focused Skill Quests are designed to equip you with specialized knowledge and practical skills that align with industry demands."
+      }
+    ],
+
+    certificateImage:
+      "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
+    syllabus: [
+          "Manual Testing Basics   — 2 hrs",
+          "Software Development Life Cycle (SDLC)   — 3 hrs",
+          "Software Testing Methodologies   — 3 hrs",
+          "Static Techniques   — 2 hrs",
+          "Levels of Testing   — 3 hrs",
+          "Software Testing Life Cycle (STLC)   — 3 hrs",
+          "Quality Assurance & Quality Control (QA&QC)   — 2 hrs",
+        ],
+        
+        
+    vedio:"https://www.youtube.com/embed/Pphhs7YFmec?si=YVG4cq5FXSXqSxY8",
+    pricing: [
+      { title: "Access Only This Skill Quest ₹11,999", highlight: false },
+      { title: "Skill Quest + ORN-AI Career LaunchPad", highlight: true },
+      { title: "ORN-AI Enterprise Customized solutions for team training.", highlight: false }
+    ]
+  },
+  {
+    id: 53,
+    slug: "Technology Training Program",
+    title: "Technology Training Program",
+    subtitle: "Master the art of protecting networks with comprehensive defense strategies.",
+    bannerImage:
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/66581b9620fa83eaa49af863_Technology%20training%20program-p-500.png",
+
+    overview: `The Technology Training Program is an exhaustive course designed to equip you with a profound understanding and practical skills across a broad spectrum of computing and IT disciplines. From foundational computing concepts to advanced infrastructure management, this program offers a comprehensive tech education.`,
+
+    targetAudience: [
+      "Courses Included in This Skill Quest",
+      "Note: Detailed syllabus available post-enrollment.",
+    ],
+    targetAudienceTex:"Ideal for budding Digital Forensic Analysts, Cybersecurity Professionals, Law Enforcement Officers, IT Security Consultants, and anyone looking to specialize in the field of digital forensics.",
+    stats: [
+      { icon: "💡", label: "Expert Sessions", value: "" },
+      { icon: "📝", label: "Quizzes & Assessments", value: "" },
+      { icon: "🌐", label: "Language", value: "English" },
+      { icon: "⏱️", label: "Premium content", value: "" },
+      { icon: "💬", label: "Subtitles", value: "English" },
+      { icon: "🏆", label: "Certificate of Completion", value: "" }
+    ],
+
+    learningOutcomes: [
+      "Grasp the evolution and fundamentals of computing and software systems.",
+      "Apply practical knowledge in designing computer systems and managing cloud infrastructures.",
+      "Develop hands-on skills in programming, web development, and database management.",
+      "Gain insights into business intelligence, middleware integration, and ERP systems.",
+      "Prepare for industry demands with strategic CRM development and advanced IT project management.",
+    ],
+    
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
+    skills: [
+      "Computing Fundamentals",
+      "System Design",
+      "Cloud Infrastructure",
+      "Business Intelligence",
+      "Programming and Web Development",
+      "Database Management",
+      "IT Project Management"
+    ],
+
+    careerRoles: [
+      "Systems Analyst",
+      "Cloud Architect",
+      "Business Intelligence Analyst",
+      "Software Developer",
+      "Database Manager",
+      "IT Project Manager"
+    ],
+
+    requirements: [
+      "A solid understanding of basic IT concepts.",
+      "Interest in deepening technical skills across various IT disciplines.",
+      "Motivation to apply knowledge to practical, real-world technology problems."
+    ],
+
+    infoCards: [
+      {
+        icon: "🛡️",
+        title: "Skill Quest Certification Benefits",
+        text: "Complete the program to receive a Certificate of Achievement . This certification demonstrates your broad and detailed expertise in technology, enhancing your career and professional profile."
+      },
+      {
+        icon: "👨‍🏫",
+        title: "Instructors",
+        text: "Led by experts who are not only deep in theory but seasoned in practical applications across various technology sectors."
+      },
+      {
+        icon: "📈",
+        title: "Accelerate Your Career",
+        text: "Structured learning paths in the Skill Quest are designed to fast-track your growth in the technology sector, focusing on critical areas that match industry needs and future trends."
+      }
+    ],
+
+    certificateImage:
+      "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
+    syllabus: [
+          "Foundations of Computing   - History, Development, and Practical Exploration",
+          "Fundamentals of Computer Systems Design",
+          "Exploring Multi-Tier Architectures",
+          "Business Intelligence Essentials",
+          "Cloud Infrastructure Management and Deployment",
+          "ERP System Deployment and Strategic Frameworks",
+          "Strategic CRM Development",
+          "Middleware Integration and System Design",
+          "Professional Certifications",
+          "Fundamentals of Programming",
+          "Web Development Fundamentals",
+          "Mastering Business Communication",
+          "Transitioning to Open Source",
+          "Server Infrastructure Management",
+          "Database Management and Applications",
+          "Web Browsers and User Experience Enhancements",
+          "Future-Ready Network Infrastructure",
+          "Advanced IT Project Management"
+        ],
+        
+        
+    vedio:"https://www.youtube.com/embed/aPRH97FD8IM?si=5L2QTltBMDfUqdSL",
+    pricing: [
+      { title: "Access Only This Skill Quest", highlight: false },
+      { title: "Skill Quest + ORN-AI Career LaunchPad", highlight: true },
+      { title: "ORN-AI Enterprise Customized solutions for team training.", highlight: false }
+    ]
+  },
+  {
+    id: 54,
+    slug: "AML KYC Specialist",
+    title: "AML KYC Course",
+    subtitle: "Master the art of protecting networks with comprehensive defense strategies.",
+    bannerImage:
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/66581bbe733d3c480190d443_AML-p-500.png",
+
+    overview: `The AML KYC Specialist program is meticulously crafted to equip you with essential skills for mastering Anti-Money Laundering (AML) and Know Your Customer (KYC) compliance. Learn the fundamentals, the regulatory framework, customer due diligence, and the use of technology in AML/KYC processes. This program prepares you to ensure compliance and secure operations within financial services.`,
+
+    targetAudience: [
+      "Courses Included in This Skill Quest",
+      "Note: Detailed syllabus available post-enrollment.",
+    ],
+    targetAudienceTex:"Ideal for budding Digital Forensic Analysts, Cybersecurity Professionals, Law Enforcement Officers, IT Security Consultants, and anyone looking to specialize in the field of digital forensics.",
+    stats: [
+      { icon: "💡", label: "Expert Sessions", value: "40" },
+      { icon: "📝", label: "Quizzes & Assessments", value: "50" },
+      { icon: "🌐", label: "Language", value: "English" },
+      { icon: "⏱️", label: "Premium content", value: "20 hours" },
+      { icon: "💬", label: "Subtitles", value: "English" },
+      { icon: "🏆", label: "Certificate of Completion", value: "" }
+    ],
+
+    learningOutcomes: [
+      "Understand the fundamentals and regulatory framework of AML/KYC.",
+      "Navigate through the AML KYC process, including Customer Identification Programs.",
+      "Analyze the role of shell and front companies in compliance.",
+      "Develop expertise in customer due diligence and KYC technology solutions.",
+      "Learn through case studies and real-world examples to understand best practices in AML/KYC.",
+    ],
+
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
+
+    skills: [
+      "AML Compliance",
+      "KYC Procedures",
+      "Regulatory Compliance",
+      "Financial Forensics",
+      "Risk Management",
+      "Legal Framework Understanding"
+    ],
+
+    careerRoles: [
+      "Compliance Officer",
+      "KYC Analyst",
+      "AML Specialist",
+      "Risk Manager",
+      "Financial Compliance Consultant",
+    ],
+
+    requirements: [
+      "Basic understanding of financial operations and regulations.",
+      "A keen interest in financial compliance and risk management.",
+    ],
+
+    infoCards: [
+      {
+        icon: "🛡️",
+        title: "Skill Quest Certification Benefits",
+        text: "Successfully completing the course awards you a Certificate of Achievement . Showcase your certification to potential employers and enhance your professional stature in the financial industry."
+      },
+      {
+        icon: "👨‍🏫",
+        title: "Instructors",
+        text: "Courses led by seasoned professionals with extensive experience in financial compliance and anti-money laundering."
+      },
+      {
+        icon: "📈",
+        title: "Accelerate Your Career",
+        text: "Our skill-based Skill Quests are structured to fast-track your career in financial compliance, focusing on in-demand skills in the finance industry."
+      }
+    ],
+
+    certificateImage:
+      "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
+syllabusText:"Note: Full course details available exclusively to enrolled users.",
+    syllabus: [
+          "Fundamentals and Regulatory Framework of AML/KYC   — 2 hrs",
+          "AML KYC Process Overview   — 2 hrs",
+          "Customer Identification Program (CIP) and Business Entities   — 3 hrs",
+          "Customer Due Diligence   — 3 hrs",
+          "Legal and Regulatory Framework   — 2 hrs",
+          "AML KYC Technology Solutions   — 2 hrs",
+          "AML KYC Best Practices   — 2 hrs",
+          "Case Studies and Examples   — 2 hrs",
+        ],
+        
+        
+    vedio:"https://www.youtube.com/embed/6eZ6QYcMc2c?si=LmnWyFM2Ms9ZWgNO",
+    pricing: [
+      { title: "Access Only This Skill Quest", highlight: false },
+      { title: "Skill Quest + ORN-AI Career LaunchPad", highlight: true },
+      { title: "ORN-AI Enterprise Customized solutions for team training.", highlight: false }
+    ]
+  },
+   {
+    id: 61,
+    slug: "OSS and BSS",
+    title: "Telecom Operations Mastery",
+    subtitle: "Master the art of protecting networks with comprehensive defense strategies.",
+    bannerImage:
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/665709a96cb4c85432f2ab92_OSS%20%26%20BSS-p-500.png",
+
+    overview: `The OSS and BSS Skill Quest is intricately designed to provide in-depth knowledge and skills in operational support systems (OSS) and business support systems (BSS) which are vital for managing modern telecommunications services. Learn about everything from the basics of telecommunications to advanced BSS and OSS architectures.`,
+
+    targetAudience: [
+      "Courses Included in This Skill Quest",
+      "Note: Detailed syllabus available post-enrollment.",
+    ],
+    targetAudienceTex:"This course is essential for Telecom Managers, Network Operations Personnel, IT Professionals in Telecom, System Architects, and those interested in mastering telecom operations.",
+    stats: [
+      { icon: "💡", label: "Expert Sessions", value: "" },
+      { icon: "📝", label: "Quizzes & Assessments", value: "" },
+      { icon: "🌐", label: "Language", value: "English" },
+      { icon: "⏱️", label: "Premium content", value: "" },
+      { icon: "💬", label: "Subtitles", value: "English" },
+      { icon: "🏆", label: "Certificate of Completion", value: "" }
+    ],
+
+    learningOutcomes: [
+      "Understand the foundational telecom concepts and networking essentials.",
+      "Gain knowledge about BSS and OSS systems including their architecture and key components.",
+      "Learn about the integration and modernization of OSS and BSS in telecommunications.",
+      "Explore real-world applications and case studies in BSS and OSS implementations.",
+    ],
+    
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
+    skills: [
+      "Telecom Fundamentals",
+      "Networking Essentials",
+      "OSS and BSS Architecture",
+      "Advanced Telecom Management Strategies",
+      "Regulatory Compliance",
+      "Integration Techniques"
+    ],
+
+    careerRoles: [
+      "Telecom Project Manager",
+      "OSS/BSS Architect",
+      "Network Operations Analyst",
+      "Telecom Business Analyst",
+      "Service Assurance Manager",
+    ],
+
+    requirements: [
+      "Basic knowledge of telecommunications principles.",
+      "Experience with IT systems and networking.",
+      "A strong analytical mindset and problem-solving skills."
+    ],
+
+    infoCards: [
+      {
+        icon: "🛡️",
+        title: "Skill Quest Certification Benefits",
+        text: "Achieving this certification demonstrates your comprehensive understanding of complex telecom systems, making you a valuable asset in the telecom industry."
+      },
+      {
+        icon: "👨‍🏫",
+        title: "Instructors",
+        text: "Led by industry veterans with decades of experience in telecommunications systems and operations."
+      },
+      {
+        icon: "📈",
+        title: "Accelerate Your Career",
+        text: "This structured educational pathway is designed to rapidly elevate your professional capabilities in the telecom sector, aligning your skills with industry demands."
+      }
+    ],
+
+    certificateImage:
+      "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
+syllabusText:"",
+    syllabus: [
+          "Access restricted to enrolled users.",
+          "Understanding Basic Telecom Fundamentals",
+          "BSS and OSS Systems: Core of Telecom Management",
+          "Advanced Strategies in BSS and OSS Integration",
+          "Modern BSS and OSS Systems: Innovations and Real-World Applications",
+        ],
+        
+        
+    vedio:"https://www.youtube.com/embed/2z9Z-TnOVKQ?si=RZiQpRcX4UENC9k8",
+    pricing: [
+      { title: "Access Only This Skill Quest One-time Payment: INR (discounted from INR )", highlight: false },
+      { title: "Skill Quest + ORN-AI Career LaunchPad One-time Payment: INR (discounted from INR )", highlight: true },
+      { title: "ORN-AI Enterprise Customized solutions for team training.", highlight: false }
+    ]
+  },
+  {
+    id: 62,
+    slug: "Basic Telecommunication course",
+    title: "Basic Telecommunication",
+    subtitle: "Master the art of protecting networks with comprehensive defense strategies.",
+    bannerImage:
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/66570b99d69e8f5d36f7ce83_tele-p-500.png",
+
+    overview: `The OSS and BSS Skill Quest is intricately designed to provide in-depth knowledge and skills in operational support systems (OSS) and business support systems (BSS) which are vital for managing modern telecommunications services. Learn about everything from the basics of telecommunications to advanced BSS and OSS architectures.`,
+
+    targetAudience: [
+      "Courses Included in This Skill Quest",
+      "Note: Detailed syllabus available post-enrollment.",
+    ],
+    targetAudienceTex:"This course is essential for Telecom Managers, Network Operations Personnel, IT Professionals in Telecom, System Architects, and those interested in mastering telecom operations.",
+    stats: [
+      { icon: "💡", label: "Expert Sessions", value: "" },
+      { icon: "📝", label: "Quizzes & Assessments", value: "" },
+      { icon: "🌐", label: "Language", value: "English" },
+      { icon: "⏱️", label: "Premium content", value: "" },
+      { icon: "💬", label: "Subtitles", value: "English" },
+      { icon: "🏆", label: "Certificate of Completion", value: "" }
+    ],
+
+    learningOutcomes: [
+      "Understand the foundational telecom concepts and networking essentials.",
+      "Gain knowledge about BSS and OSS systems including their architecture and key components.",
+      "Learn about the integration and modernization of OSS and BSS in telecommunications.",
+      "Explore real-world applications and case studies in BSS and OSS implementations.",
+    ],
+    
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
+    skills: [
+      "Telecom Fundamentals",
+      "Networking Essentials",
+      "OSS and BSS Architecture",
+      "Advanced Telecom Management Strategies",
+      "Regulatory Compliance",
+      "Integration Techniques"
+    ],
+
+    careerRoles: [
+      "Telecom Project Manager",
+      "OSS/BSS Architect",
+      "Network Operations Analyst",
+      "Telecom Business Analyst",
+      "Service Assurance Manager",
+    ],
+
+    requirements: [
+      "Basic knowledge of telecommunications principles.",
+      "Experience with IT systems and networking.",
+      "A strong analytical mindset and problem-solving skills."
+    ],
+
+    infoCards: [
+      {
+        icon: "🛡️",
+        title: "Skill Quest Certification Benefits",
+        text: "Achieving this certification demonstrates your comprehensive understanding of complex telecom systems, making you a valuable asset in the telecom industry."
+      },
+      {
+        icon: "👨‍🏫",
+        title: "Instructors",
+        text: "Led by industry veterans with decades of experience in telecommunications systems and operations."
+      },
+      {
+        icon: "📈",
+        title: "Accelerate Your Career",
+        text: "This structured educational pathway is designed to rapidly elevate your professional capabilities in the telecom sector, aligning your skills with industry demands."
+      }
+    ],
+
+    certificateImage:
+      "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
+syllabusText:"",
+    syllabus: [
+          "Access restricted to enrolled users.",
+          "Understanding Basic Telecom Fundamentals",
+          "BSS and OSS Systems: Core of Telecom Management",
+          "Advanced Strategies in BSS and OSS Integration",
+          "Modern BSS and OSS Systems: Innovations and Real-World Applications",
+        ],
+        
+        
+    vedio:"https://www.youtube.com/embed/QBVb-G_sIF8?si=yNo2kceEDncwatPq",
+    pricing: [
+      { title: "Access Only This Skill Quest One-time Payment: INR (discounted from INR )", highlight: false },
+      { title: "Skill Quest + ORN-AI Career LaunchPad One-time Payment: INR (discounted from INR )", highlight: true },
+      { title: "ORN-AI Enterprise Customized solutions for team training.", highlight: false }
+    ]
+  },
+   {
+    id: 63,
+    slug: "4G&5G RAN",
+    title: "4G 5G RAN Specialist",
+    subtitle: "Master the art of protecting networks with comprehensive defense strategies.",
+    bannerImage:
+      "https://cdn.prod.website-files.com/664b240b7fabdc2000ff433a/66570baec67753d1066899a0_4GAND5G-p-500.png",
+
+    overview: `The 4G 5G RAN Specialist program is expertly designed to provide in-depth knowledge of the architecture, technologies, and operational strategies in 4G and 5G radio access networks. From foundational telecommunications to advanced network functionalities, equip yourself to excel in the evolving landscape of mobile communications.`,
+
+    targetAudience: [
+      "Courses Included in This Skill Quest",
+      "Note: Detailed syllabus available post-enrollment.",
+    ],
+    targetAudienceTex:"This course is perfect for Network Engineers, Telecommunications Specialists, RF Engineers, System Designers, and students or professionals eager to advance their expertise in mobile communications technologies.",
+    stats: [
+      { icon: "💡", label: "Expert Sessions", value: "" },
+      { icon: "📝", label: "Quizzes & Assessments", value: "" },
+      { icon: "🌐", label: "Language", value: "English" },
+      { icon: "⏱️", label: "Premium content", value: "" },
+      { icon: "💬", label: "Subtitles", value: "English" },
+      { icon: "🏆", label: "Certificate of Completion", value: "" }
+    ],
+
+    learningOutcomes: [
+      "Gain a solid understanding of telecommunication fundamentals specific to 4G and 5G technologies.",
+      "Explore the intricacies of signal transmission, modulation, and multiple access techniques.",
+      "Delve into GSM, LTE, and Advanced LTE configurations and operations.",
+      "Understand the architecture and protocols of both 4G and 5G RAN.",
+      "Master the deployment and optimization strategies for next-generation mobile networks."
+    ],
+
+    careerText:"Equips you for roles such as:",
+    careerSubText:"",
+    skilsText:"This Skill Quest sharpens your expertise in:",
+    skilsSubText:"",
+
+    skills: [
+      "4G Technologies",
+      "5G Innovations",
+      "RAN Architecture and Management",
+      "Signal Processing",
+      "Network Design and Optimization",
+      "Regulatory and Standardization Compliance"
+    ],
+
+    careerRoles: [
+      "RAN Engineer",
+      "Telecommunications Analyst",
+      "RF System Designer",
+      "Network Optimization Specialist",
+    ],
+
+    requirements: [
+      "Fundamental knowledge of telecommunications principles.",
+      "Basic familiarity with radio frequency technologies.",
+      "Enthusiasm for deepening technical knowledge in mobile communications."
+    ],
+
+    infoCards: [
+      {
+        icon: "🛡️",
+        title: "Skill Quest Certification Benefits",
+        text: "Achieving this certification demonstrates your advanced competency in 4G and 5G networks, making you a valuable asset to employers in the telecommunications industry."
+      },
+      {
+        icon: "👨‍🏫",
+        title: "Instructors",
+        text: "Led by experts with extensive experience in telecommunications and network engineering."
+      },
+      {
+        icon: "📈",
+        title: "Accelerate Your Career",
+        text: "Achieving this certification demonstrates your advanced competency in 4G and 5G networks, making you a valuable asset to employers in the telecommunications industry."
+      }
+    ],
+
+    certificateImage:
+      "https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/666fbffc03a209c0ded9bc07_Cyber%20Security%20Certificate-p-1080.png",
+syllabusText:"",
+    syllabus: [
+          "Access restricted to enrolled users.",
+          "Telecommunication Basics to understand 4G&5G RAN",
+          "Basics of Telecommunication",
+          "Signal Transmission Concepts",
+          "Modulation and Demodulation Techniques",
+          "Multiple Access Techniques in Communication Systems",
+          "Fundamentals of Cellular Network Operations and Management",
+          "Advanced Techniques in Multiple Access Technologies: CDMA and OFDMA.4G (LTE RAN)",
+          "LTE Network Fundamentals",
+          "LTE Protocols and Architecture",
+          "LTE Air Interface Capabilities",
+          "LTE Identifiers and Channels 5G RAN",
+          "Fundamentals and Concepts of 5G RAN",
+          "5G Core Network and Physical Layer Overview",
+          "Understanding 5G Communication: Setup, Data Transfer, and Termination Procedures"
+        ],
+        
+        
+    vedio:"https://www.youtube.com/embed/bDfB5Ogzlz0?si=C-_ZQEawxK5x8e_O",
+    pricing: [
+      { title: "Access Only This Skill Quest One-time Payment: INR (discounted from INR )", highlight: false },
+      { title: "Skill Quest + ORN-AI Career LaunchPad One-time Payment: INR (discounted from INR 89,998 )", highlight: true },
+      { title: "ORN-AI Enterprise Customized solutions for team training.", highlight: false }
+    ]
+  },
 ];
 
 const SkillQuestPage = () => {
   const { id } = useParams();
 
   const data = cyberLabs.find((item) => item.id === Number(id)) || cyberLabs[0];
-
+console.log('bannerImage=',data.bannerImage);
   return (
     <div className="w-full">
       <Navbar />
@@ -2236,7 +4000,7 @@ const SkillQuestPage = () => {
         subtitle={data.subtitle}
         image={data.bannerImage}
         height="h-[300px]"
-        darkOverlay
+        
       />
 
       <Section title="Overview">
@@ -2272,10 +4036,20 @@ const SkillQuestPage = () => {
       </Section>
 
       <Section title="Skills Acquired">
+        <p>
+          <b>{data.skilsText}</b>
+        
+        </p>
+        <p>{data.skilsSubText}</p>
+
         <Bullets items={data.skills} />
       </Section>
 
       <Section title="Career Readiness">
+         <p>
+          <b>{data.careerText}</b>
+          </p>
+        <p>{data.careerSubText}</p>
         <Bullets items={data.careerRoles} />
       </Section>
 
@@ -2293,6 +4067,7 @@ const SkillQuestPage = () => {
       </Section>
 
       <Section title="Course Syllabus">
+        <b>{data.syllabusText}</b>
         <ol className="list-decimal ml-6 space-y-2 text-lg">
           {data.syllabus.map((item, i) => (
             <li key={i}>{item}</li>

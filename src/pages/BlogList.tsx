@@ -5,6 +5,7 @@ import { debounce } from "lodash";
 import { motion } from "framer-motion"; // 🪄 for smooth hover animations
 import Footer from "../pages/Components/Footer";
 import Navbar from "../pages/Components/Navbar";
+import HeroBanner from "./Components/Banner";
 
 export default function BlogList() {
   const navigate = useNavigate();
@@ -250,19 +251,19 @@ const blogsData = [
   return (
     <>
       <Navbar />
-      <div className="min-h-screen bg-[#0f0b16] text-gray-100 py-12 px-6 md:px-12">
+ <HeroBanner
+    title="Our Blogs"
+    subtitle="Your subtitle or description goes here"
+    ctaText="Sign up"
+    ctaHref="/signup"
+    image="https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/668baff40b223db5311c7fda_network-connections.png"
+    height="h-96"
+    />      <div className="min-h-screen bg-[#fff] text-gray-100 py-12 px-6 md:px-12">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="flex items-center justify-between mb-8 flex-col md:flex-row gap-4">
             <div>
-              <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
-                <span className="block">
-                  Our{" "}
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7b4dff] to-[#3cb3ff]">
-                    Blogs
-                  </span>
-                </span>
-              </h1>
+              
               <p className="text-gray-400 mt-2">
                 Insights, updates, and expert guidance to help you grow in your career.
               </p>
@@ -273,7 +274,7 @@ const blogsData = [
                 value={q}
                 onChange={handleSearchChange}
                 placeholder="Search blogs..."
-                className="w-full rounded-xl px-4 py-2 bg-[#120917] border border-[#2b2136] placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#7b4dff] transition-all duration-200"
+                className="w-full rounded-xl px-4 py-2 bg-[#fff] border border-[#fff] placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#7b4dff] transition-all duration-200"
               />
             </div>
           </div>

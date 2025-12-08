@@ -10,7 +10,7 @@ import HeroBanner from "./Banner";
 
 export const cyberLabs = [
   {
-    id: 1,
+    id: 41,
     subtitle: "Medical Coding Master",
     name: "Medical Coding Master",
     image:
@@ -42,7 +42,7 @@ export const cyberLabs = [
   },
 
   {
-    id: 2,
+    id: 42,
     subtitle: "Technical Content Writer Basic Level",
     name: "Technical Content Writer Basic Level",
     image:
@@ -71,7 +71,7 @@ export const cyberLabs = [
   },
 
   {
-    id: 3,
+    id: 43,
     subtitle: "Technical Content Writer Advance Level",
     name: "Technical Content Writer Advance Level",
     image:
@@ -100,7 +100,7 @@ export const cyberLabs = [
   },
 
   {
-    id: 4,
+    id: 44,
     subtitle: "Tableau Master",
     name: "Tableau Course",
     image:
@@ -129,7 +129,7 @@ export const cyberLabs = [
   },
 
   {
-    id: 5,
+    id: 45,
     subtitle: "Reception Course",
     name: "Reception Course",
     image:
@@ -157,7 +157,7 @@ export const cyberLabs = [
     ]
   },
    {
-    id: 6,
+    id: 46,
     subtitle: "Power BI Mastery",
     name: "Power BI Course",
     image:
@@ -185,7 +185,7 @@ export const cyberLabs = [
     ]
   },
    {
-    id: 7,
+    id: 47,
     subtitle: "Office Administrator",
     name: "Office Administration Course",
     image:
@@ -213,7 +213,7 @@ export const cyberLabs = [
     ]
   },
   {
-    id: 8,
+    id: 48,
     subtitle: "Modern Recruitment Master",
     name: "Modern Recruitment Practices",
     image:
@@ -241,7 +241,7 @@ export const cyberLabs = [
     ]
   },
   {
-    id: 9,
+    id: 49,
     subtitle: "Business Analyst",
     name: "Business Analyst course",
     image:
@@ -269,7 +269,7 @@ export const cyberLabs = [
     ]
   },
   {
-    id: 10,
+    id: 50,
     subtitle: "Entrepreneurial Mastery",
     name: "Enterpreneurship",
     image:
@@ -297,7 +297,7 @@ export const cyberLabs = [
     ]
   },
   {
-    id: 11,
+    id: 51,
     subtitle: "Excel Virtuoso",
     name: "Excel VBA course",
     image:
@@ -325,7 +325,7 @@ export const cyberLabs = [
     ]
   },
    {
-    id: 12,
+    id: 52,
     subtitle: "Manual Tester",
     name: "Manual Testing course",
     image:
@@ -353,7 +353,7 @@ export const cyberLabs = [
     ]
   },
    {
-    id: 12,
+    id: 53,
     subtitle: "Technology Training Program",
     name: "Technology Training Program",
     image:
@@ -381,7 +381,7 @@ export const cyberLabs = [
     ]
   },
   {
-    id: 13,
+    id: 54,
     subtitle: "AML KYC Specialist",
     name: "AML KYC Course",
     image:

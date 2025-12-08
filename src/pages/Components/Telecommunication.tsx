@@ -10,7 +10,7 @@ import HeroBanner from "./Banner";
 
 export const cyberLabs = [
   {
-    id: 1,
+    id: 61,
     subtitle: "OSS and BSS",
     name: "Telecom Operations Mastery",
     image:
@@ -42,7 +42,7 @@ export const cyberLabs = [
   },
 
   {
-    id: 2,
+    id: 62,
     subtitle: "Basic Telecommunication course",
     name: "Basic Telecommunication",
     image:
@@ -71,7 +71,7 @@ export const cyberLabs = [
   },
 
   {
-    id: 3,
+    id: 63,
     subtitle: "4G&5G RAN",
     name: "4G 5G RAN Specialist",
     image:

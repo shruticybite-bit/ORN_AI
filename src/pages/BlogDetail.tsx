@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Footer from '../pages/Components/Footer';
 import Navbar from '../pages/Components/Navbar';
+import HeroBanner from "./Components/Banner";
 
 export default function BlogDetail() {
   const { id } = useParams();
@@ -151,7 +152,15 @@ excerpt: `
   return (
     <>
       <Navbar />
-      <div className="min-h-screen bg-[#0b0718] text-white py-20 px-5 md:px-20">
+      <HeroBanner
+          title={blog.title}
+          subtitle="Your subtitle or description goes here"
+          ctaText="Sign up"
+          ctaHref="/signup"
+          image="https://cdn.prod.website-files.com/66446d71a3755a2d4e53fe14/668baff40b223db5311c7fda_network-connections.png"
+          height="h-96"
+          />
+      <div className="min-h-screen bg-[#fff] text-white py-20 px-5 md:px-20">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -159,7 +168,7 @@ excerpt: `
           className="max-w-5xl mx-auto"
         >
           {/* Image */}
-          <div className="relative overflow-hidden rounded-2xl mb-8 group shadow-lg shadow-[#7c4dff25]">
+          <div className="relative overflow-hidden rounded-2xl mb-8 group shadow-lg shadow-[#fff]">
             <motion.img
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.6 }}
@@ -171,21 +180,14 @@ excerpt: `
           </div>
 
           {/* Title */}
-          <motion.h1
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
-            className="text-4xl md:text-5xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-[#7c4dff] to-[#3f95ff]"
-          >
-            {blog.title}
-          </motion.h1>
+        
 
           {/* Blog Content */}
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className="text-gray-300 leading-relaxed text-lg"
+            className="text-black leading-relaxed text-lg"
             dangerouslySetInnerHTML={{ __html: blog.excerpt }}
           />
 

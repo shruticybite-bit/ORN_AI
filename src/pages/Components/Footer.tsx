@@ -98,6 +98,11 @@ const Footer = () => {
                 Contact Us
               </a>
             </li>
+            <li>
+              <a href="blogs" className="hover:text-white">
+                Blog
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -105,21 +110,43 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold mb-4 text-white">Resources</h3>
           <ul className="space-y-2 text-gray-400 text-sm">
-          {/* <li>
-             <a href="pricing" className="hover:text-white">
-                Pricing
+             
+          <li>
+             <a href="/cyber-security" className="hover:text-white">
+                Cyber Security
               </a>
-            </li> */}
-            {/* <li>
-              <a href="process" className="hover:text-white">
-                Process
-              </a>
-            </li> */}
-            <li>
-              <a href="blogs" className="hover:text-white">
-                Blog
+            </li> 
+             <li>
+              <a href="/data-science-ai" className="hover:text-white">
+                Data Science & AI
               </a>
             </li>
+             <li>
+              <a href="/advanced-programs" className="hover:text-white">
+                Advanced Programs
+              </a>
+            </li>
+             <li>
+              <a href="/business-analytics" className="hover:text-white">
+                Business Analytics
+              </a>
+            </li>
+             <li>
+              <a href="/technology-programs" className="hover:text-white">
+                Technology Programs
+              </a>
+            </li>
+            <li>
+              <a href="/telecommunication" className="hover:text-white">
+                Telecommunication
+              </a>
+            </li>
+             <li>
+              <a href="/science-programs" className="hover:text-white">
+               Science Programs
+              </a>
+            </li>
+           
           </ul>
         </div>
 
