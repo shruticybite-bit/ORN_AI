@@ -61,7 +61,7 @@ const blogsData = [
 
       <p><strong>ORN-AI isn’t just a platform—it’s a pathway to your future.</strong></p>
     `,
-      thumbnail: "../../public/assets/blogs/1.svg",//"https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog1.jpg",
+      thumbnail: "../../assets/blogs/1.svg",//"https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog1.jpg",
       published_at: "2025-12-01T10:00:00Z",
       blogId: 1,
     },
@@ -94,7 +94,7 @@ const blogsData = [
       <h2>A Safer Way Forward</h2>
       <p>In a world full of misleading promises, ORN-AI stands strong as a student-first platform—ensuring your growth, dignity, and future remain protected.</p>
     `,
-      thumbnail: "../../public/assets/blogs/2.svg",//"https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog2.jpg",
+      thumbnail: "../../assets/blogs/2.svg",//"https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog2.jpg",
       published_at: "2025-12-01T11:00:00Z",
       blogId: 2,
     },
@@ -130,7 +130,7 @@ const blogsData = [
       <h2>Career Growth Through Versatility</h2>
       <p>Cross-technology professionals earn more, grow faster, and adapt better. ORN-AI ensures you gain this advantage through curated, modern, employer-ready content.</p>
     `,
-      thumbnail: "../../public/assets/blogs/3.svg",//"https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog3.jpg",
+      thumbnail: "../../assets/blogs/3.svg",//"https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog3.jpg",
       published_at: "2025-12-01T12:00:00Z",
       blogId: 3,
     },
@@ -160,7 +160,7 @@ const blogsData = [
       <p>This long-term support system helps learners build stable, high-growth careers—locally and internationally.</p>
       <p><strong>ORN-AI is not just a course provider. It’s a career partner.</strong></p>
     `,
-      thumbnail: "../../public/assets/blogs/4.svg",//"https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog4.jpg",
+      thumbnail: "../../assets/blogs/4.svg",//"https://fastly.picsum.photos/id/1015/800/500.jpg?hmac=pSNYsY7XYU05VD89MUu0QDrVHgAu2yZaGSC4wzh7ld8",//"/assets/blog4.jpg",
       published_at: "2025-12-01T13:00:00Z",
       blogId: 4,
     },

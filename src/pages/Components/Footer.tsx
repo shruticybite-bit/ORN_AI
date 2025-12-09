@@ -20,7 +20,7 @@ const Footer = () => {
   <div className="bg-white p-2 rounded-xl inline-flex items-center justify-center shadow-md">
     <img
       src={logoimg}
-      alt="OnRequestLab"
+      alt="ORN-AI"
       width={180}
       height={100}
       className="object-contain"
@@ -38,20 +38,20 @@ const Footer = () => {
   {[
     {
       Icon: Facebook,
-      link: "https://www.facebook.com/people/Onrequestlab/100071258415666/",
+      link: "#",
     },
     
     {
       Icon: Instagram,
-      link: "https://www.instagram.com/onrequestlab/",
+      link: "#",
     },
     {
       Icon: Linkedin,
-      link: "https://www.linkedin.com/company/onrequestlab/",
+      link: "",
     },
     {
       Icon: Youtube,
-      link: "https://www.youtube.com/@onrequestlab",
+      link: "#",
     },
   ].map(({ Icon, link }, idx) => (
     <a
@@ -73,21 +73,11 @@ const Footer = () => {
           <h3 className="font-semibold mb-4 text-white">Quick Links</h3>
           <ul className="space-y-2 text-gray-400 text-sm">
             <li>
-              <a href="#" className="hover:text-white">
+              <a href="/" className="hover:text-white">
                 Home
               </a>
             </li>
-           
-            {/* <li>
-             <a href="#process" className="hover:text-white">
-                Process
-              </a>
-            </li> */}
-            {/* <li>
-              <a href="/our-services" className="hover:text-white">
-                Our Services
-              </a>
-            </li> */}
+          
             <li>
               <a href="/about-us" className="hover:text-white">
                 About Us
@@ -101,6 +91,16 @@ const Footer = () => {
             <li>
               <a href="blogs" className="hover:text-white">
                 Blog
+              </a>
+            </li>
+            <li>
+              <a href="https://app.orn-ai.com/web/login" className="hover:text-white">
+                Login
+              </a>
+            </li>
+                        <li>
+              <a href="https://app.orn-ai.com/web/sign-up" className="hover:text-white">
+                Signup
               </a>
             </li>
           </ul>
@@ -164,16 +164,6 @@ const Footer = () => {
                 Terms and Condition
               </a>
             </li>
-            {/* <li>
-              <a href="feedback" className="hover:text-white">
-                Feedback Form
-              </a>
-            </li> */}
-            {/* <li>
-              <a href="#courses" className="hover:text-white">
-                Request a Course
-              </a>
-            </li> */}
             <li>
               <a href="support" className="hover:text-white">
                 Support
