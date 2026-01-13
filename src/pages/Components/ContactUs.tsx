@@ -5,12 +5,11 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import countryList from "country-list-with-dial-code-and-flag";
 
-
 const countryCodes = countryList.getAll().map((c) => ({
-    dialCode: c.dialCode,
-    name: c.name,
-    code: c.countryCode,
-  }));
+  dialCode: c.dialCode,
+  name: c.name,
+  code: c.countryCode,
+}));
 
 const fadeUp = {
   hidden: { opacity: 0, y: 50 },
@@ -18,104 +17,37 @@ const fadeUp = {
 };
 
 const ContactUs = () => {
-  const [formData, setFormData] = useState({
-    first_name: "",
-    last_name: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
-
-  const [countryCode, setCountryCode] = useState("+91");
-  const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
+  const [countryCode, setCountryCode] = useState("+91");
 
-  // ----------------- VALIDATION -------------------
-  const validate = () => {
-    const newErrors: any = {};
-
-    if (!formData.first_name.trim())
-      newErrors.first_name = "First name is required.";
-
-    if (!formData.last_name.trim())
-      newErrors.last_name = "Last name is required.";
-
-    if (!formData.email.trim())
-      newErrors.email = "Email is required.";
-    else if (!/\S+@\S+\.\S+/.test(formData.email))
-      newErrors.email = "Invalid email.";
-
-    if (!formData.phone.trim())
-      newErrors.phone = "Phone is required.";
-    else if (!/^\d{7,15}$/.test(formData.phone))
-      newErrors.phone = "Phone must contain 7–15 digits.";
-
-    if (!formData.message.trim())
-      newErrors.message = "Message is required.";
-    else if (formData.message.length < 10)
-      newErrors.message = "Message must be at least 10 characters.";
-
-    return newErrors;
-  };
-
-  // ----------------- SUBMIT -------------------
+  // ⭐ Updated Final Working Submit Function
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    const newErrors = validate();
-    setErrors(newErrors);
-    if (Object.keys(newErrors).length > 0) return;
-
     setLoading(true);
 
-    try {
-      const response = await fetch(
-        "#",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          credentials: "include",
-          body: JSON.stringify({
-            user: "1",
-            subject: "Contact Query",
-            first_name: formData.first_name,
-            last_name: formData.last_name,
-            email: formData.email,
-            phone: `${countryCode}${formData.phone}`,
-            message: formData.message,
-          }),
-        }
-      );
+    const formData = new FormData(e.target);
 
-      const data = await response.json();
+    const response = await fetch("https://formspree.io/f/xjknejey", {
+      method: "POST",
+      body: formData,
+      headers: { Accept: "application/json" },
+    });
 
-      if (!response.ok) {
-        toast.error(data.message || "Something went wrong!");
-      } else {
-        toast.success("✓ Message sent successfully!");
+    setLoading(false);
 
-        setFormData({
-          first_name: "",
-          last_name: "",
-          email: "",
-          phone: "",
-          message: "",
-        });
-        setErrors({});
-      }
-    } catch (err) {
-      console.error(err);
-      toast.error("Network error. Please try again.");
-    } finally {
-      setLoading(false);
+    if (response.ok) {
+      toast.success("Message Sent Successfully!");
+      e.target.reset();
+    } else {
+      toast.error("Error! Something went wrong.");
     }
   };
 
-  // ----------------- UI -------------------
   return (
     <section className="contactus-section max-w-7xl mx-auto" id="contact">
       <ToastContainer position="top-right" autoClose={3000} />
 
+      {/* HEADER */}
       <motion.div
         className="contactus-header"
         initial="hidden"
@@ -128,11 +60,14 @@ const ContactUs = () => {
           Let's Build Your <span className="gradient-text">Career Together</span>
         </h2>
         <p className="contactus-desc">
-          We're here to guide you on your learning journey. Reach out to us for course details, career support, or any assistance you need.
+          We're here to guide you on your learning journey. Reach out to us for course details,
+          career support, or any assistance you need.
         </p>
       </motion.div>
 
       <div className="contactus-grid max-w-7xl mx-auto">
+
+        {/* LEFT FORM */}
         <motion.form
           className="contactus-form"
           onSubmit={handleSubmit}
@@ -145,49 +80,29 @@ const ContactUs = () => {
           <div className="contact-row">
             <div className="contact-field">
               <label>First Name</label>
-              <input
-                type="text"
-                value={formData.first_name}
-                onChange={(e) =>
-                  setFormData({ ...formData, first_name: e.target.value })
-                }
-              />
-              {errors.first_name && <p className="error-text">{errors.first_name}</p>}
+              <input type="text" name="first_name" required />
             </div>
 
             <div className="contact-field">
               <label>Last Name</label>
-              <input
-                type="text"
-                value={formData.last_name}
-                onChange={(e) =>
-                  setFormData({ ...formData, last_name: e.target.value })
-                }
-              />
-              {errors.last_name && <p className="error-text">{errors.last_name}</p>}
+              <input type="text" name="last_name" required />
             </div>
           </div>
 
           {/* EMAIL */}
           <div className="contact-field">
             <label>Email</label>
-            <input
-              type="email"
-              value={formData.email}
-              onChange={(e) =>
-                setFormData({ ...formData, email: e.target.value })
-              }
-            />
-            {errors.email && <p className="error-text">{errors.email}</p>}
+            <input type="email" name="email" required />
           </div>
 
-          {/* PHONE + COUNTRY CODE */}
+          {/* PHONE */}
           <div className="contact-field">
             <label>Phone</label>
             <div style={{ display: "flex", gap: "10px" }}>
               <select
                 value={countryCode}
                 onChange={(e) => setCountryCode(e.target.value)}
+                name="country_code"
                 style={{
                   padding: "10px",
                   borderRadius: "8px",
@@ -203,39 +118,23 @@ const ContactUs = () => {
                 ))}
               </select>
 
-              <input
-                type="text"
-                value={formData.phone}
-                onChange={(e) =>
-                  setFormData({ ...formData, phone: e.target.value })
-                }
-                style={{ flex: 1 }}
-              />
+              <input type="text" name="phone" required style={{ flex: 1 }} />
             </div>
-
-            {errors.phone && <p className="error-text">{errors.phone}</p>}
           </div>
 
           {/* MESSAGE */}
           <div className="contact-field">
             <label>Message</label>
-            <textarea
-              rows={3}
-              value={formData.message}
-              onChange={(e) =>
-                setFormData({ ...formData, message: e.target.value })
-              }
-            ></textarea>
-            {errors.message && <p className="error-text">{errors.message}</p>}
+            <textarea rows={3} name="message" required></textarea>
           </div>
 
           {/* SUBMIT */}
           <button className="contactus-btn" type="submit" disabled={loading}>
-            {loading ? "Sending..." : "Send Message"} {!loading && "→"}
+            {loading ? "Sending..." : "Send Message →"}
           </button>
         </motion.form>
 
-        {/* RIGHT-SIDE CONTACT INFO */}
+        {/* RIGHT SECTION */}
         <motion.div
           className="contactus-info"
           initial="hidden"
@@ -243,16 +142,16 @@ const ContactUs = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           variants={fadeUp}
         >
+          {/* Email */}
           <div className="contactus-info-card">
-            <div className="info-icon-wrapper email-icon">
-              ✉️
-            </div>
+            <div className="info-icon-wrapper email-icon">✉️</div>
             <div>
               <div className="contactus-info-label">Email</div>
               <div className="contactus-info-text">chandra@orn-ai.co.uk</div>
             </div>
           </div>
 
+          {/* Phone */}
           <div className="contactus-info-card">
             <div className="info-icon-wrapper phone-icon">📞</div>
             <div>
@@ -261,26 +160,27 @@ const ContactUs = () => {
             </div>
           </div>
 
+          {/* Address */}
           <div className="contactus-info-card">
             <div className="info-icon-wrapper location-icon">📍</div>
             <div>
               <div className="contactus-info-label">Office</div>
               <div className="contactus-info-text">
-Flat No. 931, S-11/14, Ayyappa Society
-Khanamet, Madhapur, Shaikpet
-Hyderabad – 500081, India              </div>
+                Flat No. 931, S-11/14, Ayyappa Society  
+                Khanamet, Madhapur, Shaikpet  
+                Hyderabad – 500081, India
+              </div>
             </div>
           </div>
 
+          {/* Signup */}
           <div className="ready-card">
             <h3 className="ready-card-title">Signup</h3>
             <p className="ready-card-text">
-             Start your learning journey with ORN-AI and access personalized career support.
+              Start your learning journey with ORN-AI and access personalized career support.
             </p>
-            <a href="auth/boxed-signup">
-              <button className="ready-card-btn">
-                Get Started Now 
-              </button>
+            <a href="/auth/boxed-signup">
+              <button className="ready-card-btn">Get Started Now</button>
             </a>
           </div>
         </motion.div>
