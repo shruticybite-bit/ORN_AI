@@ -147,7 +147,7 @@ const ContactUs = () => {
             <div className="info-icon-wrapper email-icon">✉️</div>
             <div>
               <div className="contactus-info-label">Email</div>
-              <div className="contactus-info-text">chandra@orn-ai.co.uk</div>
+              <div className="contactus-info-text">connect@orn-ai.co.uk</div>
             </div>
           </div>
 
@@ -166,9 +166,7 @@ const ContactUs = () => {
             <div>
               <div className="contactus-info-label">Office</div>
               <div className="contactus-info-text">
-                Flat No. 931, S-11/14, Ayyappa Society  
-                Khanamet, Madhapur, Shaikpet  
-                Hyderabad – 500081, India
+                71-75 Shelton Street, Covent Garden, London, United Kingdom, WC2H 9JQ
               </div>
             </div>
           </div>

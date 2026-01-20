@@ -36,22 +36,22 @@ const Footer = () => {
           {/* Social Icons */}
           <div className="flex justify-center md:justify-start gap-3">
   {[
-    {
-      Icon: Facebook,
-      link: "#",
-    },
+    // {
+    //   Icon: Facebook,
+    //   link: "#",
+    // },
     
     {
       Icon: Instagram,
-      link: "#",
+      link: "https://www.instagram.com/ornai_official/",
     },
     {
       Icon: Linkedin,
-      link: "",
+      link: "https://www.linkedin.com/company/orn-ai/",
     },
     {
       Icon: Youtube,
-      link: "#",
+      link: "https://www.youtube.com/@ORN-AILearning",
     },
   ].map(({ Icon, link }, idx) => (
     <a
